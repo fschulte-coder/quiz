@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Game State
   let playerCount = 1;
   let difficulty = "leicht";
   let questions = [];
@@ -8,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let scores = [0, 0, 0, 0];
   const TOTAL_QUESTIONS = 20;
 
-  // DOM Elements
   const setupScreen = document.getElementById("setup-screen");
   const gameScreen = document.getElementById("game-screen");
   const resultScreen = document.getElementById("result-screen");
@@ -17,24 +15,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const diffBtns = document.querySelectorAll("#difficulty-btns .btn");
   const startBtn = document.getElementById("start-btn");
 
-  const playerDisplay = document.getElementById("current-player-display");
-  const progressDisplay = document.getElementById("current-q-num");
+  const progressDots = document.getElementById("progress-dots");
   const questionText = document.getElementById("question-text");
   const optionsContainer = document.getElementById("options-container");
+  const playersContainer = document.getElementById("players-container");
 
   const explanationBox = document.getElementById("explanation-box");
   const resultStatus = document.getElementById("result-status");
   const explanationText = document.getElementById("explanation-text");
   const nextBtn = document.getElementById("next-btn");
-  const scoreboard = document.getElementById("scoreboard");
   const restartBtn = document.getElementById("restart-btn");
 
-  // Selection Listeners
   playerBtns.forEach(btn => {
     btn.addEventListener("click", (e) => {
       playerBtns.forEach(b => b.classList.remove("active"));
       e.target.classList.add("active");
       playerCount = parseInt(e.target.dataset.value);
+      updateSidebar();
     });
   });
 
@@ -50,42 +47,77 @@ document.addEventListener("DOMContentLoaded", () => {
   nextBtn.addEventListener("click", nextQuestion);
   restartBtn.addEventListener("click", () => location.reload());
 
+  function updateSidebar() {
+    playersContainer.innerHTML = "";
+    for (let i = 0; i < playerCount; i++) {
+      const card = document.createElement("div");
+      card.className = `player-card ${i === currentPlayerIndex && gameScreen.classList.contains("active") ? "active" : ""}`;
+      card.innerHTML = `
+        <div class="player-info">
+          <div class="player-avatar">S${i + 1}</div>
+          <div><strong>Spieler ${i + 1}</strong></div>
+        </div>
+        <div class="player-score">${scores[i]}</div>
+      `;
+      playersContainer.appendChild(card);
+    }
+  }
+
+  function initDots() {
+    progressDots.innerHTML = "";
+    for (let i = 0; i < questions.length; i++) {
+      const dot = document.createElement("div");
+      dot.className = "dot";
+      if (i === 0) dot.classList.add("active");
+      progressDots.appendChild(dot);
+    }
+  }
+
+  function updateDots() {
+    const dots = progressDots.querySelectorAll(".dot");
+    dots.forEach((dot, idx) => {
+      dot.className = "dot";
+      if (idx < currentQuestionIndex) dot.classList.add("done");
+      if (idx === currentQuestionIndex) dot.classList.add("active");
+    });
+  }
+
   function startGame() {
-    // Reset States
     scores = Array(playerCount).fill(0);
     currentQuestionIndex = 0;
     currentPlayerIndex = 0;
 
-    // Load & Shuffle Questions
     const pool = quizData[difficulty] || [];
     if (pool.length === 0) {
-      alert("Keine Fragen für diese Kategorie gefunden!");
+      alert("Keine Fragen vorhanden!");
       return;
     }
-    
-    // Mische und wähle (bis zu) 20 Fragen aus
+
     questions = [...pool].sort(() => 0.5 - Math.random()).slice(0, TOTAL_QUESTIONS);
 
     setupScreen.classList.remove("active");
     gameScreen.classList.add("active");
 
+    initDots();
+    updateSidebar();
     showQuestion();
   }
 
   function showQuestion() {
     explanationBox.classList.add("hidden");
-    const q = questions[currentQuestionIndex];
+    updateSidebar();
+    updateDots();
 
-    // UI Updates
-    playerDisplay.textContent = playerCount > 1 ? `Spieler ${currentPlayerIndex + 1}` : "Spieler 1";
-    progressDisplay.textContent = currentQuestionIndex + 1;
+    const q = questions[currentQuestionIndex];
+    document.getElementById("current-q-num").textContent = currentQuestionIndex + 1;
     questionText.textContent = q.question;
     optionsContainer.innerHTML = "";
 
+    const labels = ["A", "B", "C", "D"];
     q.options.forEach((opt, idx) => {
       const btn = document.createElement("button");
       btn.className = "answer-btn";
-      btn.textContent = opt;
+      btn.innerHTML = `<span class="answer-badge">${labels[idx]}</span> <span>${opt}</span>`;
       btn.addEventListener("click", () => handleAnswer(idx));
       optionsContainer.appendChild(btn);
     });
@@ -95,30 +127,27 @@ document.addEventListener("DOMContentLoaded", () => {
     const q = questions[currentQuestionIndex];
     const buttons = optionsContainer.querySelectorAll(".answer-btn");
 
-    // Deaktiviere alle Buttons
     buttons.forEach(b => b.disabled = true);
 
     if (selectedIndex === q.correct) {
       buttons[selectedIndex].classList.add("correct");
-      resultStatus.textContent = "Richtig! Tor erzielt! 🤾‍♂️";
+      resultStatus.textContent = "TOR! RICHTIG GANTZWORTET";
       resultStatus.className = "result-status correct";
       scores[currentPlayerIndex]++;
     } else {
       buttons[selectedIndex].classList.add("wrong");
       buttons[q.correct].classList.add("correct");
-      resultStatus.textContent = "Falsch! Verworfen! ❌";
+      resultStatus.textContent = "VERWORFEN! FALSCH";
       resultStatus.className = "result-status wrong";
     }
 
-    // Erklärung anzeigen
+    updateSidebar();
     explanationText.textContent = q.explanation;
     explanationBox.classList.remove("hidden");
   }
 
   function nextQuestion() {
     currentQuestionIndex++;
-    
-    // Wechsel zum nächsten Spieler (Rotation)
     currentPlayerIndex = (currentPlayerIndex + 1) % playerCount;
 
     if (currentQuestionIndex < questions.length) {
@@ -132,15 +161,23 @@ document.addEventListener("DOMContentLoaded", () => {
     gameScreen.classList.remove("active");
     resultScreen.classList.add("active");
 
-    scoreboard.innerHTML = "";
+    const finalBoard = document.getElementById("final-scoreboard");
+    finalBoard.innerHTML = "";
+
     scores.forEach((score, idx) => {
       const row = document.createElement("div");
-      row.className = "score-row";
+      row.className = "player-card";
+      row.style.marginBottom = "10px";
       row.innerHTML = `
-        <span><strong>Spieler ${idx + 1}</strong></span>
-        <span>${score} von ${questions.length} Toren (Punkten)</span>
+        <div class="player-info">
+          <div class="player-avatar">S${idx + 1}</div>
+          <div><strong>Spieler ${idx + 1}</strong></div>
+        </div>
+        <div class="player-score">${score} / ${questions.length} Toren</div>
       `;
-      scoreboard.appendChild(row);
+      finalBoard.appendChild(row);
     });
   }
+
+  updateSidebar();
 });
