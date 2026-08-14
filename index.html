@@ -3,67 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Handball Match Quiz</title>
+  <title>Handball Arena Quiz</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="quiz-container">
-    <header>
-      <h1>🤾 Handball Quiz Challenge 🤾</h1>
-    </header>
 
-    <!-- Startbereich -->
-    <section id="setup-screen" class="screen active">
-      <h2>Spiel-Setup</h2>
-      
-      <div class="form-group">
-        <label>Anzahl der Mitspieler (1-4):</label>
-        <div class="btn-group" id="player-count-btns">
-          <button class="btn btn-option active" data-value="1">1 Spieler</button>
-          <button class="btn btn-option" data-value="2">2 Spieler</button>
-          <button class="btn btn-option" data-value="3">3 Spieler</button>
-          <button class="btn btn-option" data-value="4">4 Spieler</button>
+  <div class="quiz-wrapper">
+    <!-- Live Scoreboard Sidebar -->
+    <aside class="sidebar">
+      <h3>Match Stats</h3>
+      <div id="players-container">
+        <!-- Dynamische Generierung der Spieler-Karten -->
+      </div>
+    </aside>
+
+    <!-- Hauptbereich -->
+    <main class="main-content">
+      <header>
+        <h1>🤾 Handball Arena Quiz</h1>
+      </header>
+
+      <!-- Setup Screen -->
+      <section id="setup-screen" class="screen active">
+        <div class="form-group">
+          <label>Anzahl der Mitspieler</label>
+          <div class="btn-group" id="player-count-btns">
+            <button class="btn btn-option active" data-value="1">1 Spieler</button>
+            <button class="btn btn-option" data-value="2">2 Spieler</button>
+            <button class="btn btn-option" data-value="3">3 Spieler</button>
+            <button class="btn btn-option" data-value="4">4 Spieler</button>
+          </div>
         </div>
-      </div>
 
-      <div class="form-group">
-        <label>Schwierigkeitsgrad:</label>
-        <div class="btn-group" id="difficulty-btns">
-          <button class="btn btn-option active" data-value="leicht">Leicht</button>
-          <button class="btn btn-option" data-value="mittel">Mittel</button>
-          <button class="btn btn-option" data-value="schwer">Schwer</button>
+        <div class="form-group">
+          <label>Schwierigkeitsgrad</label>
+          <div class="btn-group" id="difficulty-btns">
+            <button class="btn btn-option active" data-value="leicht">Leicht</button>
+            <button class="btn btn-option" data-value="mittel">Mittel</button>
+            <button class="btn btn-option" data-value="schwer">Schwer</button>
+          </div>
         </div>
-      </div>
 
-      <button id="start-btn" class="btn btn-primary">Anpfiff! (Spiel Starten)</button>
-    </section>
+        <button id="start-btn" class="btn btn-primary">Anpfiff Starten ➔</button>
+      </section>
 
-    <!-- Spielbereich -->
-    <section id="game-screen" class="screen">
-      <div class="game-header">
-        <div class="turn-indicator">Am Ball: <span id="current-player-display">Spieler 1</span></div>
-        <div class="question-progress">Frage <span id="current-q-num">1</span>/20</div>
-      </div>
+      <!-- Gameplay Screen -->
+      <section id="game-screen" class="screen">
+        <div class="game-header">
+          <div style="text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+            FRAGE <span id="current-q-num" style="color: #fff; font-weight: bold;">1</span> VON 20
+          </div>
+          <div id="progress-dots" class="progress-tracker"></div>
+        </div>
 
-      <div class="question-card">
-        <h3 id="question-text">Hier steht die Frage?</h3>
+        <div class="question-card">
+          <h3 id="question-text">Lädt Frage...</h3>
+        </div>
+
         <div id="options-container" class="options-grid"></div>
-      </div>
 
-      <!-- Auflösungsbereich (Anfangs versteckt) -->
-      <div id="explanation-box" class="explanation-box hidden">
-        <div id="result-status" class="result-status">Richtig!</div>
-        <p id="explanation-text"></p>
-        <button id="next-btn" class="btn btn-primary">Nächste Frage ➔</button>
-      </div>
-    </section>
+        <div id="explanation-box" class="explanation-box hidden">
+          <div id="result-status" class="result-status">Richtig!</div>
+          <p id="explanation-text"></p>
+          <button id="next-btn" class="btn btn-primary">Nächste Frage ➔</button>
+        </div>
+      </section>
 
-    <!-- Endbereich (Auswertung) -->
-    <section id="result-screen" class="screen">
-      <h2>Schlusspfiff - Abstruch & Ergebnis</h2>
-      <div id="scoreboard" class="scoreboard"></div>
-      <button id="restart-btn" class="btn btn-primary">Neues Spiel</button>
-    </section>
+      <!-- Result Screen -->
+      <section id="result-screen" class="screen">
+        <h2 style="font-family: 'Teko'; font-size: 2.5rem; text-align: center; margin-bottom: 20px;">SCHLUSSPFIFF</h2>
+        <div id="final-scoreboard"></div>
+        <button id="restart-btn" class="btn btn-primary" style="margin-top: 20px;">Neues Spiel</button>
+      </section>
+    </main>
   </div>
 
   <script src="questions.js"></script>
