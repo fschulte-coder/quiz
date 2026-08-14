@@ -5,7 +5,7 @@
   --primary-glow: rgba(255, 87, 34, 0.5);
   --accent-cyan: #00f2fe;
   --accent-cyan-glow: rgba(0, 242, 254, 0.4);
-  --card-bg: rgba(20, 30, 50, 0.65);
+  --card-bg: rgba(15, 23, 42, 0.7);
   --card-border: rgba(255, 255, 255, 0.18);
   --text-main: #ffffff;
   --text-muted: #94a3b8;
@@ -21,11 +21,15 @@
 }
 
 body {
-  /* Dynamischer Handball-Hallen-Hintergrund mit Parkett- & Flutlicht-Vibe */
-  background: 
-    radial-gradient(ellipse at 50% 20%, rgba(0, 242, 254, 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 80%, rgba(255, 87, 34, 0.15) 0%, transparent 50%),
-    linear-gradient(135deg, #0b1120 0%, #111827 50%, #0b1329 100%);
+  /* Dynamischer Handball-Hallen-Hintergrund mit Flutlicht-, Parkett- & Glow-Effekten */
+  background-color: #0b1120;
+  background-image: 
+    radial-gradient(ellipse at 50% 0%, rgba(0, 242, 254, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse at 85% 85%, rgba(255, 87, 34, 0.2) 0%, transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.03) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 2px, transparent 2px),
+    radial-gradient(circle at center, #111a2e 0%, #070a14 100%);
+  background-size: 100% 100%, 100% 100%, 60px 60px, 60px 60px, 100% 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -34,6 +38,7 @@ body {
   padding: 20px;
 }
 
+/* Haupt-Layout Container */
 .quiz-wrapper {
   display: flex;
   width: 100%;
@@ -42,7 +47,7 @@ body {
   align-items: stretch;
 }
 
-/* Sidebar */
+/* Live Match Stats Sidebar */
 .sidebar {
   width: 250px;
   background: var(--card-bg);
@@ -109,7 +114,7 @@ body {
   color: #fff;
 }
 
-/* Haupt-Content-Karte */
+/* Haupt-Content Arena Karte */
 .main-content {
   flex: 1;
   background: var(--card-bg);
@@ -169,7 +174,7 @@ header h1 {
   opacity: 0.35;
 }
 
-/* Frage-Box (Hell/Kontraststark wie im Mockup) */
+/* Frage-Box (Hell für perfekten Kontrast) */
 .question-card {
   background: rgba(248, 250, 252, 0.95);
   color: #0f172a;
@@ -187,7 +192,7 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
-/* Antwort-Buttons (Kacheln mit Neon-Border) */
+/* Antwort-Buttons (Grid) */
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -206,7 +211,7 @@ header h1 {
   font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.25 ease;
+  transition: all 0.25s ease;
 }
 
 .answer-btn:hover:not([disabled]) {
@@ -302,6 +307,7 @@ header h1 {
   box-shadow: 0 15px 35px var(--primary-glow);
 }
 
+/* Auflösungs-Box */
 .explanation-box {
   margin-top: 20px;
   padding: 20px;
@@ -321,6 +327,7 @@ header h1 {
 .result-status.correct { color: var(--correct); }
 .result-status.wrong { color: var(--wrong); }
 
+/* Responsive Ansicht auf Mobilgeräten */
 @media (max-width: 768px) {
   .quiz-wrapper { flex-direction: column; }
   .sidebar { width: 100%; }
