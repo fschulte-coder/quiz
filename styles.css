@@ -1,0 +1,205 @@
+:root {
+  --primary: #ff5722;      /* Energetisches Handball-Orange */
+  --primary-dark: #e64a19;
+  --bg-dark: #1a237e;       /* Sportliches Dunkelblau */
+  --card-bg: #ffffff;
+  --text: #212121;
+  --correct: #2e7d32;
+  --wrong: #c62828;
+  --court-wood: #f4a261;    /* Accent Hallenboden-Vibe */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, var(--bg-dark) 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+  padding: 20px;
+}
+
+.quiz-container {
+  background-color: var(--card-bg);
+  width: 100%;
+  max-width: 650px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  padding: 30px;
+  border-top: 8px solid var(--primary);
+}
+
+header h1 {
+  text-align: center;
+  color: var(--bg-dark);
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* Setup Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn-option {
+  flex: 1;
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.btn-option.active {
+  background-color: var(--bg-dark);
+  color: white;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Game Styles */
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8fafc;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#current-player-display {
+  color: var(--primary);
+}
+
+.question-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.answer-btn {
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  background-color: #f1f5f9;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.answer-btn:hover:not([disabled]) {
+  background-color: #e2e8f0;
+}
+
+.answer-btn.correct {
+  background-color: #dcfce7;
+  border-color: var(--correct);
+  color: var(--correct);
+  font-weight: bold;
+}
+
+.answer-btn.wrong {
+  background-color: #fee2e2;
+  border-color: var(--wrong);
+  color: var(--wrong);
+}
+
+/* Explanation Box */
+.explanation-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8fafc;
+  border-left: 4px solid var(--bg-dark);
+  border-radius: 4px;
+}
+
+.explanation-box.hidden {
+  display: none;
+}
+
+.result-status {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.result-status.correct { color: var(--correct); }
+.result-status.wrong { color: var(--wrong); }
+
+#explanation-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  color: #475569;
+}
+
+/* Scoreboard */
+.scoreboard {
+  margin: 20px 0;
+}
+
+.score-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 1.1rem;
+}
+
+.score-row:nth-child(even) {
+  background-color: #f8fafc;
+}
