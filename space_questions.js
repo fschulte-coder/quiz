@@ -1,5 +1,5 @@
 // Weltraum Quiz - 600 abwechslungsreiche Fragen (Sonnensystem, Monde, Sterne & Astronauten)
-const quizData = {
+var spaceQuizData = {
   "leicht": [
     {
       "question": "Wie heisst das berühmte Weltraumteleskop, das seit 2022 fantastische Bilder aus dem tiefen All schickt?",
