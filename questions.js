@@ -1,6608 +1,1372 @@
 window.quizData = {
   "leicht": [
     {
-      "question": "Wie groß ist ein offizielles Handballtor?",
+      "question": "Wo agiert der 'Linksaußen' primär auf dem Handballfeld?",
       "options": [
-        "7,32 m x 2,44 m",
-        "3,00 m x 2.5,00 m",
-        "3,00 m x 2,00 m",
-        "5,00 m x 2,00 m"
-      ],
-      "correct": 2,
-      "explanation": "Ein Handballtor ist genau 3 Meter breit und 2 Meter hoch."
-    },
-    {
-      "question": "Wie viele/viel 3 Schritten darf ein Spieler den Ball ohne Prellen maximal halten/laufen?",
-      "options": [
-        "3 Schritte",
-        "2 Schritte",
-        "4 Schritte",
-        "5 Schritte"
-      ],
-      "correct": 0,
-      "explanation": "Ein Spieler darf maximal 3 Schritte machen, ohne zu prellen."
-    },
-    {
-      "question": "Wie viele/viel 3 Sekunden darf ein Spieler den Ball ohne Prellen maximal halten/laufen?",
-      "options": [
-        "10 Sekunden",
-        "5 Sekunden",
-        "2 Sekunden",
-        "3 Sekunden"
-      ],
-      "correct": 3,
-      "explanation": "Der Ball darf maximal 3 Sekunden lang gehalten werden."
-    },
-    {
-      "question": "Welche Rolle hat der 'Linksaußen' im Handball-Team?",
-      "options": [
-        "Kreisläufer",
-        "Außenspieler an der linken Eckseite",
-        "Torwart",
-        "Rückraum Mitte"
+        "im Torraum als Torhüter",
+        "auf der linken Flügelposition an der Außenlinie",
+        "zentral auf 9m als Spielmacher",
+        "direkt am 6m-Kreis im Rücken der Abwehr"
       ],
       "correct": 1,
-      "explanation": "Der Linksaußen ist Außenspieler an der linken Eckseite."
+      "explanation": "Der Linksaußen spielt auf der linken Flügelposition an der Außenlinie."
     },
     {
-      "question": "Welche Rolle hat der 'Kreisläufer' im Handball-Team?",
+      "question": "Wo agiert der 'Rechtsaußen' primär auf dem Handballfeld?",
       "options": [
-        "Außenspieler",
-        "Torwart",
-        "Schiedsrichter",
-        "Spieler, der direkt an der 6m-Linie der Abwehr agiert"
+        "auf der Auswechselbank",
+        "als Abwehrchef in der Mitte",
+        "auf der rechten Flügelposition an der Außenlinie",
+        "im gegnerischen Torraum"
       ],
-      "correct": 3,
-      "explanation": "Der Kreisläufer ist Spieler, der direkt an der 6m-Linie der Abwehr agiert."
+      "correct": 2,
+      "explanation": "Der Rechtsaußen spielt auf der rechten Flügelposition an der Außenlinie."
     },
     {
-      "question": "Welche Rolle hat der 'Rückraum Mitte' im Handball-Team?",
+      "question": "Wo agiert der 'Kreisläufer' primär auf dem Handballfeld?",
       "options": [
-        "Torwart",
-        "Kreisläufer",
-        "Außenspieler",
-        "Der Spielmacher im Zentrum des Angriffs"
-      ],
-      "correct": 3,
-      "explanation": "Der Rückraum Mitte ist Der Spielmacher im Zentrum des Angriffs."
-    },
-    {
-      "question": "Grundregel #1: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #2: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
+        "am 6m-Kreis im ständigen Körperkontakt mit der Abwehr",
+        "nur für 7m-Würfe",
+        "an der Mittellinie für Tempogegenstöße",
+        "außerhalb der 9m-Linie"
       ],
       "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "Der Kreisläufer spielt am 6m-Kreis im ständigen Körperkontakt mit der Abwehr."
     },
     {
-      "question": "Grundregel #3: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Wo agiert der 'Rückraum Links' primär auf dem Handballfeld?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
+        "als zweiter Torwart im Kreis",
+        "nur in der Abwehr",
+        "im linken Rückraum für Fernwürfe und Durchbrüche",
+        "auf der rechten Außenposition"
+      ],
+      "correct": 2,
+      "explanation": "Der Rückraum Links spielt im linken Rückraum für Fernwürfe und Durchbrüche."
+    },
+    {
+      "question": "Wo agiert der 'Rückraum Rechts' primär auf dem Handballfeld?",
+      "options": [
+        "im rechten Rückraum (meist von Linkshändern besetzt)",
+        "am gegnerischen 6m-Kreis",
+        "als Schiedsrichter-Assistent",
+        "auf der linken Flügelposition"
+      ],
+      "correct": 0,
+      "explanation": "Der Rückraum Rechts spielt im rechten Rückraum (meist von Linkshändern besetzt)."
+    },
+    {
+      "question": "Wo agiert der 'Rückraum Mitte' primär auf dem Handballfeld?",
+      "options": [
+        "ausschließlich als Kreisläufer",
+        "an der Eckfahne",
+        "auf der Torlinie",
+        "im zentralen Rückraum als Regisseur und Spielmacher"
+      ],
+      "correct": 3,
+      "explanation": "Der Rückraum Mitte spielt im zentralen Rückraum als Regisseur und Spielmacher."
+    },
+    {
+      "question": "Wo agiert der 'Torwart' primär auf dem Handballfeld?",
+      "options": [
+        "an der 9m-Linie als Werfer",
+        "auf der Außenbahn für Tempogegenstöße",
+        "im Torraum zur Abwehr von Torschüssen",
+        "auf der Wechselbank"
+      ],
+      "correct": 2,
+      "explanation": "Der Torwart spielt im Torraum zur Abwehr von Torschüssen."
+    },
+    {
+      "question": "In welcher Entfernung zum Tor befindet sich die Torraumlinie?",
+      "options": [
+        "4 Meter",
+        "7 Meter",
+        "9 Meter",
+        "6 Meter"
+      ],
+      "correct": 3,
+      "explanation": "Der Torraumkreis ist genau 6 Meter vom Tor entfernt."
+    },
+    {
+      "question": "Welche Markierung befindet sich in exakt 6 Meter Entfernung zum Tor?",
+      "options": [
+        "Torraumlinie",
+        "9 Meter",
+        "7 Meter",
+        "4 Meter"
+      ],
+      "correct": 0,
+      "explanation": "Der Torraumkreis ist genau 6 Meter vom Tor entfernt."
+    },
+    {
+      "question": "In welcher Entfernung zum Tor befindet sich die Freiwurflinie?",
+      "options": [
+        "9 Meter",
+        "6 Meter",
+        "7 Meter",
+        "8 Meter"
+      ],
+      "correct": 0,
+      "explanation": "Die gestrichelte Freiwurflinie liegt 9 Meter vor dem Tor."
+    },
+    {
+      "question": "Welche Markierung befindet sich in exakt 9 Meter Entfernung zum Tor?",
+      "options": [
+        "6 Meter",
+        "8 Meter",
+        "7 Meter",
+        "Freiwurflinie"
+      ],
+      "correct": 3,
+      "explanation": "Die gestrichelte Freiwurflinie liegt 9 Meter vor dem Tor."
+    },
+    {
+      "question": "In welcher Entfernung zum Tor befindet sich die Strafwurflinie?",
+      "options": [
+        "7 Meter",
+        "6 Meter",
+        "9 Meter",
+        "4 Meter"
+      ],
+      "correct": 0,
+      "explanation": "Der 7-Meter-Strafwurf wird von der 7m-Markierung ausgeführt."
+    },
+    {
+      "question": "Welche Markierung befindet sich in exakt 7 Meter Entfernung zum Tor?",
+      "options": [
+        "4 Meter",
+        "6 Meter",
+        "Strafwurflinie",
+        "9 Meter"
+      ],
+      "correct": 2,
+      "explanation": "Der 7-Meter-Strafwurf wird von der 7m-Markierung ausgeführt."
+    },
+    {
+      "question": "In welcher Entfernung zum Tor befindet sich die Torwartgrenzlinie bei 7m?",
+      "options": [
+        "2 Meter",
+        "5 Meter",
+        "4 Meter",
+        "3 Meter"
+      ],
+      "correct": 2,
+      "explanation": "Bei 7m-Würfen darf der Torwart bis zur 4m-Linie heraustreten."
+    },
+    {
+      "question": "Welche Markierung befindet sich in exakt 4 Meter Entfernung zum Tor?",
+      "options": [
+        "Torwartgrenzlinie bei 7m",
+        "2 Meter",
+        "5 Meter",
+        "3 Meter"
+      ],
+      "correct": 0,
+      "explanation": "Bei 7m-Würfen darf der Torwart bis zur 4m-Linie heraustreten."
+    },
+    {
+      "question": "Welche offizielle Ballgröße gilt für Herren & männliche Jugend A/B?",
+      "options": [
+        "Größe 3 (58-60 cm)",
+        "Größe 1 (50-52 cm)",
+        "Größe 2 (54-56 cm)",
+        "Größe 4 (62-64 cm)"
+      ],
+      "correct": 0,
+      "explanation": "Für Herren & männliche Jugend A/B ist Größe 3 (58-60 cm) vorgeschrieben."
+    },
+    {
+      "question": "Welche offizielle Ballgröße gilt für Frauen, weibliche Jugend A/B & männliche Jugend C/B?",
+      "options": [
+        "Größe 2 (54-56 cm)",
+        "Größe 1 (50-52 cm)",
+        "Größe 3 (58-60 cm)",
+        "Größe 0 (46-48 cm)"
+      ],
+      "correct": 0,
+      "explanation": "Für Frauen, weibliche Jugend A/B & männliche Jugend C/B ist Größe 2 (54-56 cm) vorgeschrieben."
+    },
+    {
+      "question": "Welche offizielle Ballgröße gilt für Männliche & weibliche Jugend D/C?",
+      "options": [
+        "Größe 2 (54-56 cm)",
+        "Größe 1 (50-52 cm)",
+        "Größe 3 (58-60 cm)",
+        "Größe 0 (46-48 cm)"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "Für Männliche & weibliche Jugend D/C ist Größe 1 (50-52 cm) vorgeschrieben."
     },
     {
-      "question": "Grundregel #4: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
       "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Abwurf",
+        "7-Meter",
+        "Einwurf für den Gegner",
+        "Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
+    },
+    {
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
+      "options": [
+        "7-Meter-Strafwurf",
+        "Schiedsrichterball",
+        "Einwurf",
+        "Freiwurf"
+      ],
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
+      "options": [
+        "Einwurf",
+        "Abwurf",
+        "7-Meter",
+        "Freiwurf für Angriff"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+    },
+    {
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "options": [
+        "Abwurf durch den Torwart",
+        "7-Meter",
+        "Freiwurf",
+        "Eckball"
+      ],
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
+    },
+    {
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "Tor zählt",
+        "7-Meter"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
     },
     {
-      "question": "Grundregel #5: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
       "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #6: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #7: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
+        "Gelbe Karte",
+        "7-Meter",
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "2-Minuten-Strafe"
       ],
       "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
     },
     {
-      "question": "Grundregel #8: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
       "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
+        "Einwurf",
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "7-Meter",
+        "Eckball"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
     },
     {
-      "question": "Grundregel #9: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
+        "Rote Karte",
+        "7-Meter",
+        "Freiwurf für Gegener (Fußspiel)",
+        "Abwurf"
       ],
       "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
     },
     {
-      "question": "Grundregel #10: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
+        "Freiwurf",
+        "Abwurf",
+        "7-Meter",
+        "Einwurf für den Gegner"
       ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
     },
     {
-      "question": "Grundregel #11: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
       "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Freiwurf",
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "Schiedsrichterball"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
     },
     {
-      "question": "Grundregel #12: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
+        "Abwurf",
+        "Einwurf",
+        "Freiwurf für Angriff",
+        "7-Meter"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+    },
+    {
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "options": [
+        "7-Meter",
+        "Freiwurf",
+        "Abwurf durch den Torwart",
+        "Eckball"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
+    },
+    {
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "Tor zählt",
+        "7-Meter"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
     },
     {
-      "question": "Grundregel #13: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
       "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
+        "2-Minuten-Strafe",
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "7-Meter",
+        "Gelbe Karte"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
     },
     {
-      "question": "Grundregel #14: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
       "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
+        "7-Meter",
+        "Einwurf",
+        "Eckball",
+        "Freiwurf für Abwehr (Doppelprellen)"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
+    },
+    {
+      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
+      "options": [
+        "7-Meter",
+        "Rote Karte",
+        "Freiwurf für Gegener (Fußspiel)",
+        "Abwurf"
       ],
       "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
     },
     {
-      "question": "Grundregel #15: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
       "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
+        "Abwurf",
+        "Freiwurf",
+        "7-Meter",
+        "Einwurf für den Gegner"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
+    },
+    {
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
+      "options": [
+        "Freiwurf",
+        "Schiedsrichterball",
+        "7-Meter-Strafwurf",
+        "Einwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
+      "options": [
+        "7-Meter",
+        "Einwurf",
+        "Freiwurf für Angriff",
+        "Abwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+    },
+    {
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "options": [
+        "7-Meter",
+        "Abwurf durch den Torwart",
+        "Eckball",
+        "Freiwurf"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
     },
     {
-      "question": "Grundregel #16: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #17: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
+        "7-Meter",
+        "Tor zählt",
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "Einwurf"
       ],
       "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
     },
     {
-      "question": "Grundregel #18: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
       "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Gelbe Karte",
+        "2-Minuten-Strafe",
+        "7-Meter",
+        "Freiwurf für Abwehr (Schrittfehler)"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
+    },
+    {
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
+      "options": [
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "Einwurf",
+        "7-Meter",
+        "Eckball"
+      ],
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
+    },
+    {
+      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
+      "options": [
+        "7-Meter",
+        "Abwurf",
+        "Freiwurf für Gegener (Fußspiel)",
+        "Rote Karte"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
+    },
+    {
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
+      "options": [
+        "Freiwurf",
+        "7-Meter",
+        "Einwurf für den Gegner",
+        "Abwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
+    },
+    {
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
+      "options": [
+        "Einwurf",
+        "Freiwurf",
+        "Schiedsrichterball",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
+      "options": [
+        "Abwurf",
+        "Einwurf",
+        "7-Meter",
+        "Freiwurf für Angriff"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+    },
+    {
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "options": [
+        "Eckball",
+        "Abwurf durch den Torwart",
+        "Freiwurf",
+        "7-Meter"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
     },
     {
-      "question": "Grundregel #19: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #20: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #21: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #22: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #23: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #24: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #25: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #26: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #27: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #28: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #29: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #30: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #31: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #32: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #33: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Tor zählt",
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "7-Meter",
+        "Einwurf"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
     },
     {
-      "question": "Grundregel #34: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "7-Meter",
+        "Gelbe Karte",
+        "2-Minuten-Strafe"
       ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
     },
     {
-      "question": "Grundregel #35: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "7-Meter",
+        "Eckball",
+        "Einwurf"
+      ],
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
+    },
+    {
+      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
+      "options": [
+        "Rote Karte",
+        "Freiwurf für Gegener (Fußspiel)",
+        "Abwurf",
+        "7-Meter"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
     },
     {
-      "question": "Grundregel #36: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
       "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #37: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #38: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
+        "Einwurf für den Gegner",
+        "7-Meter",
+        "Freiwurf",
+        "Abwurf"
       ],
       "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
     },
     {
-      "question": "Grundregel #39: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
+        "Freiwurf",
+        "Schiedsrichterball",
+        "Einwurf",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
+      "options": [
+        "Freiwurf für Angriff",
+        "Einwurf",
+        "Abwurf",
+        "7-Meter"
       ],
       "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
     },
     {
-      "question": "Grundregel #40: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
       "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
+        "Abwurf durch den Torwart",
+        "Freiwurf",
+        "7-Meter",
+        "Eckball"
+      ],
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
+    },
+    {
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
+      "options": [
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "Einwurf",
+        "Tor zählt",
+        "7-Meter"
+      ],
+      "correct": 0,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
+    },
+    {
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
+      "options": [
+        "Gelbe Karte",
+        "2-Minuten-Strafe",
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "7-Meter"
       ],
       "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
     },
     {
-      "question": "Grundregel #41: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
       "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #42: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
+        "Eckball",
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "7-Meter",
+        "Einwurf"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
     },
     {
-      "question": "Grundregel #43: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #44: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #45: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #46: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #47: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Abwurf",
+        "Freiwurf für Gegener (Fußspiel)",
+        "7-Meter",
+        "Rote Karte"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
     },
     {
-      "question": "Grundregel #48: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #49: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #50: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #51: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #52: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #53: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #54: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #55: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
+        "7-Meter",
+        "Abwurf",
+        "Einwurf für den Gegner",
+        "Freiwurf"
       ],
       "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
     },
     {
-      "question": "Grundregel #56: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
+        "Schiedsrichterball",
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "Freiwurf"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
     },
     {
-      "question": "Grundregel #57: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
+        "Freiwurf für Angriff",
+        "Einwurf",
+        "Abwurf",
+        "7-Meter"
       ],
       "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
     },
     {
-      "question": "Grundregel #58: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
+        "Eckball",
+        "Abwurf durch den Torwart",
+        "7-Meter",
+        "Freiwurf"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
+    },
+    {
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
+      "options": [
+        "Einwurf",
+        "Tor zählt",
+        "7-Meter",
+        "Freiwurf für Abwehr (Kreis abgelaufen)"
       ],
       "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
     },
     {
-      "question": "Grundregel #59: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
       "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
+        "2-Minuten-Strafe",
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "7-Meter",
+        "Gelbe Karte"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
     },
     {
-      "question": "Grundregel #60: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
       "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #61: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #62: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
+        "Eckball",
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "Einwurf",
+        "7-Meter"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
     },
     {
-      "question": "Grundregel #63: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
+        "Rote Karte",
+        "Freiwurf für Gegener (Fußspiel)",
+        "Abwurf",
+        "7-Meter"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
+      "options": [
+        "Abwurf",
+        "Einwurf für den Gegner",
+        "7-Meter",
+        "Freiwurf"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
+      "options": [
+        "Schiedsrichterball",
+        "Freiwurf",
+        "Einwurf",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
+      "options": [
+        "7-Meter",
+        "Einwurf",
+        "Abwurf",
+        "Freiwurf für Angriff"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "options": [
+        "7-Meter",
+        "Eckball",
+        "Abwurf durch den Torwart",
+        "Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "Tor zählt",
+        "7-Meter"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
+      "options": [
+        "7-Meter",
+        "2-Minuten-Strafe",
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "Gelbe Karte"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
+      "options": [
+        "Eckball",
+        "7-Meter",
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "Einwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
+    },
+    {
+      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
+      "options": [
+        "Rote Karte",
+        "Freiwurf für Gegener (Fußspiel)",
+        "7-Meter",
+        "Abwurf"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
+    },
+    {
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
+      "options": [
+        "7-Meter",
+        "Freiwurf",
+        "Einwurf für den Gegner",
+        "Abwurf"
+      ],
+      "correct": 2,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
+    },
+    {
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
+      "options": [
+        "Freiwurf",
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "Schiedsrichterball"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
+      "options": [
+        "Abwurf",
+        "Freiwurf für Angriff",
+        "7-Meter",
+        "Einwurf"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+    },
+    {
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "options": [
+        "Freiwurf",
+        "7-Meter",
+        "Eckball",
+        "Abwurf durch den Torwart"
+      ],
+      "correct": 3,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
+    },
+    {
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für Abwehr (Kreis abgelaufen)",
+        "7-Meter",
+        "Tor zählt"
+      ],
+      "correct": 1,
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
+    },
+    {
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
+      "options": [
+        "Freiwurf für Abwehr (Schrittfehler)",
+        "7-Meter",
+        "2-Minuten-Strafe",
+        "Gelbe Karte"
       ],
       "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
     },
     {
-      "question": "Grundregel #64: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
       "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #65: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #66: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #67: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #68: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Einwurf",
+        "Freiwurf für Abwehr (Doppelprellen)",
+        "7-Meter",
+        "Eckball"
       ],
       "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
     },
     {
-      "question": "Grundregel #69: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
+      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
       "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #70: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #71: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #72: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #73: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
+        "Freiwurf für Gegener (Fußspiel)",
+        "Rote Karte",
+        "7-Meter",
+        "Abwurf"
       ],
       "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #74: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #75: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #76: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #77: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #78: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #79: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #80: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #81: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #82: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #83: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #84: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #85: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #86: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #87: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #88: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #89: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #90: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #91: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #92: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #93: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #94: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #95: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #96: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #97: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #98: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #99: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #100: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #101: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #102: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #103: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #104: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #105: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #106: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #107: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #108: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #109: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #110: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #111: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #112: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #113: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #114: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #115: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #116: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #117: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #118: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #119: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #120: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #121: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #122: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #123: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #124: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #125: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #126: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #127: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #128: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #129: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #130: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #131: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #132: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #133: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #134: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #135: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #136: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #137: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #138: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #139: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #140: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #141: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #142: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #143: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #144: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #145: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #146: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #147: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #148: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #149: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #150: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #151: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #152: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #153: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #154: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #155: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #156: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #157: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #158: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #159: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #160: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #161: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #162: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #163: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #164: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #165: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #166: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #167: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #168: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #169: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #170: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #171: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #172: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #173: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #174: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #175: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #176: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #177: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #178: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #179: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #180: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #181: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #182: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #183: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #184: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #185: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #186: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #187: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #188: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "5 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #189: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #190: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "11 Feldspieler",
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)"
-      ],
-      "correct": 3,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #191: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "6 Feldspieler (plus 1 Torwart)",
-        "5 Feldspieler",
-        "11 Feldspieler"
-      ],
-      "correct": 1,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #192: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #193: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "6 Feldspieler (plus 1 Torwart)",
-        "7 Feldspieler (ohne Torwart)",
-        "11 Feldspieler",
-        "5 Feldspieler"
-      ],
-      "correct": 0,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
-    },
-    {
-      "question": "Grundregel #194: Wie viele Feldspieler stehen bei einem normalen Spiel pro Mannschaft auf dem Feld?",
-      "options": [
-        "7 Feldspieler (ohne Torwart)",
-        "5 Feldspieler",
-        "6 Feldspieler (plus 1 Torwart)",
-        "11 Feldspieler"
-      ],
-      "correct": 2,
-      "explanation": "Eine Mannschaft besteht aus 6 Feldspielern und 1 Torwart auf dem Feld."
+      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
     }
   ],
   "mittel": [
     {
-      "question": "Was kennzeichnet die '6:0-Abwehr' im Handball?",
+      "question": "Was ist das Hauptmerkmal der '6:0-Abwehr'?",
       "options": [
-        "Alle 6 Feldspieler stehen an der 6m-Torraumlinie",
-        "5 Spieler hinten, 1 vorgezogen",
-        "Manndeckung übers ganze Feld",
-        "4 Spieler hinten, 2 vorne"
+        "4 Spieler im Kreis stehen",
+        "5 Spieler hinten stehen und 1 vorgezogen agiert",
+        "Manndeckung auf dem ganzen Feld gespielt wird",
+        "alle 6 Feldspieler auf der 6m-Linie verteidigen"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehr ist typisch, dass alle 6 Feldspieler auf der 6m-Linie verteidigen."
+    },
+    {
+      "question": "Was ist das Hauptmerkmal der '5:1-Abwehr'?",
+      "options": [
+        "1 Spieler auf 9m vorgezogen agiert und 5 hinten stehen",
+        "nur 5 Spieler verteidigen",
+        "3 Spieler vorne und 3 hinten stehen",
+        "alle 6 Spieler an der 6m-Linie stehen"
       ],
       "correct": 0,
-      "explanation": "Bei der 6:0-Abwehr gilt: Alle 6 Feldspieler stehen an der 6m-Torraumlinie."
+      "explanation": "Bei der 5:1-Abwehr ist typisch, dass 1 Spieler auf 9m vorgezogen agiert und 5 hinten stehen."
     },
     {
-      "question": "Was kennzeichnet die '5:1-Abwehr' im Handball?",
+      "question": "Was ist das Hauptmerkmal der '3:2:1-Abwehr'?",
       "options": [
-        "3 Spieler hinten, 3 vorne",
-        "Ein Spieler agiert vorgezogen auf der 9m-Linie, 5 stehen hinten",
-        "Manndeckung",
-        "6 Spieler stehen an der 6m-Linie"
+        "eine offensiv gestaffelte Raumdeckung aufgebaut wird",
+        "3 Torhüter im Tor stehen",
+        "6 Spieler auf der 6m-Linie stehen",
+        "nur gekreuzt wird"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 3:2:1-Abwehr ist typisch, dass eine offensiv gestaffelte Raumdeckung aufgebaut wird."
+    },
+    {
+      "question": "Was ist das Hauptmerkmal der '4:2-Abwehr'?",
+      "options": [
+        "nur bei Unterzahl gespielt wird",
+        "2 Spieler vorgezogen stören und 4 hinten absichern",
+        "alle Spieler Manndeckung spielen",
+        "4 Spieler im Angriff stehen"
       ],
       "correct": 1,
-      "explanation": "Bei der 5:1-Abwehr gilt: Ein Spieler agiert vorgezogen auf der 9m-Linie, 5 stehen hinten."
+      "explanation": "Bei der 4:2-Abwehr ist typisch, dass 2 Spieler vorgezogen stören und 4 hinten absichern."
     },
     {
-      "question": "Was kennzeichnet die '3:2:1-Abwehr' im Handball?",
+      "question": "Wie viele Punkte bringt ein 'Spin-Shot (360-Grad-Drehung)' im Beachhandball?",
       "options": [
-        "4 Spieler im Torraum",
-        "Alle Spieler im Torraum",
-        "Eine offensive, gestaffelte Abwehrformation",
-        "Eine reine Kontertaktik"
-      ],
-      "correct": 2,
-      "explanation": "Bei der 3:2:1-Abwehr gilt: Eine offensive, gestaffelte Abwehrformation."
-    },
-    {
-      "question": "Wie viele Punkte bringt ein spektakulärer 'Spin-Shot' (Pirouette) im Beachhandball?",
-      "options": [
+        "4 Punkte",
         "2 Punkte",
         "1 Punkt",
+        "3 Punkte"
+      ],
+      "correct": 1,
+      "explanation": "Ein Spin-Shot (360-Grad-Drehung) zählt im Beachhandball 2 Punkte."
+    },
+    {
+      "question": "Wie viele Punkte bringt ein 'Kempa-Trick im Flug' im Beachhandball?",
+      "options": [
         "4 Punkte",
+        "2 Punkte",
+        "3 Punkte",
+        "1 Punkt"
+      ],
+      "correct": 1,
+      "explanation": "Ein Kempa-Trick im Flug zählt im Beachhandball 2 Punkte."
+    },
+    {
+      "question": "Wie viele Punkte bringt ein 'Tor durch den Torwart / Specialist' im Beachhandball?",
+      "options": [
+        "2 Punkte",
+        "3 Punkte",
+        "1 Punkt",
+        "4 Punkte"
+      ],
+      "correct": 0,
+      "explanation": "Ein Tor durch den Torwart / Specialist zählt im Beachhandball 2 Punkte."
+    },
+    {
+      "question": "Wie viele Punkte bringt ein 'Erfolgreicher 7m-Strafwurf' im Beachhandball?",
+      "options": [
+        "4 Punkte",
+        "1 Punkt",
+        "3 Punkte",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Ein Erfolgreicher 7m-Strafwurf zählt im Beachhandball 2 Punkte."
+    },
+    {
+      "question": "Wie viele Punkte bringt ein 'Normaler einfacher Schlagwurf' im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "2 Punkte",
+        "0 Punkte",
         "3 Punkte"
       ],
       "correct": 0,
-      "explanation": "Besonders attraktive Tore wie Spin-Shots oder Kempa-Tore zählen 2 Punkte."
+      "explanation": "Ein Normaler einfacher Schlagwurf zählt im Beachhandball 1 Punkt."
     },
     {
-      "question": "Wie wird Unentschieden im Beachhandball nach 2 Sätzen aufgelöst?",
+      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
       "options": [
-        "2x 5 Minuten Verlängerung",
-        "Münzwurf",
-        "Golden Goal",
-        "Penalty Shoot-Out (1 gegen Torwart)"
+        "Rote Karte",
+        "Blaue Karte",
+        "Gelbe Karte",
+        "Grüne Karte"
+      ],
+      "correct": 2,
+      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
+      "options": [
+        "Gelbe Karte",
+        "Rote Karte",
+        "Blaue Karte",
+        "Grüne Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
+      "options": [
+        "Blaue Karte",
+        "Grüne Karte",
+        "Gelbe Karte",
+        "Rote Karte"
+      ],
+      "correct": 2,
+      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
+      "options": [
+        "Blaue Karte",
+        "Gelbe Karte",
+        "Rote Karte",
+        "Grüne Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
+      "options": [
+        "Gelbe Karte",
+        "2-Minuten-Strafe",
+        "Blaue Karte",
+        "Disqualifikation"
+      ],
+      "correct": 1,
+      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
+      "options": [
+        "Gelbe Karte",
+        "2-Minuten-Strafe",
+        "Disqualifikation",
+        "Blaue Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
+      "options": [
+        "Gelbe Karte",
+        "Blaue Karte",
+        "2-Minuten-Strafe",
+        "Disqualifikation"
+      ],
+      "correct": 2,
+      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Blaue Karte",
+        "Disqualifikation",
+        "Gelbe Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
+      "options": [
+        "Grüne Karte",
+        "Rote Karte",
+        "Gelbe Karte",
+        "2-Minuten-Strafe"
+      ],
+      "correct": 1,
+      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Gelbe Karte",
+        "Rote Karte",
+        "Grüne Karte"
+      ],
+      "correct": 2,
+      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
+      "options": [
+        "Gelbe Karte",
+        "Rote Karte",
+        "2-Minuten-Strafe",
+        "Grüne Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Grüne Karte",
+        "Rote Karte",
+        "Gelbe Karte"
+      ],
+      "correct": 2,
+      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Blaue Karte",
+        "Gelbe Karte",
+        "Grüne Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
+      "options": [
+        "Blaue Karte",
+        "Grüne Karte",
+        "2-Minuten-Strafe",
+        "Gelbe Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
+      "options": [
+        "Blaue Karte",
+        "Grüne Karte",
+        "2-Minuten-Strafe",
+        "Gelbe Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
+      "options": [
+        "Blaue Karte",
+        "2-Minuten-Strafe",
+        "Gelbe Karte",
+        "Grüne Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
+    },
+    {
+      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
+      "options": [
+        "Blaue Karte heben",
+        "Gelbe Karte zeigen",
+        "Rote Karte werfen",
+        "Grüne Karte auf den Zeitnehmertisch legen"
       ],
       "correct": 3,
-      "explanation": "Im Beachhandball entscheidet das Penalty Shoot-Out bei 1:1 Satzgleichstand."
+      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
     },
     {
-      "question": "Taktik-Situation #1: Was versteht man unter dem 'Kreuzen' im Angriff?",
+      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
       "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #2: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #3: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #4: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #5: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #6: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
+        "Gelbe Karte zeigen",
+        "Rote Karte werfen",
+        "Blaue Karte heben",
+        "Grüne Karte auf den Zeitnehmertisch legen"
       ],
       "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
+      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
     },
     {
-      "question": "Taktik-Situation #7: Was versteht man unter dem 'Kreuzen' im Angriff?",
+      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
       "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
+        "Gelbe Karte zeigen",
+        "Rote Karte werfen",
+        "Blaue Karte heben",
+        "Grüne Karte auf den Zeitnehmertisch legen"
       ],
       "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
+      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
     },
     {
-      "question": "Taktik-Situation #8: Was versteht man unter dem 'Kreuzen' im Angriff?",
+      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
       "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
+        "Rote Karte werfen",
+        "Gelbe Karte zeigen",
+        "Grüne Karte auf den Zeitnehmertisch legen",
+        "Blaue Karte heben"
       ],
       "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #9: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #10: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #11: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #12: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #13: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #14: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #15: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #16: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #17: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #18: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #19: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #20: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #21: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #22: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #23: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #24: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #25: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #26: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #27: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #28: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #29: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #30: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #31: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #32: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #33: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #34: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #35: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #36: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #37: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #38: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #39: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #40: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #41: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #42: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #43: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #44: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #45: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #46: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #47: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #48: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #49: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #50: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #51: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #52: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #53: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #54: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #55: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #56: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #57: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #58: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #59: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #60: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #61: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #62: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #63: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #64: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #65: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #66: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #67: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #68: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #69: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #70: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #71: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #72: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #73: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #74: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #75: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #76: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #77: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #78: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #79: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #80: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #81: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #82: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #83: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #84: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #85: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #86: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #87: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #88: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #89: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #90: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #91: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #92: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #93: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #94: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #95: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #96: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #97: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #98: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #99: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #100: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #101: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #102: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #103: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #104: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #105: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #106: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #107: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #108: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #109: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #110: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #111: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #112: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #113: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #114: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #115: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #116: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #117: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #118: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #119: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #120: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #121: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #122: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #123: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #124: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #125: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #126: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #127: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #128: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #129: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #130: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #131: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #132: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #133: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #134: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #135: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #136: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #137: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #138: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #139: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #140: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #141: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #142: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #143: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #144: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #145: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #146: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #147: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #148: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #149: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #150: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #151: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #152: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #153: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #154: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #155: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #156: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #157: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #158: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #159: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #160: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #161: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #162: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #163: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #164: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #165: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #166: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #167: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #168: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #169: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #170: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #171: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #172: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #173: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #174: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #175: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #176: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #177: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #178: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #179: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #180: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #181: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #182: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #183: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #184: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #185: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #186: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 1,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #187: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #188: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #189: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #190: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #191: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Der Torwart verlässt das Feld"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #192: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 2,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #193: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Ein Wechsel der Außenspieler"
-      ],
-      "correct": 0,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #194: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Der Torwart verlässt das Feld",
-        "Ein Wechsel der Außenspieler",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
-    },
-    {
-      "question": "Taktik-Situation #195: Was versteht man unter dem 'Kreuzen' im Angriff?",
-      "options": [
-        "Ein Wechsel der Außenspieler",
-        "Der Torwart verlässt das Feld",
-        "Ein Foulspiel mit gekreuzten Armen",
-        "Zwei Angreifer tauschen die Positionen bei der Ballübergabe"
-      ],
-      "correct": 3,
-      "explanation": "Beim Kreuzen läuft ein Rückraumspieler hinter dem Ballhalter durch, um die Abwehrkette zu verwirren."
+      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
     }
   ],
   "schwer": [
     {
-      "question": "Ein Abwehrspieler verhindert in den letzten 30 Sekunden durch Regelwidrigkeit eine Wurfausführung. Entscheidung?",
+      "question": "Endphase-Regelwerk: Verhindern der Wurfausführung in den letzten 30 Sekunden. Wie muss das Schiedsrichtergespann entscheiden?",
       "options": [
-        "Nur 2-Minuten-Strafe",
-        "Freiwurf ohne Karte",
-        "Rote Karte und 7-Meter",
-        "Blaue Karte ohne 7m"
+        "Rote Karte und 7-Meter-Strafwurf",
+        "Nur Freiwurf",
+        "Gelbe Karte",
+        "Nur 2-Minuten-Strafe"
       ],
-      "correct": 2,
-      "explanation": "In den letzten 30 Sekunden führt eine absichtliche Störung direkt zu Rot + 7m."
+      "correct": 0,
+      "explanation": "Laut Reglement gilt: Rote Karte und 7-Meter-Strafwurf."
     },
     {
-      "question": "Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torwurf?",
+      "question": "Endphase-Regelwerk: Grobes Foul in den letzten 30 Sekunden ohne Chance auf den Ball. Wie muss das Schiedsrichtergespann entscheiden?",
       "options": [
-        "Unbegrenzt",
-        "Maximal 6 Pässe",
+        "Freiwurf für Abwehr",
+        "2-Minuten-Strafe ohne 7m",
+        "Rote Karte (evtl. Blau) und 7-Meter",
+        "Münzwurf"
+      ],
+      "correct": 2,
+      "explanation": "Laut Reglement gilt: Rote Karte (evtl. Blau) und 7-Meter."
+    },
+    {
+      "question": "Endphase-Regelwerk: Wechselfehler in den letzten 30 Sekunden. Wie muss das Schiedsrichtergespann entscheiden?",
+      "options": [
+        "Disqualifikation des Trainers",
+        "2-Minuten-Strafe für den Spieler",
+        "Automatisch 7-Meter",
+        "Spielabbruch"
+      ],
+      "correct": 1,
+      "explanation": "Laut Reglement gilt: 2-Minuten-Strafe für den Spieler."
+    },
+    {
+      "question": "Passivspiel-Detail: Nach dem Anzeigen des Vorwarnzeichens (Passivspiel) – Was schreibt das Regelwerk vor?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Unbegrenzt viele Pässe",
         "Maximal 2 Pässe",
-        "Maximal 4 Pässe"
-      ],
-      "correct": 3,
-      "explanation": "Seit der Regelanpassung bleiben dem Angriffsteam nach dem Vorwarnzeichen noch max. 4 Pässe."
-    },
-    {
-      "question": "Was bedeutet eine 'Blaue Karte' zusätzlich zur Roten Karte?",
-      "options": [
-        "Sperre für 5 Minuten",
-        "Sofortige Replikation",
-        "2-Minuten-Strafe für das Team",
-        "Ein schriftlicher Bericht für ein nachfolgendes Disziplinarverfahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Blaue Karte zeigt an, dass ein schriftlicher Bericht folgt und eine Sperre droht."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #1: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #2: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #3: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
+        "Maximal 6 Pässe"
       ],
       "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "explanation": "Die Regel legt fest: Maximal 4 Pässe."
     },
     {
-      "question": "Profi-Schiedsrichterentscheidung #4: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
+      "question": "Passivspiel-Detail: Wenn bei genanntem Vorwarnzeichen ein Freiwurf abgefälscht wird – Was schreibt das Regelwerk vor?",
       "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
+        "Wird der Passzähler auf 0 gesetzt",
+        "Gibt es sofort 7m",
+        "Zählt der Freiwurf als Pass dazu",
+        "Erhält das Team 4 neue Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Die Regel legt fest: Zählt der Freiwurf als Pass dazu."
+    },
+    {
+      "question": "Profi-Handball Historie: Wer gewann das Turnier WM 2007 ('Wintermärchen')?",
+      "options": [
+        "Frankreich",
+        "Dänemark",
+        "Deutschland",
+        "Kroatien"
+      ],
+      "correct": 2,
+      "explanation": "Deutschland gewann die Heim-WM 2007 unter Heiner Brand."
+    },
+    {
+      "question": "Welcher Titel ging im Handball an Deutschland beim Turnier WM 2007 ('Wintermärchen')?",
+      "options": [
+        "Sieger der WM 2007 ('Wintermärchen')",
+        "Halbfinal-Aus",
+        "Vorrunden-Aus",
+        "2. Platz"
       ],
       "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "explanation": "Deutschland gewann die Heim-WM 2007 unter Heiner Brand."
     },
     {
-      "question": "Profi-Schiedsrichterentscheidung #5: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
+      "question": "Profi-Handball Historie: Wer gewann das Turnier EM 2016 in Polen ('Bad Boys')?",
       "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
+        "Frankreich",
+        "Spanien",
+        "Deutschland",
+        "Norwegen"
       ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "correct": 2,
+      "explanation": "Deutschland schlug Spanien im Finale überraschend souverän."
     },
     {
-      "question": "Profi-Schiedsrichterentscheidung #6: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
+      "question": "Welcher Titel ging im Handball an Deutschland beim Turnier EM 2016 in Polen ('Bad Boys')?",
       "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
+        "2. Platz",
+        "Halbfinal-Aus",
+        "Sieger der EM 2016 in Polen ('Bad Boys')",
+        "Vorrunden-Aus"
       ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "correct": 2,
+      "explanation": "Deutschland schlug Spanien im Finale überraschend souverän."
     },
     {
-      "question": "Profi-Schiedsrichterentscheidung #7: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
+      "question": "Profi-Handball Historie: Wer gewann das Turnier Olympia 2020 in Tokio (Herren)?",
       "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
+        "Dänemark",
+        "Deutschland",
+        "Frankreich",
+        "Spanien"
+      ],
+      "correct": 2,
+      "explanation": "Frankreich sicherte sich Gold im Finale gegen Dänemark."
+    },
+    {
+      "question": "Welcher Titel ging im Handball an Frankreich beim Turnier Olympia 2020 in Tokio (Herren)?",
+      "options": [
+        "Sieger der Olympia 2020 in Tokio (Herren)",
+        "Halbfinal-Aus",
+        "2. Platz",
+        "Vorrunden-Aus"
       ],
       "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "explanation": "Frankreich sicherte sich Gold im Finale gegen Dänemark."
     },
     {
-      "question": "Profi-Schiedsrichterentscheidung #8: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
+      "question": "Profi-Handball Historie: Wer gewann das Turnier Champions League Sieger 2023?",
       "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #9: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
+        "SC Magdeburg",
+        "Kiel",
+        "Barca",
+        "PSG"
       ],
       "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "explanation": "Der SC Magdeburg gewann das Champions League Final4 2023."
     },
     {
-      "question": "Profi-Schiedsrichterentscheidung #10: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
+      "question": "Welcher Titel ging im Handball an SC Magdeburg beim Turnier Champions League Sieger 2023?",
       "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #11: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
+        "Halbfinal-Aus",
+        "2. Platz",
+        "Sieger der Champions League Sieger 2023",
+        "Vorrunden-Aus"
       ],
       "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #12: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #13: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #14: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #15: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #16: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #17: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #18: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #19: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #20: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #21: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #22: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #23: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #24: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #25: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #26: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #27: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #28: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #29: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #30: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #31: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #32: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #33: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #34: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #35: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #36: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #37: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #38: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #39: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #40: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #41: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #42: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #43: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #44: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #45: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #46: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #47: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #48: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #49: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #50: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #51: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #52: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #53: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #54: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #55: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #56: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #57: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #58: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #59: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #60: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #61: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #62: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #63: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #64: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #65: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #66: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #67: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #68: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #69: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #70: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #71: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #72: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #73: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #74: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #75: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #76: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #77: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #78: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #79: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #80: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #81: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #82: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #83: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #84: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #85: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #86: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #87: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #88: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #89: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #90: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #91: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #92: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #93: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #94: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #95: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #96: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #97: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #98: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #99: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #100: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #101: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #102: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #103: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #104: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #105: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #106: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #107: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #108: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #109: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #110: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #111: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #112: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #113: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #114: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #115: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #116: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #117: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #118: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #119: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #120: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #121: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #122: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #123: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #124: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #125: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #126: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #127: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #128: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #129: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #130: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #131: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #132: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #133: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #134: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #135: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #136: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #137: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #138: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #139: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #140: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #141: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #142: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #143: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #144: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #145: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #146: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #147: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #148: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #149: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #150: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #151: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #152: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #153: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #154: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #155: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #156: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #157: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #158: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #159: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #160: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #161: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #162: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #163: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #164: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #165: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #166: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #167: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #168: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #169: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #170: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #171: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #172: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #173: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #174: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #175: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #176: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #177: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #178: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #179: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #180: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #181: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #182: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #183: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #184: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #185: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #186: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #187: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #188: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #189: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #190: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!",
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr"
-      ],
-      "correct": 1,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #191: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #192: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Kein Tor, Freiwurf Abwehr",
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #193: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #194: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #195: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Kein Tor, Freiwurf Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #196: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "7-Meter für Abwehr",
-        "Ungültiger Wurf & Gelbe Karte",
-        "Kein Tor, Freiwurf Abwehr",
-        "Tor zählt!"
-      ],
-      "correct": 3,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
-    },
-    {
-      "question": "Profi-Schiedsrichterentscheidung #197: Ein Angreifer springt außerhalb des Torraums ab, wirft und landet danach im Torraum. Das Tor fällt. Entscheidung?",
-      "options": [
-        "Ungültiger Wurf & Gelbe Karte",
-        "7-Meter für Abwehr",
-        "Tor zählt!",
-        "Kein Tor, Freiwurf Abwehr"
-      ],
-      "correct": 2,
-      "explanation": "Der Absprung war korrekt außerhalb. Das Landen im Torraum NACH der Ballabgabe ist erlaubt."
+      "explanation": "Der SC Magdeburg gewann das Champions League Final4 2023."
     }
   ]
 };
