@@ -1,2375 +1,2363 @@
-// Handball Arena Quiz - 600 gemischte Fragen (Regelwerk, Taktik, Profi-HBL, Beach)
 window.quizData = {
   "leicht": [
     {
-      "question": "Wie viele Schritte darf ein Spieler mit dem Ball laufen, ohne zu prellen?",
+      "question": "[LEICHT] Situation #1: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "3 Schritte",
-        "2 Schritte",
-        "4 Schritte",
-        "Unbegrenzt"
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Ungültiger Wurf"
       ],
       "correct": 0,
-      "explanation": "Laut Regelwerk darf ein Spieler maximal 3 Schritte machen, bevor er prellen, passen oder werfen muss."
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "Aus welcher Distanz wird ein Strafwurf (Penalty) im Hallenhandball geworfen?",
+      "question": "[LEICHT] Situation #2: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "7 Meter",
-        "6 Meter",
-        "8 Meter",
-        "9 Meter"
+        "Freiwurf für den Angriff",
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #3: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #4: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #5: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Passivspiel",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #6: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #7: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #8: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #9: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #10: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #11: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
       ],
       "correct": 0,
-      "explanation": "Der Strafwurf wird von der 7-Meter-Linie ausgeführt."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "Wie lange dauert eine normale Zeitstrafe im Hallenhandball?",
+      "question": "[LEICHT] Situation #12: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
       "options": [
-        "2 Minuten",
-        "1 Minute",
-        "5 Minuten",
-        "10 Minuten"
+        "Dänemark",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #13: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL",
+        "2. Handball-Bundesliga",
+        "EHF Champions League"
       ],
       "correct": 0,
-      "explanation": "Eine Hinausstellung dauert exakt 2 Minuten."
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
     },
     {
-      "question": "Welche Karte führt im Hallenhandball zur direkten Disqualifikation?",
+      "question": "[LEICHT] Situation #14: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
       "options": [
-        "Rote Karte",
-        "Gelbe Karte",
-        "Grüne Karte",
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)",
+        "50 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #15: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "2 Punkte",
+        "4 Punkte",
+        "1 Punkt",
+        "3 Punkte"
+      ],
+      "correct": 0,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #16: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor von der Außenseite"
+      ],
+      "correct": 0,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #17: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min"
+      ],
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #18: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #19: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 1,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #20: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #21: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
         "Blaue Karte"
       ],
-      "correct": 0,
-      "explanation": "Die Rote Karte bedeutet den Platzverweis für den Rest des Spiels."
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
     },
     {
-      "question": "Welcher deutsche Verein ist Rekordmeister der Liqui Moly HBL?",
+      "question": "[LEICHT] Situation #22: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
       "options": [
-        "THW Kiel",
-        "SG Flensburg-Handewitt",
-        "SC Magdeburg",
-        "Füchse Berlin"
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Schrittfehler"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #23: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe"
       ],
       "correct": 0,
-      "explanation": "Der THW Kiel ist mit über 20 Titeln deutscher Rekordmeister."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "In welcher Stadt wird das DHB-Pokal Final Four der Herren ausgetragen?",
+      "question": "[LEICHT] Situation #24: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Köln (LANXESS arena)",
-        "Hamburg",
-        "Berlin",
-        "München"
+        "Unsportliches Meckern",
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #25: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #26: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #27: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #28: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #29: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich",
+        "Kroatien",
+        "Dänemark"
       ],
       "correct": 0,
-      "explanation": "Das Final4 um den DHB-Pokal findet traditionell in der LANXESS arena in Köln statt."
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
     },
     {
-      "question": "Welches Nationalteam gewann 2007 die Heim-WM ('Wintermärchen')?",
+      "question": "[LEICHT] Situation #30: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
       "options": [
-        "Deutschland",
-        "Polen",
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League",
+        "2. Handball-Bundesliga"
+      ],
+      "correct": 1,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #31: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #32: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "2 Punkte",
+        "1 Punkt",
+        "4 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 0,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #33: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Aufsetzertor",
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #34: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #35: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #36: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #37: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #38: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #39: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Stürmerfoul"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #40: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #41: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #42: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #43: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #44: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #45: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #46: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Frankreich",
         "Dänemark",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #47: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #48: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "50 Minuten"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #49: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
+        "1 Punkt",
+        "3 Punkte",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #50: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #51: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf",
+        "Verlängerung 2x 5 Min"
+      ],
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #52: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "7-Meter"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #53: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #54: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #55: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #56: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Stürmerfoul"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #57: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #58: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #59: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Manndeckung auf dem ganzen Feld",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #60: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #61: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #62: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #63: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #64: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #65: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #66: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
+        "1 Punkt",
+        "2 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #67: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Aufsetzertor",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #68: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 0,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #69: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr"
+      ],
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #70: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Freiwurf für den Angriff",
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #71: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #72: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #73: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Schrittfehler"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #74: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe"
+      ],
+      "correct": 3,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #75: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Unsportliches Meckern"
+      ],
+      "correct": 0,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #76: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #77: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #78: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #79: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #80: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Dänemark",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #81: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "DEL",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #82: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #83: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "2 Punkte",
+        "4 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #84: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor von der Außenseite"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #85: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #86: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Ungültiger Wurf",
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #87: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #88: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #89: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #90: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Passivspiel",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #91: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #92: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #93: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #94: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #95: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Hüftwurf durch die Beine",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #96: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #97: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #98: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #99: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten"
+      ],
+      "correct": 2,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #100: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "2 Punkte",
+        "4 Punkte",
+        "1 Punkt",
+        "3 Punkte"
+      ],
+      "correct": 0,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #101: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Aufsetzertor"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #102: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf"
+      ],
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #103: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #104: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 0,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #105: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #106: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)"
+      ],
+      "correct": 3,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #107: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul",
+        "Schrittfehler",
+        "Passivspiel"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #108: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #109: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Unsportliches Meckern"
+      ],
+      "correct": 0,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #110: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #111: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #112: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #113: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #114: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Kroatien",
         "Frankreich"
       ],
       "correct": 0,
-      "explanation": "Deutschland wurde 2007 unter Bundestrainer Heiner Brand im eigenen Land Weltmeister."
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
     },
     {
-      "question": "Auf welchem Untergrund wird Beachhandball gespielt?",
+      "question": "[LEICHT] Situation #115: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
       "options": [
-        "Feiner Sand",
-        "Rasen",
-        "Hallenboden",
-        "Kunstrasen"
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "DEL",
+        "EHF Champions League"
       ],
       "correct": 0,
-      "explanation": "Beachhandball wird barfuß auf Sand gespielt."
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
     },
     {
-      "question": "Wie viele Punkte bringt ein 'Spin Shot' (360-Grad-Drehung) im Beachhandball?",
+      "question": "[LEICHT] Situation #116: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
+        "50 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #117: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
         "3 Punkte",
-        "4 Punkte"
+        "2 Punkte",
+        "1 Punkt"
       ],
-      "correct": 0,
-      "explanation": "Spektakuläre Treffer wie der Spin Shot bringen im Beachhandball 2 Punkte."
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "Wie lang ist ein Satz im Beachhandball?",
+      "question": "[LEICHT] Situation #118: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "10 Minuten",
-        "12 Minuten",
-        "15 Minuten",
-        "20 Minuten"
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m"
       ],
-      "correct": 0,
-      "explanation": "Ein Beachhandball-Spiel besteht aus zwei unabhängigen Sätzen à 10 Minuten."
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "Was beschreibt eine sogenannte '6:0-Abwehr'?",
+      "question": "[LEICHT] Situation #119: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Alle 6 Feldspieler stehen an der 6m-Kreislinie",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #120: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Ungültiger Wurf"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #121: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #122: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #123: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #124: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #125: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #126: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler",
+        "Unsportliches Meckern"
+      ],
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #127: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
         "Manndeckung auf dem ganzen Feld",
-        "Spielen ohne Torwart",
-        "Ein Abwehrspieler deckt vorne"
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
       ],
-      "correct": 0,
-      "explanation": "Bei der 6:0-Abwehr stehen alle sechs Abwehrspieler an der 6-Meter-Torraumlinie."
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 12: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #128: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
       "options": [
-        "2 Punkte",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #129: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #130: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #131: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #132: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "DEL"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #133: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "50 Minuten",
+        "60 Minuten (2x 30 Min)"
+      ],
+      "correct": 3,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #134: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
         "1 Punkt",
         "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 13: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 14: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 15: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 16: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
         "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
         "4 Punkte"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Leicht] Frage 17: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[LEICHT] Situation #135: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #136: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Unentschieden bleibt bestehen",
+        "Münzwurf"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[TAKTIK - Leicht] Frage 18: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[LEICHT] Situation #137: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Tor zählt",
+        "Ungültiger Wurf",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 19: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[LEICHT] Situation #138: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 1,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #139: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #140: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #141: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 20: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #142: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
       "options": [
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #143: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #144: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #145: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #146: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #147: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #148: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich",
+        "Dänemark",
+        "Kroatien"
+      ],
+      "correct": 0,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #149: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "DEL",
+        "EHF Champions League"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #150: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #151: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "4 Punkte",
         "2 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[LEICHT] Situation #152: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Aufsetzertor",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite"
+      ],
+      "correct": 0,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[LEICHT] Situation #153: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[LEICHT] Situation #154: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Ungültiger Wurf",
+        "7-Meter",
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr"
+      ],
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[LEICHT] Situation #155: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 1,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #156: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #157: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #158: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Passivspiel",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #159: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 0,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #160: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Foul im Torraum",
+        "Unsportliches Meckern",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #161: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #162: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #163: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #164: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #165: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Frankreich",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #166: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "DEL"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #167: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #168: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
         "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 21: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 22: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 23: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 24: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
+        "4 Punkte",
         "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "3 Punkte"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Leicht] Frage 25: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[LEICHT] Situation #169: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Aufsetzertor",
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[TAKTIK - Leicht] Frage 26: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[LEICHT] Situation #170: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Münzwurf",
+        "Unentschieden bleibt bestehen",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 27: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[LEICHT] Situation #171: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Ungültiger Wurf",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Tor zählt"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 28: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #172: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
+        "Freiwurf für den Angriff",
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[LEICHT] Situation #173: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[LEICHT] Situation #174: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[LEICHT] Situation #175: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Schrittfehler",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[LEICHT] Situation #176: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[LEICHT] Situation #177: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Foul im Torraum",
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[LEICHT] Situation #178: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[LEICHT] Situation #179: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[LEICHT] Situation #180: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[LEICHT] Situation #181: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[LEICHT] Situation #182: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Frankreich",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[LEICHT] Situation #183: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "EHF Champions League",
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[LEICHT] Situation #184: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)"
+      ],
+      "correct": 3,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[LEICHT] Situation #185: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
         "2 Punkte",
-        "1 Punkt",
         "3 Punkte",
-        "4 Punkte"
+        "1 Punkt"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 29: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 30: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 31: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 32: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 33: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 34: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 35: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 36: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 37: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 38: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 39: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 40: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 41: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 42: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 43: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 44: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 45: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 46: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 47: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 48: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 49: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 50: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 51: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 52: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 53: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 54: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 55: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 56: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 57: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 58: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 59: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 60: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 61: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 62: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 63: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 64: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 65: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 66: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 67: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 68: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 69: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 70: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 71: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 72: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 73: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 74: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 75: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 76: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 77: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 78: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 79: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 80: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 81: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 82: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 83: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 84: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 85: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 86: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 87: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 88: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 89: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 90: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 91: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 92: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 93: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 94: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 95: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 96: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 97: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 98: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 99: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 100: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 101: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 102: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 103: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 104: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 105: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 106: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 107: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 108: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 109: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 110: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 111: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 112: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 113: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 114: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 115: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 116: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 117: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 118: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 119: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 120: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 121: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 122: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 123: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 124: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 125: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 126: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 127: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 128: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 129: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 130: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 131: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 132: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 133: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 134: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 135: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 136: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 137: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 138: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 139: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 140: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 141: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 142: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 143: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 144: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 145: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 146: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 147: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 148: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 149: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 150: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 151: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 152: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 153: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 154: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 155: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 156: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 157: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 158: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 159: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 160: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 161: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 162: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 163: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 164: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 165: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 166: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 167: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 168: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 169: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 170: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 171: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 172: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 173: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 174: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 175: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[LEICHT] Situation #186: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Aufsetzertor"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 176: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #187: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Verlängerung 2x 5 Min"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[REGELWERK - Leicht] Frage 177: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[LEICHT] Situation #188: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "7-Meter"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 178: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 179: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 180: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 181: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 182: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 183: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 184: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Leicht] Frage 185: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Leicht] Frage 186: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 187: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Leicht] Frage 188: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[REGELWERK - Leicht] Frage 189: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[LEICHT] Situation #189: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
     },
     {
-      "question": "[TAKTIK - Leicht] Frage 190: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[LEICHT] Situation #190: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
     },
     {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 191: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[LEICHT] Situation #191: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 3,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 192: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #192: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul",
+        "Passivspiel"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
     },
     {
-      "question": "[REGELWERK - Leicht] Frage 193: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[LEICHT] Situation #193: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Maximal 4 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe",
+        "Maximal 6 Pässe"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "[TAKTIK - Leicht] Frage 194: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[LEICHT] Situation #194: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern",
+        "Wechselfehler"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
     },
     {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 195: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[LEICHT] Situation #195: Was versteht man im Handball unter einer '6:0-Abwehr'?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 196: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #196: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
     },
     {
-      "question": "[REGELWERK - Leicht] Frage 197: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[LEICHT] Situation #197: Was bedeutet der Begriff 'Kempa-Trick'?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
     },
     {
-      "question": "[TAKTIK - Leicht] Frage 198: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[LEICHT] Situation #198: Was bezeichnet man im Handball als 'Kreuzen'?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "[PROFI-HANDBALL - Leicht] Frage 199: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[LEICHT] Situation #199: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich",
+        "Kroatien"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
     },
     {
-      "question": "[BEACHHANDBALL - Leicht] Frage 200: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[LEICHT] Situation #200: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "2. Handball-Bundesliga",
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
     }
   ],
   "mittel": [
     {
-      "question": "Was bedeutet die Taktik '7 gegen 6' im Hallenhandball?",
+      "question": "[MITTEL] Situation #1: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "Der Torwart wird durch einen 7. Feldspieler ersetzt",
-        "Überzahlspiel nach Zeitstrafe",
-        "Eine reine Abwehrmaßnahme",
-        "Auswechseln des Torwarts beim 7-Meter"
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter"
       ],
-      "correct": 0,
-      "explanation": "Seit der Regeländerung 2016 darf der Torwart durch einen 7. Feldspieler ausgetauscht werden."
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "Was versteht man unter dem 'Kempa-Trick'?",
+      "question": "[MITTEL] Situation #2: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "Anspiel im Flug auf einen in den Torraum springenden Mitspieler",
-        "Ein Wurf hinter dem Rücken",
-        "Drehung um 360 Grad am Boden",
-        "Getäuschter Siebenmeter"
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff",
+        "2-Minuten-Strafe ohne 7m"
       ],
-      "correct": 0,
-      "explanation": "Beim Kempa-Trick fängt der Angreifer den Ball im Flug über dem Torraum und wirft vor der Landung."
+      "correct": 1,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
     },
     {
-      "question": "Wie zeigt der Schiedsrichter drohendes Zeitspiel (Passives Spiel) an?",
+      "question": "[MITTEL] Situation #3: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
       "options": [
-        "Gehobener Arm",
-        "Grüne Karte",
-        "Doppelpfiff",
-        "Überkreuzte Arme"
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf"
       ],
-      "correct": 0,
-      "explanation": "Das Passivwarnzeichen wird durch das Heben des Armes signalisiert."
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
     },
     {
-      "question": "Welcher Verein gewann 2023 die EHF Champions League im Final4 in Köln?",
+      "question": "[MITTEL] Situation #4: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
       "options": [
-        "SC Magdeburg",
-        "THW Kiel",
-        "FC Barcelona",
-        "Barlinek Industria Kielce"
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison"
       ],
-      "correct": 0,
-      "explanation": "Der SC Magdeburg sicherte sich 2023 den Champions-League-Titel."
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
     },
     {
-      "question": "Unter welchem Trainer wurde Deutschland 2016 Europameister ('Bad Boys')?",
+      "question": "[MITTEL] Situation #5: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
       "options": [
-        "Dagur Sigurdsson",
-        "Heiner Brand",
-        "Christian Prokop",
-        "Alfred Gislason"
+        "Passivspiel",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler"
       ],
-      "correct": 0,
-      "explanation": "Dagur Sigurdsson führte die deutsche Nationalmannschaft 2016 zum EM-Gold in Polen."
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
     },
     {
-      "question": "Welche Besonderheit hat der 'Specialist' im Beachhandball?",
+      "question": "[MITTEL] Situation #6: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
       "options": [
-        "Seine Tore zählen immer 2 Punkte",
-        "Er darf als einziger prellen",
-        "Er ist der einzige Abwehrspieler",
-        "Er darf den Sand nicht verlassen"
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe"
       ],
-      "correct": 0,
-      "explanation": "Tore des Specialist (oft der eingewechselte Angriffs-Torwart) zählen doppelt."
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "Was passiert bei Gleichstand (1:1 nach Sätzen) im Beachhandball?",
+      "question": "[MITTEL] Situation #7: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Das Spiel wird im 'Shootout' entschieden",
-        "2x 5 Minuten Verlängerung",
-        "Siebenmeterwerfen",
-        "Das Spiel endet unentschieden"
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft"
       ],
-      "correct": 0,
-      "explanation": "Steht es 1:1 nach Sätzen, entscheidet das Shootout (1 gegen 1 mit Torwart)."
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 8: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #8: Was versteht man im Handball unter einer '6:0-Abwehr'?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 9: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #9: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 10: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #10: Was bedeutet der Begriff 'Kempa-Trick'?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 11: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #11: Was bezeichnet man im Handball als 'Kreuzen'?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 12: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #12: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Kroatien"
+      ],
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #13: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "DEL"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 13: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #14: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten",
+        "50 Minuten"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 14: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 15: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 16: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #15: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
       "options": [
         "2 Punkte",
         "1 Punkt",
@@ -2377,4233 +2365,4244 @@ window.quizData = {
         "4 Punkte"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 17: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #16: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler",
+        "Aufsetzertor"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 18: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #17: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 19: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #18: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Ungültiger Wurf",
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #19: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #20: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #21: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 20: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #22: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
       "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul",
+        "Passivspiel",
+        "Schrittfehler"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #23: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe",
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe"
+      ],
+      "correct": 3,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #24: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #25: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #26: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #27: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #28: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #29: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Dänemark",
+        "Kroatien",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #30: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #31: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten"
+      ],
+      "correct": 2,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #32: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
+        "3 Punkte",
         "2 Punkte",
+        "1 Punkt"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[MITTEL] Situation #33: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Aufsetzertor"
+      ],
+      "correct": 0,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #34: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Verlängerung 2x 5 Min",
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #35: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter"
+      ],
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #36: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 0,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #37: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #38: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #39: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul",
+        "Passivspiel"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #40: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #41: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern",
+        "Foul im Torraum"
+      ],
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #42: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #43: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #44: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #45: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #46: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Dänemark",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #47: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "EHF Champions League",
+        "DEL",
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #48: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #49: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "3 Punkte",
+        "4 Punkte",
         "1 Punkt",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[MITTEL] Situation #50: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Aufsetzertor",
+        "Tor von der Außenseite"
+      ],
+      "correct": 1,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #51: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf"
+      ],
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #52: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Tor zählt",
+        "Ungültiger Wurf"
+      ],
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #53: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #54: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #55: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #56: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Schrittfehler",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #57: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe"
+      ],
+      "correct": 3,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #58: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #59: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #60: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #61: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #62: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #63: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Frankreich"
+      ],
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #64: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL",
+        "EHF Champions League"
+      ],
+      "correct": 1,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #65: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten"
+      ],
+      "correct": 2,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #66: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "2 Punkte",
         "3 Punkte",
         "4 Punkte"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 21: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #67: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Aufsetzertor"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 22: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #68: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #69: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Ungültiger Wurf",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 23: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #70: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #71: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #72: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #73: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Schrittfehler",
+        "Passivspiel",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #74: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 24: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #75: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "2 Punkte",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Unsportliches Meckern"
+      ],
+      "correct": 0,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #76: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #77: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #78: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #79: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #80: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Dänemark",
+        "Frankreich",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #81: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "DEL"
+      ],
+      "correct": 1,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #82: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #83: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
         "1 Punkt",
+        "2 Punkte",
         "3 Punkte",
         "4 Punkte"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 25: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #84: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler"
+      ],
+      "correct": 1,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #85: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #86: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr"
+      ],
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #87: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #88: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Blaue Karte und Freiwurf",
+        "2-Minuten-Strafe"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #89: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #90: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #91: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 26: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #92: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler",
+        "Unsportliches Meckern",
+        "Foul im Torraum"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 27: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #93: Was versteht man im Handball unter einer '6:0-Abwehr'?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #94: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #95: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #96: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 28: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #97: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Dänemark",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #98: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "DEL",
+        "EHF Champions League"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #99: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "50 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #100: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "4 Punkte",
+        "2 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[MITTEL] Situation #101: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Aufsetzertor",
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #102: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #103: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Ungültiger Wurf"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #104: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #105: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #106: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #107: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #108: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe"
+      ],
+      "correct": 3,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #109: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #110: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #111: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #112: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #113: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #114: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien",
+        "Dänemark"
+      ],
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #115: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #116: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #117: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
       "options": [
         "2 Punkte",
-        "1 Punkt",
+        "4 Punkte",
         "3 Punkte",
-        "4 Punkte"
+        "1 Punkt"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 29: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #118: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 30: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #119: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 31: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #120: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Ungültiger Wurf",
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 32: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #121: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
+        "Freiwurf für den Angriff",
+        "2-Minuten-Strafe ohne 7m",
+        "Einwurf",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #122: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #123: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #124: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul",
+        "Passivspiel"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #125: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #126: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #127: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #128: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #129: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #130: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #131: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #132: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #133: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten"
+      ],
+      "correct": 2,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #134: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "3 Punkte",
         "2 Punkte",
         "1 Punkt",
-        "3 Punkte",
         "4 Punkte"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 33: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #135: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #136: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #137: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Tor zählt",
+        "Ungültiger Wurf"
+      ],
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #138: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 1,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #139: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #140: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #141: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #142: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe"
+      ],
+      "correct": 3,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #143: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #144: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 34: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #145: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #146: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 35: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #147: Was bezeichnet man im Handball als 'Kreuzen'?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 36: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #148: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
       "options": [
-        "2 Punkte",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Kroatien"
+      ],
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #149: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL",
+        "2. Handball-Bundesliga",
+        "EHF Champions League"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #150: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "50 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 2,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #151: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "3 Punkte",
+        "4 Punkte",
         "1 Punkt",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[MITTEL] Situation #152: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #153: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 0,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #154: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "7-Meter"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #155: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #156: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "2-Minuten-Strafe"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #157: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #158: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Stürmerfoul"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #159: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #160: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #161: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #162: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #163: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #164: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #165: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Kroatien"
+      ],
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #166: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "DEL",
+        "EHF Champions League"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #167: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)"
+      ],
+      "correct": 3,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #168: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
         "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 37: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 38: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 39: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 40: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
+        "4 Punkte",
         "1 Punkt",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[MITTEL] Situation #169: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[MITTEL] Situation #170: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[MITTEL] Situation #171: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[MITTEL] Situation #172: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "Einwurf",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[MITTEL] Situation #173: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[MITTEL] Situation #174: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[MITTEL] Situation #175: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[MITTEL] Situation #176: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[MITTEL] Situation #177: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[MITTEL] Situation #178: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[MITTEL] Situation #179: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[MITTEL] Situation #180: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[MITTEL] Situation #181: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Das Betreten des Torraums"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[MITTEL] Situation #182: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Frankreich",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[MITTEL] Situation #183: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[MITTEL] Situation #184: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[MITTEL] Situation #185: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
         "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 41: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 42: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 43: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 44: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
         "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "1 Punkt"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 45: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 46: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 47: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 48: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 49: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 50: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 51: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 52: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 53: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 54: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 55: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 56: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 57: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 58: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 59: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 60: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 61: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 62: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 63: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 64: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 65: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 66: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 67: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 68: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 69: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 70: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 71: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 72: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 73: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 74: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 75: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 76: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 77: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 78: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 79: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 80: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 81: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 82: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 83: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 84: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 85: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 86: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 87: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 88: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 89: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 90: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 91: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 92: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 93: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 94: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 95: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 96: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 97: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 98: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 99: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 100: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 101: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 102: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 103: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 104: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 105: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 106: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 107: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 108: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 109: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 110: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 111: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 112: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 113: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 114: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 115: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 116: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 117: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 118: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 119: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 120: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 121: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 122: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 123: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 124: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 125: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 126: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 127: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 128: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 129: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 130: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 131: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 132: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 133: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 134: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 135: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 136: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 137: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 138: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 139: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 140: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 141: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 142: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 143: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 144: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 145: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 146: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 147: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 148: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 149: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 150: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 151: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 152: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 153: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 154: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 155: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 156: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 157: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 158: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 159: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 160: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 161: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 162: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 163: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 164: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 165: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 166: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 167: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 168: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 169: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 170: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 171: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 172: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 173: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 174: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 175: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 176: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 177: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 178: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 179: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 180: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 181: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Mittel] Frage 182: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 183: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Mittel] Frage 184: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Mittel] Frage 185: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 186: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #186: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 1,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 187: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #187: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 188: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #188: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt",
+        "Ungültiger Wurf",
+        "7-Meter"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 189: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #189: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "Einwurf",
+        "7-Meter-Strafwurf"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 190: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #190: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 191: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #191: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 192: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #192: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 193: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #193: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 194: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #194: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler",
+        "Unsportliches Meckern"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 195: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #195: Was versteht man im Handball unter einer '6:0-Abwehr'?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 196: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #196: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
     },
     {
-      "question": "[REGELWERK - Mittel] Frage 197: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[MITTEL] Situation #197: Was bedeutet der Begriff 'Kempa-Trick'?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
     },
     {
-      "question": "[TAKTIK - Mittel] Frage 198: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[MITTEL] Situation #198: Was bezeichnet man im Handball als 'Kreuzen'?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "[PROFI-HANDBALL - Mittel] Frage 199: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[MITTEL] Situation #199: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien",
+        "Dänemark"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 1,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
     },
     {
-      "question": "[BEACHHANDBALL - Mittel] Frage 200: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[MITTEL] Situation #200: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League",
+        "2. Handball-Bundesliga",
+        "DEL"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
     }
   ],
   "schwer": [
     {
-      "question": "Wie viele Pässe verbleiben nach dem Passivwarnzeichen maximal bis zum Torschuss?",
+      "question": "[SCHWER] Situation #1: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Ungültiger Wurf",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #2: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #3: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #4: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #5: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #6: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #7: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #8: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #9: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #10: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #11: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #12: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Dänemark",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #13: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "DEL",
+        "EHF Champions League"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #14: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "50 Minuten",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)"
+      ],
+      "correct": 3,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #15: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "3 Punkte",
+        "4 Punkte",
+        "1 Punkt",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #16: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #17: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf"
+      ],
+      "correct": 0,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #18: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Ungültiger Wurf",
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #19: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "Einwurf"
+      ],
+      "correct": 0,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #20: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #21: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #22: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Stürmerfoul",
+        "Schrittfehler"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #23: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 0,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #24: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #25: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #26: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #27: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #28: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #29: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich",
+        "Dänemark",
+        "Kroatien"
+      ],
+      "correct": 0,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #30: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "EHF Champions League",
+        "DEL",
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #31: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "90 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #32: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "2 Punkte",
+        "4 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #33: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #34: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min"
+      ],
+      "correct": 0,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #35: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr"
+      ],
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #36: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf",
+        "Freiwurf für den Angriff",
+        "Einwurf"
+      ],
+      "correct": 1,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #37: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #38: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #39: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Stürmerfoul",
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #40: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #41: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern",
+        "Wechselfehler"
+      ],
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #42: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #43: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Fünf Spieler greifen an, einer verteidigt"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #44: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #45: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Das Betreten des Torraums"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #46: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Dänemark",
+        "Frankreich",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #47: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League",
+        "2. Handball-Bundesliga"
+      ],
+      "correct": 1,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #48: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten",
+        "50 Minuten"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #49: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "4 Punkte",
+        "3 Punkte",
+        "2 Punkte",
+        "1 Punkt"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #50: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Aufsetzertor"
+      ],
+      "correct": 1,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #51: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min"
+      ],
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #52: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "Tor zählt"
+      ],
+      "correct": 3,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #53: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Freiwurf für den Angriff",
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf",
+        "Einwurf"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #54: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #55: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #56: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Schrittfehler",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Stürmerfoul"
+      ],
+      "correct": 2,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #57: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #58: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Foul im Torraum",
+        "Wechselfehler",
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #59: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #60: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #61: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #62: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #63: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Kroatien",
+        "Frankreich"
+      ],
+      "correct": 0,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #64: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "EHF Champions League",
+        "DEL",
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #65: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "50 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #66: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "3 Punkte",
+        "2 Punkte",
+        "1 Punkt",
+        "4 Punkte"
+      ],
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #67: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Aufsetzertor",
+        "Tor nach Schrittfehler"
+      ],
+      "correct": 1,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #68: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min"
+      ],
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #69: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Ungültiger Wurf"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #70: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #71: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #72: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison",
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #73: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Stürmerfoul",
+        "Schrittfehler"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #74: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #75: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern"
+      ],
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #76: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #77: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #78: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #79: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Das Betreten des Torraums"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #80: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien",
+        "Dänemark",
+        "Frankreich"
+      ],
+      "correct": 0,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #81: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "EHF Champions League",
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #82: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "50 Minuten",
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #83: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "4 Punkte",
+        "2 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #84: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #85: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)"
+      ],
+      "correct": 3,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #86: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt",
+        "7-Meter",
+        "Ungültiger Wurf"
+      ],
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #87: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Freiwurf für den Angriff",
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #88: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "2-Minuten-Strafe"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #89: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte"
+      ],
+      "correct": 1,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #90: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #91: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 0,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #92: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum",
+        "Unsportliches Meckern",
+        "Wechselfehler"
+      ],
+      "correct": 0,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #93: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #94: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #95: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Drehwurf um den Torwart herum",
+        "Ein verdeckter Schlagwurf",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #96: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #97: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Frankreich",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #98: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "2. Handball-Bundesliga",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #99: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #100: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "4 Punkte",
+        "3 Punkte",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #101: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Aufsetzertor",
+        "Tor nach Schrittfehler",
+        "Tor von der Außenseite",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #102: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf",
+        "Verlängerung 2x 5 Min",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 0,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #103: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt",
+        "7-Meter",
+        "Ungültiger Wurf"
+      ],
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #104: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf"
+      ],
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #105: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe",
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung"
+      ],
+      "correct": 0,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #106: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #107: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Passivspiel",
+        "Schrittfehler",
+        "Stürmerfoul"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #108: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 0,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #109: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum",
+        "Unsportliches Meckern"
+      ],
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #110: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #111: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #112: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #113: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #114: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #115: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "DEL",
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #116: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "80 Minuten (2x 40 Min)",
+        "90 Minuten",
+        "50 Minuten"
+      ],
+      "correct": 0,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #117: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "3 Punkte",
+        "4 Punkte",
+        "2 Punkte"
+      ],
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #118: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Aufsetzertor"
+      ],
+      "correct": 2,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #119: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Münzwurf",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Unentschieden bleibt bestehen"
+      ],
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #120: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Ungültiger Wurf",
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter"
+      ],
+      "correct": 1,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #121: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #122: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #123: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Er darf nach 5 Minuten wieder mitspielen"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #124: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Passivspiel",
+        "Schrittfehler",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #125: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #126: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Wechselfehler",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Foul im Torraum",
+        "Unsportliches Meckern"
+      ],
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #127: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 0,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #128: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #129: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #130: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #131: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Frankreich",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #132: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)"
+      ],
+      "correct": 3,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #133: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "50 Minuten",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)"
+      ],
+      "correct": 3,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #134: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "1 Punkt",
+        "2 Punkte",
+        "4 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #135: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor nach Schrittfehler",
+        "Tor durch den Torwart/Specialist oder 7m"
+      ],
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #136: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf",
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min"
+      ],
+      "correct": 0,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #137: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Ungültiger Wurf",
+        "7-Meter",
+        "Kein Tor, Freiwurf Abwehr"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #138: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 0,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #139: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf"
+      ],
+      "correct": 1,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #140: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #141: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler",
+        "Passivspiel"
+      ],
+      "correct": 1,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #142: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
       "options": [
         "Maximal 4 Pässe",
         "Maximal 6 Pässe",
         "Maximal 2 Pässe",
-        "Maximal 8 Pässe"
+        "Unbegrenzt viele Pässe"
       ],
       "correct": 0,
-      "explanation": "Nach dem Heben des Armes stehen dem angreifenden Team noch maximal 4 Pässe zur Verfügung."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "Was signalisiert die BLAUE Karte im Handball?",
+      "question": "[SCHWER] Situation #143: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Disqualifikation mit folgendem schriftlichen Bericht (Sperre droht)",
-        "2-Minuten-Strafe für die Bank",
-        "Videobeweis wird gefordert",
-        "Auszeit für den Gegner"
+        "Unsportliches Meckern",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler",
+        "Foul im Torraum"
+      ],
+      "correct": 1,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #144: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "5 Spieler hinten, 1 Vorne",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Manndeckung auf dem ganzen Feld",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
+      ],
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #145: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt"
       ],
       "correct": 0,
-      "explanation": "Die Blaue Karte zeigt an, dass ein Disziplinarbericht zur Prüfung einer Sperre folgt."
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
     },
     {
-      "question": "Welche Strafe folgt bei einem groben Foul in den letzten 30 Sekunden zur Verhinderung eines Tors?",
+      "question": "[SCHWER] Situation #146: Was bedeutet der Begriff 'Kempa-Trick'?",
       "options": [
-        "Rote/Blaue Karte UND 7-Meter",
-        "Nur 2-Minuten-Strafe",
-        "Nur Freiwurf",
-        "7-Meter ohne Karte"
+        "Ein Hüftwurf durch die Beine",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #147: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Foulspiel mit gekreuzten Armen",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #148: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Frankreich",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)"
+      ],
+      "correct": 3,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #149: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "EHF Champions League"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #150: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "50 Minuten",
+        "80 Minuten (2x 40 Min)"
       ],
       "correct": 0,
-      "explanation": "Unsportlichkeiten in den letzten 30 Sekunden werden zwingend mit Rot/Blau und 7-Meter geahndet."
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
     },
     {
-      "question": "Wer ist der All-Time-Rekordtorschütze der Handball-Bundesliga (HBL)?",
+      "question": "[SCHWER] Situation #151: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
       "options": [
-        "Yoon Kyung-shin",
-        "Lars Christiansen",
-        "Stefan Kretzschmar",
-        "Robert Weber"
-      ],
-      "correct": 0,
-      "explanation": "Der Südkoreaner Yoon Kyung-shin erzielte über 2.900 Tore in der HBL."
-    },
-    {
-      "question": "Welcher deutsche Handballer wurde sowohl als Spieler (1978) als auch als Trainer (2007) Weltmeister?",
-      "options": [
-        "Heiner Brand",
-        "Martin Schwalb",
-        "Christian Prokop",
-        "Bob Hanning"
-      ],
-      "correct": 0,
-      "explanation": "Heiner Brand gelang dieses historische Kunststück."
-    },
-    {
-      "question": "Wie groß ist das Spielfeld im Beachhandball inklusive Torräumen?",
-      "options": [
-        "27 x 12 Meter",
-        "40 x 20 Meter",
-        "30 x 15 Meter",
-        "25 x 10 Meter"
-      ],
-      "correct": 0,
-      "explanation": "Das Sandfeld misst exakt 27 x 12 Meter."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 7: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 8: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
         "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 9: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 10: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 11: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 12: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
+        "4 Punkte",
         "2 Punkte",
-        "1 Punkt",
+        "1 Punkt"
+      ],
+      "correct": 2,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
+    },
+    {
+      "question": "[SCHWER] Situation #152: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
+      "options": [
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor von der Außenseite"
+      ],
+      "correct": 0,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
+    },
+    {
+      "question": "[SCHWER] Situation #153: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
+      "options": [
+        "Unentschieden bleibt bestehen",
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Münzwurf"
+      ],
+      "correct": 2,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #154: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "7-Meter",
+        "Ungültiger Wurf"
+      ],
+      "correct": 0,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
+    },
+    {
+      "question": "[SCHWER] Situation #155: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
+      "options": [
+        "7-Meter-Strafwurf",
+        "Einwurf",
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff"
+      ],
+      "correct": 0,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #156: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "2-Minuten-Strafe",
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #157: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Blaue Karte",
+        "Ausschluss für den Rest der Saison",
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Disqualifikation (Rote Karte)"
+      ],
+      "correct": 3,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #158: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul"
+      ],
+      "correct": 0,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #159: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
+    },
+    {
+      "question": "[SCHWER] Situation #160: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
+      "options": [
+        "Unsportliches Meckern",
+        "Wechselfehler",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft"
+      ],
+      "correct": 3,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #161: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "Manndeckung auf dem ganzen Feld"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #162: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #163: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein verdeckter Schlagwurf",
+        "Ein Hüftwurf durch die Beine",
+        "Ein Drehwurf um den Torwart herum"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #164: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #165: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Frankreich",
+        "Kroatien"
+      ],
+      "correct": 0,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #166: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "2. Handball-Bundesliga",
+        "EHF Champions League",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL"
+      ],
+      "correct": 2,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #167: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)",
+        "90 Minuten",
+        "50 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #168: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
         "3 Punkte",
-        "4 Punkte"
+        "4 Punkte",
+        "1 Punkt",
+        "2 Punkte"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 3,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[REGELWERK - Schwer] Frage 13: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[SCHWER] Situation #169: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Tor durch den Torwart/Specialist oder 7m",
+        "Tor von der Außenseite",
+        "Aufsetzertor",
+        "Tor nach Schrittfehler"
       ],
       "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[TAKTIK - Schwer] Frage 14: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[SCHWER] Situation #170: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Verlängerung 2x 5 Min",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Unentschieden bleibt bestehen",
+        "Münzwurf"
+      ],
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
+    },
+    {
+      "question": "[SCHWER] Situation #171: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
+      "options": [
+        "Tor zählt",
+        "Kein Tor, Freiwurf Abwehr",
+        "Ungültiger Wurf",
+        "7-Meter"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 15: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[SCHWER] Situation #172: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Einwurf",
+        "Freiwurf für den Angriff",
+        "7-Meter-Strafwurf",
+        "2-Minuten-Strafe ohne 7m"
+      ],
+      "correct": 2,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
+    },
+    {
+      "question": "[SCHWER] Situation #173: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
+      "options": [
+        "Blaue Karte und Freiwurf",
+        "Nur Freiwurf-Wiederholung",
+        "2-Minuten-Strafe",
+        "Rote Karte (ohne Bericht) und 7-Meter"
+      ],
+      "correct": 3,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
+    },
+    {
+      "question": "[SCHWER] Situation #174: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
+      "options": [
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Blaue Karte",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für den Rest der Saison"
+      ],
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
+    },
+    {
+      "question": "[SCHWER] Situation #175: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
+      "options": [
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul",
+        "Doppelprellen (Zweimaliges Prellen)"
+      ],
+      "correct": 3,
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
+    },
+    {
+      "question": "[SCHWER] Situation #176: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
+      "options": [
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt viele Pässe"
       ],
       "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "[BEACHHANDBALL - Schwer] Frage 16: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[SCHWER] Situation #177: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Wechselfehler"
+      ],
+      "correct": 0,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
+    },
+    {
+      "question": "[SCHWER] Situation #178: Was versteht man im Handball unter einer '6:0-Abwehr'?",
+      "options": [
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie",
+        "5 Spieler hinten, 1 Vorne"
+      ],
+      "correct": 2,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
+    },
+    {
+      "question": "[SCHWER] Situation #179: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
+      "options": [
+        "Zwei Spieler stehen am Kreis",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Fünf Spieler greifen an, einer verteidigt"
+      ],
+      "correct": 1,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
+    },
+    {
+      "question": "[SCHWER] Situation #180: Was bedeutet der Begriff 'Kempa-Trick'?",
+      "options": [
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine",
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
+    },
+    {
+      "question": "[SCHWER] Situation #181: Was bezeichnet man im Handball als 'Kreuzen'?",
+      "options": [
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
+    },
+    {
+      "question": "[SCHWER] Situation #182: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
+      "options": [
+        "Kroatien",
+        "Frankreich",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark"
+      ],
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
+    },
+    {
+      "question": "[SCHWER] Situation #183: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
+      "options": [
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "DEL",
+        "EHF Champions League",
+        "2. Handball-Bundesliga"
+      ],
+      "correct": 0,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
+    },
+    {
+      "question": "[SCHWER] Situation #184: Wie viele Minuten beträgt die reine Spielzeit in der EHF Champions League bei den Profis?",
+      "options": [
+        "50 Minuten",
+        "90 Minuten",
+        "80 Minuten (2x 40 Min)",
+        "60 Minuten (2x 30 Min)"
+      ],
+      "correct": 3,
+      "explanation": "Im Profihandball beträgt die Spielzeit regulär zweimal 30 Minuten."
+    },
+    {
+      "question": "[SCHWER] Situation #185: Wie viele Punkte bringt ein Tor durch einen spektakulären 'Spin-Shot' (Pirouette) im Beachhandball?",
+      "options": [
+        "3 Punkte",
         "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "4 Punkte",
+        "1 Punkt"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 17: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 18: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 19: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 20: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 21: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 22: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 23: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 24: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 25: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 26: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 27: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 28: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 29: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 30: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 31: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 32: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 33: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 34: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 35: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 36: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 37: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 38: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 39: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 40: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 41: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 42: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 43: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 44: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 45: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 46: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 47: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 48: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 49: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 50: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 51: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 52: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 53: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 54: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 55: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 56: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 57: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 58: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 59: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 60: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 61: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 62: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 63: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 64: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 65: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 66: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 67: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 68: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 69: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 70: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 71: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 72: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 73: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 74: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 75: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 76: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 77: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 78: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 79: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 80: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 81: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 82: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 83: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 84: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 85: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 86: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 87: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 88: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 89: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 90: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 91: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 92: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 93: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 94: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 95: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 96: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 97: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 98: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 99: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 100: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 101: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 102: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 103: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 104: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 105: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 106: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 107: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 108: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 109: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 110: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 111: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 112: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 113: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 114: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 115: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 116: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 117: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 118: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 119: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 120: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 121: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 122: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 123: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 124: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 125: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 126: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 127: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 128: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 129: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 130: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 131: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 132: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 133: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 134: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 135: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 136: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 137: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 138: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 139: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 140: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 141: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 142: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 143: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 144: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 145: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 146: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 147: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 148: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 149: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 150: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 151: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 152: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 153: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 154: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 155: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 156: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 157: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 158: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 159: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 160: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 161: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 162: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 163: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 164: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 165: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 166: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 167: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 168: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 169: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 170: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 171: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 172: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 173: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 174: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 175: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 176: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 177: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
-    },
-    {
-      "question": "[TAKTIK - Schwer] Frage 178: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
-      "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
-      ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 179: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 180: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 181: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 1,
+      "explanation": "Atemberaubende Tore wie Spin-Shots oder Kempa-Tricks werden im Beachhandball doppelt belohnt (2 Punkte)."
     },
     {
-      "question": "[TAKTIK - Schwer] Frage 182: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[SCHWER] Situation #186: Welcher Balltreffer zählt im Beachhandball ebenfalls IMMER 2 Punkte?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Tor von der Außenseite",
+        "Tor nach Schrittfehler",
+        "Aufsetzertor",
+        "Tor durch den Torwart/Specialist oder 7m"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 183: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
-    },
-    {
-      "question": "[BEACHHANDBALL - Schwer] Frage 184: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
-      "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
-      ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
-    },
-    {
-      "question": "[REGELWERK - Schwer] Frage 185: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
-      "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
-      ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Tore des Torwarts/Specialists sowie Siebenmeter-Treffer zählen im Beachhandball stets 2 Punkte."
     },
     {
-      "question": "[TAKTIK - Schwer] Frage 186: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[SCHWER] Situation #187: Was passiert im Beachhandball, wenn es nach zwei Halbzeiten 1:1 nach Satzgewinnen steht?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Unentschieden bleibt bestehen",
+        "Penalty Shoot-Out (1 gegen Torwart)",
+        "Verlängerung 2x 5 Min",
+        "Münzwurf"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
-    },
-    {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 187: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
-      "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
-      ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 1,
+      "explanation": "Steht es nach Halbzeiten 1:1, entscheidet das spektakuläre 'Shoot-Out' über den Gesamtsieg."
     },
     {
-      "question": "[BEACHHANDBALL - Schwer] Frage 188: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[SCHWER] Situation #188: Ein Rückraumspieler springt in den 6m-Torraum ab, wirft den Ball ins Tor und landet erst danach im Torraum. Wie entscheidet der Schiedsrichter?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Ungültiger Wurf",
+        "Kein Tor, Freiwurf Abwehr",
+        "Tor zählt",
+        "7-Meter"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 2,
+      "explanation": "Der Absprung erfolgte außerhalb des Torraums. Das Ausführen des Wurfs vor dem Landen im Torraum ist völlig regelkonform."
     },
     {
-      "question": "[REGELWERK - Schwer] Frage 189: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[SCHWER] Situation #189: Ein Abwehrspieler betritt den eigenen Torraum, um sich einen Vorteil gegenüber dem Angreifer zu verschaffen und verhindert eine klare Torchance. Welche Strafe folgt?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "2-Minuten-Strafe ohne 7m",
+        "Freiwurf für den Angriff",
+        "Einwurf",
+        "7-Meter-Strafwurf"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Das absichtliche Betreten des Torraums zur Vereitelung einer klaren Torchance führt zwingend zum 7-Meter."
     },
     {
-      "question": "[TAKTIK - Schwer] Frage 190: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[SCHWER] Situation #190: In den letzten 30 Sekunden eines Spiels verhindert ein Abwehrspieler die Ausführung eines Freiwurfs durch Regelwidrigkeit oder Passabfangen aus zu kurzem Abstand. Was passiert?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Nur Freiwurf-Wiederholung",
+        "Blaue Karte und Freiwurf",
+        "Rote Karte (ohne Bericht) und 7-Meter",
+        "2-Minuten-Strafe"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 2,
+      "explanation": "In den letzten 30 Sekunden führt das Verhindern einer Wurfausführung direkt zur Roten Karte und einem 7-Meter-Strafwurf."
     },
     {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 191: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[SCHWER] Situation #191: Ein Spieler erhält seine dritte 2-Minuten-Strafe im selben Spiel. Was ist die Konsequenz?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Er darf nach 5 Minuten wieder mitspielen",
+        "Ausschluss für den Rest der Saison",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 2,
+      "explanation": "Die dritte 2-Minuten-Strafe führt automatisch zur Disqualifikation (Rote Karte) des Spielers."
     },
     {
-      "question": "[BEACHHANDBALL - Schwer] Frage 192: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[SCHWER] Situation #192: Ein Angreifer prellt den Ball, nimmt ihn mit beiden Händen auf und fängt nach zwei Schritten erneut an zu prellen. Welche Regelwidrigkeit liegt vor?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Doppelprellen (Zweimaliges Prellen)",
+        "Schrittfehler",
+        "Passivspiel",
+        "Stürmerfoul"
       ],
       "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "explanation": "Wer den Ball nach dem Prellen festmacht, darf nicht noch einmal tippen. Das ist Doppelprellen."
     },
     {
-      "question": "[REGELWERK - Schwer] Frage 193: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[SCHWER] Situation #193: Der Schiedsrichter hebt den Arm für das Vorwarnzeichen (Passivspiel). Wie viele Pässe verbleiben der angreifenden Mannschaft maximal bis zum Torwurf?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Maximal 2 Pässe",
+        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 3,
+      "explanation": "Nach dem Vorwarnzeichen stehen dem Angriffsteam noch maximal 4 Pässe zur Verfügung."
     },
     {
-      "question": "[TAKTIK - Schwer] Frage 194: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[SCHWER] Situation #194: Ein Außenspieler wird beim Wurf im Sprung von der Abwehr in der Luft leicht geschubst und verliert die Kontrolle. Die Schiedsrichter entscheiden auf Rote Karte. Warum?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Unsportliches Meckern",
+        "Foul im Torraum",
+        "Gesundheitsgefährdendes Foul in der Luft",
+        "Wechselfehler"
       ],
-      "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "correct": 2,
+      "explanation": "Aktionen gegen Spieler in der Luft sind extrem gefährlich und werden zum Schutz der Gesundheit direkt mit Rot bestraft."
     },
     {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 195: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[SCHWER] Situation #195: Was versteht man im Handball unter einer '6:0-Abwehr'?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Manndeckung auf dem ganzen Feld",
+        "6 Spieler stehen an der 9-Meter-Linie",
+        "5 Spieler hinten, 1 Vorne",
+        "Alle 6 Feldspieler stehen an der 6-Meter-Kreislinie"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 3,
+      "explanation": "Bei der 6:0-Abwehrverbandsformation bilden alle sechs Feldspieler eine kompakte Mauer an der Torraumlinie."
     },
     {
-      "question": "[BEACHHANDBALL - Schwer] Frage 196: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[SCHWER] Situation #196: Was kennzeichnet die sogenannte '5:1-Abwehr'?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "Fünf Spieler greifen an, einer verteidigt",
+        "Zwei Spieler stehen am Kreis",
+        "Nur 5 Feldspieler stehen auf dem Feld",
+        "Ein Spieler agiert vorgezogen auf der 9-Meter-Linie"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 3,
+      "explanation": "Bei der 5:1-Formation steht ein sogenannter Vorgezogener vor der Fünfer-Kette, um den Rückraum zu stören."
     },
     {
-      "question": "[REGELWERK - Schwer] Frage 197: Spielszene im Hallenhandball: Bei einem Tempogegenstoß wird der Angreifer leicht an der Schulter berührt. Wie entscheidet der Schiedsrichter bei Verhindern einer Torgelegenheit?",
+      "question": "[SCHWER] Situation #197: Was bedeutet der Begriff 'Kempa-Trick'?",
       "options": [
-        "7-Meter und progressive Strafe",
-        "Nur einfacher Freiwurf",
-        "Einwurf für den Verteidiger",
-        "Keine Unterbrechung"
+        "Ein verdeckter Schlagwurf",
+        "Ein Drehwurf um den Torwart herum",
+        "Ein Spieler wirft im Sprung nach Zuspiel in der Luft direkt aufs Tor",
+        "Ein Hüftwurf durch die Beine"
       ],
-      "correct": 0,
-      "explanation": "Das Verhindern einer klaren Torgelegenheit erfordert zwingend einen 7-Meter-Strafwurf."
+      "correct": 2,
+      "explanation": "Beim Kempa-Trick wird der Ball gepasst, im Flug gefangen und noch vor dem Landen im Torraum verwandelt."
     },
     {
-      "question": "[TAKTIK - Schwer] Frage 198: Taktische Formation: Was ist das Hauptziel einer '5:1-Abwehr'?",
+      "question": "[SCHWER] Situation #198: Was bezeichnet man im Handball als 'Kreuzen'?",
       "options": [
-        "Den gegnerischen Rückraummitte-Spieler frühzeitig im Aufbau zu stören",
-        "Den Kreisläufer komplett zu doppeln",
-        "Nur die Außenspieler abzudecken",
-        "Ohne Torwart zu verteidigen"
+        "Ein taktischer Auftakt, bei dem zwei Rückraumspieler die Positionen tauschen",
+        "Das Betreten des Torraums",
+        "Ein Wechsel zwischen Torwart und Feldspieler",
+        "Ein Foulspiel mit gekreuzten Armen"
       ],
       "correct": 0,
-      "explanation": "Der vorgezogene Spieler bei der 5:1-Abwehr soll den zentralen Spielaufbau des Gegners unterbrechen."
+      "explanation": "Beim Kreuzen läuft ein Spieler hinter dem Ballhalter durch, um die Abwehr zu verwirren und Lücken zu reißen."
     },
     {
-      "question": "[PROFI-HANDBALL - Schwer] Frage 199: HBL & Champions League: Was versteht man unter der 'EHF Champions League Final4' Veranstaltung?",
+      "question": "[SCHWER] Situation #199: Welche deutsche Herren-Handballnationalmannschaft gewann 2007 die Weltmeisterschaft im eigenen Land ('Wintermärchen')?",
       "options": [
-        "Das Finalturnier der besten 4 Teams Europas in Köln",
-        "Die Relegation der Bundesliga",
-        "Ein Vorbereitungsturnier der HBL",
-        "Das Finale des DHB-Pokals"
+        "Dänemark",
+        "Kroatien",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
       ],
-      "correct": 0,
-      "explanation": "Das Final4 in der Kölnarena ist das Highlight des europäischen Vereins-Handballs."
+      "correct": 2,
+      "explanation": "Under Heiner Brand wurde Deutschland 2007 im eigenen Land Weltmeister."
     },
     {
-      "question": "[BEACHHANDBALL - Schwer] Frage 200: Beachhandball Spezial: Was ist ein 'Flyer' bzw. Kempa-Tor im Sand wert?",
+      "question": "[SCHWER] Situation #200: In welcher Liga spielen die besten Herren-Vereinsmannschaften Deutschlands?",
       "options": [
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte",
-        "4 Punkte"
+        "DEL",
+        "Liqui Moly HBL (Handball-Bundesliga)",
+        "2. Handball-Bundesliga",
+        "EHF Champions League"
       ],
-      "correct": 0,
-      "explanation": "Jedes spektakuläre Tor im Beachhandball (Spin Shot, Kempa/Flyer) zählt doppelt (2 Punkte)."
+      "correct": 1,
+      "explanation": "Die Handball-Bundesliga (HBL) gilt als die stärkste Vereinsliga der Welt."
     }
   ]
 };
