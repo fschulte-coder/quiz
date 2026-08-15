@@ -1,6608 +1,6608 @@
 window.spaceQuizData = {
   "leicht": [
     {
-      "question": "[LEICHT] Astro-Frage #1: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Welcher Planet in unserem Sonnensystem ist bekannt als der sonnennächste Planet?",
       "options": [
         "Neptun",
-        "Merkur",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #2: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #3: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Venus"
-      ],
-      "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #4: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "225 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #5: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Erde",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #6: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #7: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #8: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #9: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #10: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "12 Jahren",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #11: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #12: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #13: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
         "Uranus",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #14: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #15: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #16: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "165 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #17: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Polarstern",
-        "Die Sonne",
-        "Sirius",
-        "Der Mond"
-      ],
-      "correct": 1,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #18: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Mercury",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #19: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "Der Mond",
-        "ISS",
-        "Phobos"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #20: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Durch Magnetschuhe",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 1,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #21: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Plastik",
-        "Aus reinem Gold",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus flüssiger Lava"
-      ],
-      "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #22: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Merkur",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #23: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "88 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #24: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Venus"
-      ],
-      "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #25: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "225 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #26: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Erde",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #27: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "365 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #28: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #29: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "687 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #30: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #31: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "12 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #32: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Venus",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #33: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "29 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #34: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Uranus",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #35: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "84 Jahren",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #36: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Jupiter",
-        "Merkur",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #37: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "165 Jahren",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #38: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Der Polarstern",
-        "Der Mond",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #39: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
         "Pluto",
-        "Mercury",
-        "Mars",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #40: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "Der Mond",
-        "ISS",
-        "Titan"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #41: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #42: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Plastik",
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold"
-      ],
-      "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #43: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Merkur",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #44: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage",
-        "88 Tagen"
+        "Merkur"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
+      "explanation": "Er hat fast keine Atmosphäre und ist voller Krater."
     },
     {
-      "question": "[LEICHT] Astro-Frage #45: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
+      "question": "Wie lange braucht der Planet Merkur ungefähr für eine Runde um die Sonne?",
       "options": [
-        "Saturn",
+        "24 Stunden",
+        "1000 Jahre",
+        "30 Tage",
+        "88 Tage"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tage."
+    },
+    {
+      "question": "Welcher Planet in unserem Sonnensystem ist bekannt als der heißeste Planet?",
+      "options": [
         "Neptun",
-        "Jupiter",
+        "Pluto",
+        "Uranus",
         "Venus"
       ],
       "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
+      "explanation": "Dichte Giftwolken stauen die Hitze wie im Backofen."
     },
     {
-      "question": "[LEICHT] Astro-Frage #46: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
+      "question": "Wie lange braucht der Planet Venus ungefähr für eine Runde um die Sonne?",
       "options": [
-        "225 Tagen",
         "24 Stunden",
-        "100 Jahre",
+        "1000 Jahre",
+        "225 Tage",
         "30 Tage"
       ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #47: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Erde"
-      ],
-      "correct": 3,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #48: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #49: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Mars",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #50: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "687 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #51: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Mars"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #52: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "12 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #53: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Venus",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #54: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "29 Jahren",
-        "100 Jahre"
-      ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
+      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tage."
     },
     {
-      "question": "[LEICHT] Astro-Frage #55: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
+      "question": "Welcher Planet in unserem Sonnensystem ist bekannt als der 'Blaue Planet'?",
       "options": [
         "Uranus",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #56: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "84 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #57: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 1,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #58: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "165 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #59: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Sirius",
-        "Der Mond",
-        "Der Polarstern"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #60: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
+        "Erde",
         "Pluto",
-        "Mercury",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 0,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #61: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Der Mond",
-        "ISS",
-        "Titan",
-        "Phobos"
-      ],
-      "correct": 0,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #62: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe"
-      ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #63: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus reinem Gold",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus flüssiger Lava"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #64: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Merkur",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #65: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "88 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #66: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Venus",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #67: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "225 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #68: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Erde",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #69: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "365 Tagen",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #70: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Saturn",
         "Neptun"
       ],
       "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
+      "explanation": "Sie ist der einzige Planet mit flüssigem Wasser und Leben."
     },
     {
-      "question": "[LEICHT] Astro-Frage #71: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
+      "question": "Wie lange braucht der Planet Erde ungefähr für eine Runde um die Sonne?",
       "options": [
-        "100 Jahre",
+        "365 Tage",
         "30 Tage",
-        "687 Tagen",
-        "24 Stunden"
+        "24 Stunden",
+        "1000 Jahre"
       ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
+      "correct": 0,
+      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tage."
     },
     {
-      "question": "[LEICHT] Astro-Frage #72: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
+      "question": "Welcher Planet in unserem Sonnensystem ist bekannt als der 'Rote Planet'?",
       "options": [
         "Mars",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 3,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #73: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "12 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #74: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Venus",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #75: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "29 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #76: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
         "Uranus",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #77: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "84 Jahren",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #78: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Merkur",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #79: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #80: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Mond",
-        "Der Polarstern",
-        "Sirius",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #81: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mercury",
         "Pluto",
-        "Mars",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #82: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "ISS",
-        "Der Mond",
-        "Phobos"
-      ],
-      "correct": 2,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #83: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #84: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #85: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Merkur",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #86: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "88 Tagen",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #87: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Venus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #88: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #89: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Erde",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #90: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #91: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #92: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #93: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Mars"
-      ],
-      "correct": 2,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #94: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "12 Jahren",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #95: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Venus"
-      ],
-      "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #96: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "29 Jahren",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #97: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Uranus",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #98: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "84 Jahren",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #99: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Merkur",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #100: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #101: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Polarstern",
-        "Sirius",
-        "Der Mond",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #102: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Mercury",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #103: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "Phobos",
-        "Der Mond",
-        "ISS"
-      ],
-      "correct": 2,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #104: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe"
-      ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #105: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold",
-        "Aus Plastik"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #106: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Merkur",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #107: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "88 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #108: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Venus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #109: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "225 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #110: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Erde",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #111: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "365 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #112: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Saturn",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #113: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #114: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Saturn",
         "Neptun"
       ],
       "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
+      "explanation": "Rostiger Eisenstaub färbt seinen Boden rot."
     },
     {
-      "question": "[LEICHT] Astro-Frage #115: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
+      "question": "Wie lange braucht der Planet Mars ungefähr für eine Runde um die Sonne?",
       "options": [
-        "100 Jahre",
         "30 Tage",
-        "12 Jahren",
+        "1000 Jahre",
+        "687 Tage",
         "24 Stunden"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tage."
     },
     {
-      "question": "[LEICHT] Astro-Frage #116: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Welcher Planet in unserem Sonnensystem ist bekannt als der größte Planet?",
       "options": [
         "Jupiter",
-        "Venus",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #117: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #118: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Uranus",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #119: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "84 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #120: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Merkur"
-      ],
-      "correct": 2,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #121: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "165 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #122: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Der Polarstern",
-        "Die Sonne",
-        "Der Mond"
-      ],
-      "correct": 2,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #123: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mercury",
-        "Mars",
-        "Neptun",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #124: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "ISS",
-        "Der Mond",
-        "Titan"
-      ],
-      "correct": 2,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #125: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten",
-        "Durch Magnetschuhe",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
-      ],
-      "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #126: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold",
-        "Aus Plastik"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #127: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #128: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #129: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Venus"
-      ],
-      "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #130: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "225 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #131: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Erde"
-      ],
-      "correct": 3,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #132: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #133: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Saturn",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #134: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "687 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #135: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Mars",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #136: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "12 Jahren",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #137: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Venus",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #138: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "29 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #139: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Uranus",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #140: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #141: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Merkur",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #142: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "165 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #143: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Mond",
-        "Sirius",
-        "Die Sonne",
-        "Der Polarstern"
-      ],
-      "correct": 2,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #144: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
         "Pluto",
-        "Mercury",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #145: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "ISS",
-        "Der Mond",
-        "Titan",
-        "Phobos"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #146: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt"
-      ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #147: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #148: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Merkur",
         "Neptun",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #149: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "88 Tagen",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #150: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Venus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #151: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #152: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Saturn",
-        "Erde",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #153: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #154: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Mars",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #155: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #156: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Mars",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #157: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "12 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #158: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #159: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #160: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Uranus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #161: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #162: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #163: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "165 Jahren",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #164: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Der Polarstern",
-        "Der Mond",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #165: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Mercury",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #166: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "Der Mond",
-        "ISS",
-        "Phobos"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #167: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
-      ],
-      "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #168: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold",
-        "Aus Plastik"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #169: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #170: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "88 Tagen",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #171: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Venus",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #172: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "225 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #173: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Erde",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #174: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #175: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Mars",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #176: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "687 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #177: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Mars",
-        "Jupiter"
-      ],
-      "correct": 3,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #178: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "12 Jahren",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #179: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Venus",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #180: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "29 Jahren",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #181: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
         "Uranus"
       ],
-      "correct": 3,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
+      "correct": 0,
+      "explanation": "Er ist ein Riesengasball mit einem berühmten Wirbelsturm."
     },
     {
-      "question": "[LEICHT] Astro-Frage #182: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
+      "question": "Wie lange braucht der Planet Jupiter ungefähr für eine Runde um die Sonne?",
       "options": [
-        "30 Tage",
+        "1000 Jahre",
+        "12 Jahre",
         "24 Stunden",
-        "100 Jahre",
-        "84 Jahren"
+        "30 Tage"
       ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
+      "correct": 1,
+      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahre."
     },
     {
-      "question": "[LEICHT] Astro-Frage #183: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
+      "question": "Welcher Planet in unserem Sonnensystem ist bekannt als der Ringplanet?",
       "options": [
-        "Jupiter",
+        "Uranus",
+        "Pluto",
         "Saturn",
-        "Merkur",
         "Neptun"
       ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
+      "correct": 2,
+      "explanation": "Seine riesigen Ringe bestehen aus Eis- und Gesteinsbrocken."
     },
     {
-      "question": "[LEICHT] Astro-Frage #184: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
+      "question": "Wie lange braucht der Planet Saturn ungefähr für eine Runde um die Sonne?",
       "options": [
-        "165 Jahren",
-        "100 Jahre",
+        "1000 Jahre",
+        "29 Jahre",
         "30 Tage",
         "24 Stunden"
       ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
+      "correct": 1,
+      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahre."
     },
     {
-      "question": "[LEICHT] Astro-Frage #185: Welcher Stern steht im Zentrum unseres Sonnensystems?",
+      "question": "Sonnensystem-Frage #1: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
       "options": [
-        "Sirius",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #2: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #3: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #4: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #5: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #6: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #7: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #8: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #9: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #10: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #11: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #12: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #13: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #14: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #15: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #16: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #17: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #18: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #19: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #20: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #21: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #22: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #23: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #24: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #25: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #26: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #27: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #28: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #29: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
         "Die Sonne",
         "Der Mond",
         "Der Polarstern"
       ],
       "correct": 1,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
     },
     {
-      "question": "[LEICHT] Astro-Frage #186: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
+      "question": "Sonnensystem-Frage #30: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
       "options": [
-        "Mars",
-        "Pluto",
-        "Mercury",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #187: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
+        "Der Polarstern",
         "Der Mond",
-        "Titan",
-        "ISS"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #188: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #189: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus flüssiger Lava",
-        "Aus reinem Gold",
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')"
+        "Der Mars",
+        "Die Sonne"
       ],
       "correct": 3,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
     },
     {
-      "question": "[LEICHT] Astro-Frage #190: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Sonnensystem-Frage #31: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
       "options": [
-        "Merkur",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #191: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "88 Tagen"
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
     },
     {
-      "question": "[LEICHT] Astro-Frage #192: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
+      "question": "Sonnensystem-Frage #32: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
       "options": [
-        "Jupiter",
-        "Venus",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #193: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "225 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #194: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Erde"
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne"
       ],
       "correct": 3,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
     },
     {
-      "question": "[LEICHT] Astro-Frage #195: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
+      "question": "Sonnensystem-Frage #33: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
       "options": [
-        "24 Stunden",
-        "365 Tagen",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #196: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #197: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre",
-        "687 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #198: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #199: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "12 Jahren",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[LEICHT] Astro-Frage #200: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Venus"
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
       ],
       "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #34: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #35: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #36: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #37: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #38: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #39: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #40: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #41: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #42: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #43: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #44: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #45: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #46: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #47: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #48: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #49: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #50: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #51: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #52: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #53: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #54: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #55: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #56: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #57: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #58: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #59: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #60: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #61: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #62: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #63: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #64: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #65: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #66: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #67: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #68: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #69: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #70: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #71: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #72: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #73: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #74: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #75: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #76: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #77: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #78: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #79: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #80: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #81: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #82: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #83: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #84: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #85: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #86: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #87: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #88: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #89: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #90: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #91: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #92: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #93: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #94: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #95: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #96: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #97: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #98: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #99: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #100: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #101: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #102: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #103: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #104: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #105: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #106: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #107: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #108: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #109: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #110: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #111: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #112: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #113: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #114: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #115: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #116: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #117: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #118: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #119: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #120: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #121: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #122: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #123: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #124: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #125: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #126: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #127: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #128: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #129: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #130: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #131: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #132: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #133: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #134: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #135: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #136: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #137: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #138: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #139: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #140: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #141: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #142: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #143: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #144: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #145: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #146: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #147: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #148: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #149: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #150: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #151: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #152: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #153: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #154: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #155: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #156: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #157: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #158: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #159: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #160: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mars",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #161: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #162: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #163: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #164: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #165: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #166: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #167: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #168: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Mars",
+        "Der Polarstern"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #169: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Der Mars",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #170: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #171: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #172: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #173: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #174: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #175: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #176: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Die Sonne",
+        "Der Mond",
+        "Der Polarstern",
+        "Der Mars"
+      ],
+      "correct": 0,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #177: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #178: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #179: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mars",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #180: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Die Sonne",
+        "Der Polarstern",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #181: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Der Mond",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #182: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #183: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mond"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #184: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars",
+        "Der Mond"
+      ],
+      "correct": 1,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #185: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #186: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne",
+        "Der Mars"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #187: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Die Sonne",
+        "Der Polarstern"
+      ],
+      "correct": 2,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
+    },
+    {
+      "question": "Sonnensystem-Frage #188: Welcher Himmelskörper steht im Zentrum unseres Sonnensystems?",
+      "options": [
+        "Der Mars",
+        "Der Mond",
+        "Der Polarstern",
+        "Die Sonne"
+      ],
+      "correct": 3,
+      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas, um den alle Planeten kreisen."
     }
   ],
   "mittel": [
     {
-      "question": "[MITTEL] Astro-Frage #1: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Warum schweben Astronauten auf der Raumstation ISS?",
       "options": [
-        "Neptun",
-        "Jupiter",
-        "Merkur",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #2: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "88 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #3: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #4: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
+        "Weil sie sich im ständigen Freifall um die Erde befinden",
+        "Weil es im All keinen Magnetismus gibt",
+        "Weil große Ventilatoren Luft pusten",
+        "Durch spezielle Zauberschuhe"
       ],
       "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
+      "explanation": "Die ISS fällt dauerhaft um die Erde – das erzeugt Schwerelosigkeit."
     },
     {
-      "question": "[MITTEL] Astro-Frage #5: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Erde",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #6: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #7: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #8: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "687 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #9: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #10: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "12 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #11: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #12: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #13: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Uranus",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #14: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "84 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #15: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Merkur",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #16: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #17: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Sirius",
-        "Der Polarstern",
-        "Der Mond"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #18: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mercury",
-        "Neptun",
-        "Pluto",
-        "Mars"
-      ],
-      "correct": 2,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #19: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "ISS",
-        "Titan",
-        "Der Mond",
-        "Phobos"
-      ],
-      "correct": 2,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #20: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #21: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #22: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #23: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "88 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #24: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Venus",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #25: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "225 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #26: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Erde",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #27: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "365 Tagen",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #28: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #29: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "687 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #30: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Mars"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #31: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "12 Jahren",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #32: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Neptun",
-        "Venus"
-      ],
-      "correct": 1,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #33: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #34: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Saturn",
-        "Uranus"
-      ],
-      "correct": 3,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #35: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "84 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #36: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Merkur",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #37: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #38: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Mond",
-        "Die Sonne",
-        "Sirius",
-        "Der Polarstern"
-      ],
-      "correct": 1,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #39: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Pluto",
-        "Mars",
-        "Neptun",
-        "Mercury"
-      ],
-      "correct": 0,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #40: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "ISS",
-        "Titan",
-        "Phobos",
-        "Der Mond"
-      ],
-      "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #41: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #42: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #43: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #44: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #45: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Venus",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #46: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "225 Tagen",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #47: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Erde",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #48: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #49: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #50: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #51: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Mars",
-        "Jupiter"
-      ],
-      "correct": 3,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #52: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "12 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #53: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Venus",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #54: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #55: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Uranus",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #56: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "84 Jahren",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #57: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Jupiter",
-        "Merkur",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #58: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "165 Jahren",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #59: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Polarstern",
-        "Der Mond",
-        "Sirius",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #60: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Pluto",
-        "Mercury"
-      ],
-      "correct": 2,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #61: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Der Mond",
-        "ISS",
-        "Phobos",
-        "Titan"
-      ],
-      "correct": 0,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #62: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe"
-      ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #63: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Plastik",
-        "Aus reinem Gold",
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')"
-      ],
-      "correct": 3,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #64: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #65: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "88 Tagen",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #66: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #67: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage",
-        "225 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #68: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Erde",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #69: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #70: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #71: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #72: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Mars",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #73: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "12 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #74: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Venus"
-      ],
-      "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #75: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #76: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Uranus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #77: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #78: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Merkur",
-        "Neptun"
-      ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #79: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "165 Jahren",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #80: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Der Polarstern",
-        "Die Sonne",
-        "Der Mond"
-      ],
-      "correct": 2,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #81: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Pluto",
-        "Neptun",
-        "Mercury",
-        "Mars"
-      ],
-      "correct": 0,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #82: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "ISS",
-        "Titan",
-        "Phobos",
-        "Der Mond"
-      ],
-      "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #83: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe"
-      ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #84: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus reinem Gold",
-        "Aus flüssiger Lava",
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')"
-      ],
-      "correct": 3,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #85: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Merkur",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #86: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "88 Tagen",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #87: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Venus",
-        "Neptun",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #88: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "225 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #89: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Erde",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #90: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #91: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #92: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "687 Tagen",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #93: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Mars",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #94: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "12 Jahren",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #95: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Saturn",
-        "Venus",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #96: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "29 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #97: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #98: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #99: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Merkur",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #100: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "165 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #101: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Die Sonne",
-        "Der Mond",
-        "Der Polarstern"
-      ],
-      "correct": 1,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #102: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Pluto",
-        "Mercury",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 0,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #103: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Der Mond",
-        "Phobos",
-        "Titan",
-        "ISS"
-      ],
-      "correct": 0,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #104: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Durch Magnetschuhe",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt"
-      ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #105: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus reinem Gold",
-        "Aus flüssiger Lava"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #106: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Merkur",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #107: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "88 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #108: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Venus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #109: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "225 Tagen",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #110: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Erde",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #111: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #112: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #113: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "687 Tagen",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #114: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #115: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "12 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #116: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Saturn",
-        "Venus",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #117: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #118: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Uranus",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #119: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "84 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #120: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Merkur",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 3,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #121: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #122: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Polarstern",
-        "Die Sonne",
-        "Sirius",
-        "Der Mond"
-      ],
-      "correct": 1,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #123: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mercury",
-        "Neptun",
-        "Pluto",
-        "Mars"
-      ],
-      "correct": 2,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #124: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "ISS",
-        "Phobos",
-        "Der Mond"
-      ],
-      "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #125: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
-      ],
-      "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #126: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus flüssiger Lava",
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold"
-      ],
-      "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #127: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #128: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "88 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #129: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Saturn",
-        "Venus"
-      ],
-      "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #130: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #131: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Erde"
-      ],
-      "correct": 3,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #132: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "365 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #133: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Mars",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #134: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "687 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #135: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Mars"
-      ],
-      "correct": 2,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #136: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden",
-        "12 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #137: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Venus",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #138: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #139: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Uranus",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #140: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "84 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #141: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Merkur",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #142: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #143: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Polarstern",
-        "Der Mond",
-        "Sirius",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #144: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Mercury",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #145: Wie heit der einzige natürliche Satellit der Erde?",
+      "question": "Welcher Mond des Jupiters besitzt vermutlich einen riesigen Ozean unter seinem Eisanzug?",
       "options": [
         "Phobos",
-        "Der Mond",
-        "Titan",
-        "ISS"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #146: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #147: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold",
-        "Aus Plastik",
-        "Aus flüssiger Lava"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #148: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Merkur",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #149: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "88 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #150: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #151: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #152: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Erde",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #153: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "365 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #154: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Mars",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #155: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "687 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #156: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Mars",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #157: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "12 Jahren",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #158: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Saturn",
-        "Venus"
-      ],
-      "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #159: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "29 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #160: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Uranus"
-      ],
-      "correct": 3,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #161: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "84 Jahren",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #162: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Merkur",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #163: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "165 Jahren",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #164: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Der Mond",
-        "Sirius",
-        "Der Polarstern"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #165: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Neptun",
-        "Mercury",
-        "Pluto",
-        "Mars"
-      ],
-      "correct": 2,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #166: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "Titan",
-        "ISS",
-        "Der Mond"
-      ],
-      "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #167: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
-      ],
-      "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #168: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus reinem Gold",
-        "Aus Plastik",
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')"
-      ],
-      "correct": 3,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #169: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Merkur",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #170: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "88 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #171: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Venus",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #172: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "225 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #173: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Erde",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #174: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "365 Tagen",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #175: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Mars",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #176: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #177: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #178: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "12 Jahren",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #179: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Venus",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #180: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "29 Jahren",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #181: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Uranus",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #182: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre",
-        "84 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #183: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Merkur",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #184: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "165 Jahren",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #185: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Der Polarstern",
-        "Sirius",
-        "Der Mond",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #186: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Neptun",
-        "Mercury",
-        "Mars",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #187: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "Der Mond",
-        "ISS",
+        "Europa",
+        "Erdmond",
         "Titan"
       ],
       "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
+      "explanation": "Unter der Eiskruste des Jupitermondes Europa vermuten Forscher flüssiges Wasser."
     },
     {
-      "question": "[MITTEL] Astro-Frage #188: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
+      "question": "Wo befindet sich der Haupt-Asteroidengürtel in unserem Sonnensystem?",
       "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil dort riesige Ventilatoren pusten",
-        "Durch Magnetschuhe",
-        "Weil es im All keinen Sauerstoff gibt"
+        "Hinter dem Neptun",
+        "Zwischen Erde und Mond",
+        "Direkt neben der Sonne",
+        "Zwischen Mars und Jupiter"
+      ],
+      "correct": 3,
+      "explanation": "Der Asteroidengürtel trennt die inneren Gesteinsplaneten von den äußeren Gasriesen."
+    },
+    {
+      "question": "Raumfahrt-Wissen #1: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
       ],
       "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
     },
     {
-      "question": "[MITTEL] Astro-Frage #189: Woraus bestehen die meisten Kometen hauptsächlich?",
+      "question": "Raumfahrt-Wissen #2: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
       "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold",
-        "Aus Plastik",
-        "Aus flüssiger Lava"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #190: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Merkur"
-      ],
-      "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #191: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #192: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Venus",
-        "Neptun",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #193: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "225 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #194: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Erde"
-      ],
-      "correct": 3,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #195: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #196: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #197: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "687 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #198: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Mars",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
       ],
       "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
     },
     {
-      "question": "[MITTEL] Astro-Frage #199: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
+      "question": "Raumfahrt-Wissen #3: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
       "options": [
-        "12 Jahren",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[MITTEL] Astro-Frage #200: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Venus",
-        "Saturn"
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
       ],
       "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #4: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #5: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #6: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #7: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #8: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #9: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #10: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #11: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #12: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #13: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #14: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #15: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #16: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #17: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #18: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #19: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #20: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #21: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #22: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #23: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #24: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #25: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #26: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #27: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #28: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #29: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #30: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #31: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #32: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #33: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #34: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #35: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #36: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #37: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #38: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #39: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #40: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #41: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #42: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #43: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #44: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #45: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #46: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #47: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #48: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #49: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #50: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #51: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #52: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #53: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #54: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #55: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #56: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #57: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #58: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #59: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #60: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #61: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #62: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #63: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #64: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #65: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #66: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #67: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #68: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #69: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #70: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #71: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #72: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #73: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #74: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #75: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #76: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #77: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #78: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #79: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #80: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #81: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #82: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #83: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #84: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #85: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #86: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #87: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #88: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #89: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #90: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #91: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #92: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #93: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #94: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #95: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #96: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #97: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #98: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #99: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #100: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #101: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #102: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #103: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #104: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #105: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #106: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #107: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #108: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #109: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #110: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #111: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #112: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #113: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #114: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #115: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #116: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #117: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #118: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #119: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #120: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #121: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #122: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #123: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #124: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #125: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #126: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #127: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #128: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #129: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #130: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #131: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #132: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #133: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #134: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #135: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #136: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #137: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #138: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #139: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #140: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #141: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #142: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #143: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #144: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #145: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #146: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #147: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #148: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #149: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #150: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #151: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #152: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #153: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #154: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #155: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #156: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #157: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #158: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #159: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #160: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #161: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #162: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #163: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #164: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #165: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #166: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #167: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #168: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #169: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #170: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #171: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #172: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #173: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #174: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #175: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #176: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #177: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #178: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #179: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #180: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #181: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #182: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #183: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #184: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #185: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #186: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #187: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #188: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #189: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #190: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Voyager 1"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #191: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Voyager 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #192: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Sputnik 1",
+        "Apollo 11",
+        "James-Webb-Teleskop",
+        "Voyager 1"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #193: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #194: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "Apollo 11",
+        "Sputnik 1",
+        "James-Webb-Teleskop"
+      ],
+      "correct": 3,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #195: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #196: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "Voyager 1",
+        "James-Webb-Teleskop",
+        "Sputnik 1",
+        "Apollo 11"
+      ],
+      "correct": 1,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
+    },
+    {
+      "question": "Raumfahrt-Wissen #197: Wie heißt das berühmte Weltraumteleskop, das gestochen scharfe Infrarotbilder macht?",
+      "options": [
+        "James-Webb-Teleskop",
+        "Apollo 11",
+        "Voyager 1",
+        "Sputnik 1"
+      ],
+      "correct": 0,
+      "explanation": "Das James-Webb-Weltraumteleskop erforscht die ältesten Galaxien des Universums."
     }
   ],
   "schwer": [
     {
-      "question": "[SCHWER] Astro-Frage #1: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Was passiert, wenn ein massereicher Stern am Ende seines Lebens kollabiert?",
       "options": [
-        "Jupiter",
-        "Merkur",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #2: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "88 Tagen",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #3: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Venus",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #4: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "225 Tagen",
-        "24 Stunden"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #5: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Erde",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #6: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
+        "Es kann ein Schwarzes Loch entstehen",
+        "Er wird zu einem Kometen",
+        "Er löst sich schlagartig in Wasser auf",
+        "Er verwandelt sich in einen Planeten"
       ],
       "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+      "explanation": "Bei einer Supernova-Explosion kann der Kern zu einem Schwarzen Loch werden."
     },
     {
-      "question": "[SCHWER] Astro-Frage #7: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
+      "question": "Wie schnell legt das Licht eine Strecke im Weltall zurück?",
       "options": [
-        "Neptun",
-        "Mars",
-        "Jupiter",
-        "Saturn"
+        "300.000 km pro Stunde",
+        "Ca. 300.000 Kilometer pro Sekunde",
+        "1.000 km/h",
+        "Schallgeschwindigkeit"
       ],
       "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
+      "explanation": "Licht ist das Schnellste im Universum: Es reist mit rund 300.000 km/s."
     },
     {
-      "question": "[SCHWER] Astro-Frage #8: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
+      "question": "In welcher Galaxie befindet sich unser Sonnensystem?",
       "options": [
-        "24 Stunden",
-        "30 Tage",
-        "687 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #9: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Mars",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #10: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "12 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #11: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Venus",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #12: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "29 Jahren",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #13: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Uranus",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #14: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "84 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
+        "Milchstraße",
+        "Sombrero-Galaxie",
+        "Andromedagalaxie",
+        "Triangulum-Galaxie"
       ],
       "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
+      "explanation": "Unsere Heimatgalaxie ist eine Balkenspiralgalaxie namens Milchstraße."
     },
     {
-      "question": "[SCHWER] Astro-Frage #15: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
+      "question": "Astrophysik #1: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Merkur",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #16: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #17: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Der Polarstern",
-        "Sirius",
-        "Der Mond"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #18: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
-        "Pluto",
-        "Neptun",
-        "Mercury"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #19: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "ISS",
-        "Phobos",
-        "Der Mond"
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #20: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
+      "question": "Astrophysik #2: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #3: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #4: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #21: Woraus bestehen die meisten Kometen hauptsächlich?",
+      "question": "Astrophysik #5: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Aus flüssiger Lava",
-        "Aus reinem Gold",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik"
-      ],
-      "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #22: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Merkur",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #23: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen"
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #24: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
+      "question": "Astrophysik #6: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Saturn",
-        "Venus",
-        "Jupiter"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #25: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
+      "question": "Astrophysik #7: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "225 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #26: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Erde",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #27: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "365 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #28: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #29: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #30: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #31: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "12 Jahren"
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #32: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Astrophysik #8: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Venus",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #9: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #33: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
+      "question": "Astrophysik #10: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "30 Tage",
-        "100 Jahre",
-        "29 Jahren",
-        "24 Stunden"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #11: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #12: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #13: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #14: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #34: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
+      "question": "Astrophysik #15: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Uranus"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #35: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
+      "question": "Astrophysik #16: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #36: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Merkur",
-        "Jupiter",
-        "Saturn"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #37: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
+      "question": "Astrophysik #17: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "30 Tage",
-        "100 Jahre",
-        "165 Jahren",
-        "24 Stunden"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #18: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #19: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #20: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #21: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #22: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #23: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #38: Welcher Stern steht im Zentrum unseres Sonnensystems?",
+      "question": "Astrophysik #24: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Der Mond",
-        "Der Polarstern",
-        "Sirius",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #39: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mercury",
-        "Mars",
-        "Neptun",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #40: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "Der Mond",
-        "Titan",
-        "ISS"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #41: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil es im All keinen Sauerstoff gibt",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten"
-      ],
-      "correct": 1,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #42: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold"
-      ],
-      "correct": 0,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #43: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Merkur",
-        "Jupiter"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #44: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
+      "question": "Astrophysik #25: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "88 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #45: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Venus",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #46: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "225 Tagen",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #47: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Erde",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #48: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #49: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #50: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "687 Tagen",
-        "100 Jahre"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #51: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
+      "question": "Astrophysik #26: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Mars"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #27: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #28: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #29: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #52: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
+      "question": "Astrophysik #30: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "12 Jahren",
-        "30 Tage"
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #31: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #53: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Astrophysik #32: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Venus",
-        "Jupiter",
-        "Saturn"
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #54: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
+      "question": "Astrophysik #33: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "29 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #55: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptun"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #56: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
+      "question": "Astrophysik #34: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "84 Jahren",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #57: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Merkur",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #58: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage",
-        "165 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #59: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Der Mond",
-        "Der Polarstern",
-        "Die Sonne"
-      ],
-      "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #60: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Mercury",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #61: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "Titan",
-        "ISS",
-        "Der Mond"
-      ],
-      "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #62: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil dort riesige Ventilatoren pusten",
-        "Durch Magnetschuhe",
-        "Weil es im All keinen Sauerstoff gibt"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #63: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus flüssiger Lava",
-        "Aus reinem Gold",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #64: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Astrophysik #35: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Merkur",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 0,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #65: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
+      "question": "Astrophysik #36: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "30 Tage",
-        "88 Tagen",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #66: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Saturn",
-        "Venus",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #67: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #68: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Erde",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #69: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "365 Tagen"
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #70: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
+      "question": "Astrophysik #37: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Neptun",
-        "Mars",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #71: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "687 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #72: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Mars",
-        "Neptun",
-        "Saturn",
-        "Jupiter"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #73: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
+      "question": "Astrophysik #38: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "12 Jahren",
-        "100 Jahre",
-        "30 Tage"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #74: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Astrophysik #39: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Jupiter",
-        "Venus",
-        "Neptun",
-        "Saturn"
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #75: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
+      "question": "Astrophysik #40: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "29 Jahren",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #76: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Uranus",
-        "Jupiter"
-      ],
-      "correct": 2,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #77: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "84 Jahren",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
       ],
       "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #78: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
+      "question": "Astrophysik #41: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Merkur",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #79: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "165 Jahren",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #80: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Sirius",
-        "Der Polarstern",
-        "Der Mond",
-        "Die Sonne"
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #81: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
+      "question": "Astrophysik #42: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Mercury",
-        "Pluto",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #82: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Titan",
-        "Phobos",
-        "Der Mond",
-        "ISS"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #83: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
+      "question": "Astrophysik #43: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Weil es im All keinen Sauerstoff gibt",
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
       ],
-      "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #84: Woraus bestehen die meisten Kometen hauptsächlich?",
+      "question": "Astrophysik #44: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus reinem Gold"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
       ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #85: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Astrophysik #45: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Merkur",
-        "Saturn",
-        "Jupiter"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
       ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #86: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
+      "question": "Astrophysik #46: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen"
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #87: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
+      "question": "Astrophysik #47: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Venus",
-        "Saturn",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #88: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "225 Tagen",
-        "100 Jahre"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #89: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
+      "question": "Astrophysik #48: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Erde",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #90: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "365 Tagen",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #91: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Mars",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #92: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "687 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #93: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Saturn",
-        "Mars"
-      ],
-      "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #94: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage",
-        "12 Jahren"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #95: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Jupiter",
-        "Neptun",
-        "Venus",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #96: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "29 Jahren",
-        "100 Jahre"
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #97: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
+      "question": "Astrophysik #49: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Jupiter",
-        "Uranus",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #98: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "84 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #99: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Neptun",
-        "Merkur"
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #100: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
+      "question": "Astrophysik #50: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "165 Jahren",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #101: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Sirius",
-        "Der Polarstern",
-        "Der Mond"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #102: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Neptun",
-        "Pluto",
-        "Mercury",
-        "Mars"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #103: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Phobos",
-        "Der Mond",
-        "ISS",
-        "Titan"
-      ],
-      "correct": 1,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #104: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt"
-      ],
-      "correct": 0,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #105: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus Plastik",
-        "Aus reinem Gold",
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')"
-      ],
-      "correct": 3,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #106: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Merkur",
-        "Jupiter",
-        "Saturn"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #107: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage",
-        "88 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #108: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Venus"
-      ],
-      "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #109: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "225 Tagen",
-        "24 Stunden"
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #110: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
+      "question": "Astrophysik #51: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Jupiter",
-        "Saturn",
-        "Erde",
-        "Neptun"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #111: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
+      "question": "Astrophysik #52: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "365 Tagen",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
       ],
       "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #112: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
+      "question": "Astrophysik #53: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Mars",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #113: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "687 Tagen",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #114: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Mars"
-      ],
-      "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #115: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "12 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #116: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Saturn",
-        "Venus",
-        "Jupiter",
-        "Neptun"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #117: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
+      "question": "Astrophysik #54: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "29 Jahren",
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #118: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
-      "options": [
-        "Jupiter",
-        "Uranus",
-        "Neptun",
-        "Saturn"
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
       ],
       "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #119: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
+      "question": "Astrophysik #55: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "84 Jahren",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #120: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Merkur",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 2,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #121: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "30 Tage",
-        "165 Jahren",
-        "100 Jahre"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #122: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Der Polarstern",
-        "Sirius",
-        "Der Mond"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #123: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
-        "Mercury",
-        "Pluto",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #124: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "Der Mond",
-        "Phobos",
-        "Titan",
-        "ISS"
-      ],
-      "correct": 0,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #125: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe"
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 1,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #126: Woraus bestehen die meisten Kometen hauptsächlich?",
+      "question": "Astrophysik #56: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Aus flüssiger Lava",
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus reinem Gold"
-      ],
-      "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #127: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Jupiter",
-        "Merkur"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #128: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
+      "question": "Astrophysik #57: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "88 Tagen",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #129: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Venus",
-        "Neptun",
-        "Jupiter",
-        "Saturn"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #130: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
+      "question": "Astrophysik #58: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "225 Tagen",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #131: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Saturn",
-        "Erde",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #132: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "24 Stunden",
-        "365 Tagen",
-        "100 Jahre"
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #133: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
+      "question": "Astrophysik #59: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Neptun",
-        "Mars",
-        "Jupiter"
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #60: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #61: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #62: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #63: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #64: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #134: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
+      "question": "Astrophysik #65: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "687 Tagen",
-        "30 Tage",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #135: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Neptun",
-        "Mars"
-      ],
-      "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #136: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "12 Jahren",
-        "100 Jahre",
-        "30 Tage"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #137: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
-      "options": [
-        "Venus",
-        "Jupiter",
-        "Neptun",
-        "Saturn"
-      ],
-      "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #138: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "100 Jahre",
-        "29 Jahren",
-        "24 Stunden"
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #139: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
+      "question": "Astrophysik #66: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Uranus"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #140: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
+      "question": "Astrophysik #67: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "84 Jahren",
-        "30 Tage",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #141: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Merkur"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #142: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
+      "question": "Astrophysik #68: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "165 Jahren",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #143: Welcher Stern steht im Zentrum unseres Sonnensystems?",
-      "options": [
-        "Die Sonne",
-        "Der Polarstern",
-        "Sirius",
-        "Der Mond"
-      ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #144: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
-      "options": [
-        "Mars",
-        "Pluto",
-        "Mercury",
-        "Neptun"
-      ],
-      "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #145: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "ISS",
-        "Titan",
-        "Phobos",
-        "Der Mond"
-      ],
-      "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #146: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
-      "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
-      ],
-      "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #147: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus reinem Gold",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik",
-        "Aus flüssiger Lava"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #148: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Merkur",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #149: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "88 Tagen",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #150: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Venus",
-        "Neptun",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #151: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "225 Tagen",
-        "100 Jahre",
-        "24 Stunden",
-        "30 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #152: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Erde",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
-      ],
-      "correct": 0,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #153: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #154: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #155: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "687 Tagen",
-        "30 Tage"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #156: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
+      "question": "Astrophysik #69: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Mars",
-        "Jupiter",
-        "Saturn",
-        "Neptun"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #70: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 1,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #157: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
+      "question": "Astrophysik #71: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "30 Tage",
-        "12 Jahren",
-        "24 Stunden"
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #72: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #158: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Astrophysik #73: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Jupiter",
-        "Neptun",
-        "Venus",
-        "Saturn"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #159: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
+      "question": "Astrophysik #74: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "29 Jahren",
-        "30 Tage"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #160: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
+      "question": "Astrophysik #75: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Uranus",
-        "Neptun",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #161: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "84 Jahren",
-        "30 Tage",
-        "24 Stunden"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #162: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Saturn",
-        "Neptun",
-        "Merkur",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #163: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "30 Tage",
-        "24 Stunden",
-        "165 Jahren"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #164: Welcher Stern steht im Zentrum unseres Sonnensystems?",
+      "question": "Astrophysik #76: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Die Sonne",
-        "Sirius",
-        "Der Polarstern",
-        "Der Mond"
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #165: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
+      "question": "Astrophysik #77: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Mercury",
-        "Neptun",
-        "Mars",
-        "Pluto"
-      ],
-      "correct": 3,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #166: Wie heit der einzige natürliche Satellit der Erde?",
-      "options": [
-        "ISS",
-        "Phobos",
-        "Titan",
-        "Der Mond"
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
       "correct": 3,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #167: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
+      "question": "Astrophysik #78: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Durch Magnetschuhe",
-        "Weil dort riesige Ventilatoren pusten",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall",
-        "Weil es im All keinen Sauerstoff gibt"
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 2,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #168: Woraus bestehen die meisten Kometen hauptsächlich?",
+      "question": "Astrophysik #79: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Aus Plastik",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus flüssiger Lava",
-        "Aus reinem Gold"
-      ],
-      "correct": 1,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #169: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
-      "options": [
-        "Neptun",
-        "Merkur",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 1,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #170: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "88 Tagen",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #171: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Venus",
-        "Saturn",
-        "Jupiter",
-        "Neptun"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #172: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
+      "question": "Astrophysik #80: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "225 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #173: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Neptun",
-        "Erde"
-      ],
-      "correct": 3,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #174: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "365 Tagen",
-        "30 Tage",
-        "100 Jahre",
-        "24 Stunden"
-      ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #175: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Mars"
-      ],
-      "correct": 3,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #176: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
-      "options": [
-        "30 Tage",
-        "687 Tagen",
-        "100 Jahre",
-        "24 Stunden"
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 1,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #177: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
+      "question": "Astrophysik #81: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Neptun",
-        "Mars",
-        "Saturn",
-        "Jupiter"
-      ],
-      "correct": 3,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #178: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "12 Jahren",
-        "24 Stunden",
-        "30 Tage"
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
       ],
       "correct": 1,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #179: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Astrophysik #82: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Jupiter",
-        "Neptun",
-        "Venus"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #180: Wie lange braucht der Planet Saturn für eine Runde um die Sonne?",
+      "question": "Astrophysik #83: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "29 Jahren",
-        "30 Tage"
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #84: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #85: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #181: Welcher Planet ist als 'der eiskalte 'Kipp-Planet'' bekannt?",
+      "question": "Astrophysik #86: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Jupiter",
-        "Uranus",
-        "Neptun",
-        "Saturn"
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 1,
-      "explanation": "Uranus ist der eiskalte 'Kipp-Planet'. Wusstest du schon? Er fast komplett auf der seite rollend die sonne umkreist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #182: Wie lange braucht der Planet Uranus für eine Runde um die Sonne?",
+      "question": "Astrophysik #87: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "30 Tage",
-        "84 Jahren",
-        "24 Stunden",
-        "100 Jahre"
-      ],
-      "correct": 1,
-      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Jahren."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #183: Welcher Planet ist als 'der äußerste der acht Planeten' bekannt?",
-      "options": [
-        "Neptun",
-        "Jupiter",
-        "Saturn",
-        "Merkur"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
       ],
       "correct": 0,
-      "explanation": "Neptun ist der äußerste der acht Planeten. Wusstest du schon? Dort die stärksten winde des ganzen sonnensystems wehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #184: Wie lange braucht der Planet Neptun für eine Runde um die Sonne?",
+      "question": "Astrophysik #88: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "30 Tage",
-        "165 Jahren",
-        "100 Jahre"
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
       ],
       "correct": 2,
-      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Jahren."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #185: Welcher Stern steht im Zentrum unseres Sonnensystems?",
+      "question": "Astrophysik #89: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Der Polarstern",
-        "Die Sonne",
-        "Der Mond",
-        "Sirius"
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 1,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #186: Welcher Himmelskörper ist KEIN Planet mehr, sondern ein Zwergplanet?",
+      "question": "Astrophysik #90: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Mercury",
-        "Pluto",
-        "Mars",
-        "Neptun"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #91: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #92: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #93: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 1,
-      "explanation": "Pluto wurde 2006 als Zwergplanet eingestuft."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #187: Wie heit der einzige natürliche Satellit der Erde?",
+      "question": "Astrophysik #94: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Der Mond",
-        "Titan",
-        "Phobos",
-        "ISS"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Unser Erdmond umkreist die Erde einmal im Monat."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #188: Warum schweben Astronauten auf der Internationalen Raumstation (ISS)?",
+      "question": "Astrophysik #95: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Weil dort riesige Ventilatoren pusten",
-        "Weil es im All keinen Sauerstoff gibt",
-        "Durch Magnetschuhe",
-        "Wegen der Schwerelosigkeit im Dauer-Freifall"
-      ],
-      "correct": 3,
-      "explanation": "Die ISS fällt dauerhaft um die Erde herum – das erzeugt Schwerelosigkeit."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #189: Woraus bestehen die meisten Kometen hauptsächlich?",
-      "options": [
-        "Aus reinem Gold",
-        "Aus flüssiger Lava",
-        "Aus Eis, Staub und Gestein ('dreckige Schneebälle')",
-        "Aus Plastik"
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 2,
-      "explanation": "Wenn Kometen der Sonne nahekommen, verdampft das Eis und bildet den Kometenschweif."
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #190: Welcher Planet ist als 'der sonnennächste Planet' bekannt?",
+      "question": "Astrophysik #96: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Merkur",
-        "Neptun",
-        "Saturn",
-        "Jupiter"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #97: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Merkur ist der sonnennächste Planet. Wusstest du schon? Er hat keine eigene atmosphäre und ist voller krater!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #191: Wie lange braucht der Planet Merkur für eine Runde um die Sonne?",
+      "question": "Astrophysik #98: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre",
-        "88 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #192: Welcher Planet ist als 'der heißeste Planet im Sonnensystem' bekannt?",
-      "options": [
-        "Neptun",
-        "Saturn",
-        "Jupiter",
-        "Venus"
-      ],
-      "correct": 3,
-      "explanation": "Venus ist der heißeste Planet im Sonnensystem. Wusstest du schon? Dichte giftwolken die hitze wie in einem backofen anstauen!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #193: Wie lange braucht der Planet Venus für eine Runde um die Sonne?",
-      "options": [
-        "100 Jahre",
-        "24 Stunden",
-        "225 Tagen",
-        "30 Tage"
-      ],
-      "correct": 2,
-      "explanation": "Die Umlaufzeit von Venus beträgt 225 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #194: Welcher Planet ist als 'unser Heimatplanet' bekannt?",
-      "options": [
-        "Jupiter",
-        "Saturn",
-        "Erde",
-        "Neptun"
-      ],
-      "correct": 2,
-      "explanation": "Erde ist unser Heimatplanet. Wusstest du schon? Sie flüssiges wasser und eine schützende luftschicht besitzt!"
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #195: Wie lange braucht der Planet Erde für eine Runde um die Sonne?",
-      "options": [
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage",
-        "365 Tagen"
-      ],
-      "correct": 3,
-      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
-    },
-    {
-      "question": "[SCHWER] Astro-Frage #196: Welcher Planet ist als 'der 'Rote Planet'' bekannt?",
-      "options": [
-        "Neptun",
-        "Mars",
-        "Saturn",
-        "Jupiter"
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 1,
-      "explanation": "Mars ist der 'Rote Planet'. Wusstest du schon? Sein boden viel rostigen eisenstaub enthält!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #197: Wie lange braucht der Planet Mars für eine Runde um die Sonne?",
+      "question": "Astrophysik #99: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "687 Tagen",
-        "24 Stunden",
-        "100 Jahre",
-        "30 Tage"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Mars beträgt 687 Tagen."
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #198: Welcher Planet ist als 'der größte Planet in unserem Sonnensystem' bekannt?",
+      "question": "Astrophysik #100: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Jupiter",
-        "Neptun",
-        "Mars",
-        "Saturn"
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
       ],
       "correct": 0,
-      "explanation": "Jupiter ist der größte Planet in unserem Sonnensystem. Wusstest du schon? Er ein riesiger gasplanet mit einem riesigen wirbelsturm ist!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #199: Wie lange braucht der Planet Jupiter für eine Runde um die Sonne?",
+      "question": "Astrophysik #101: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "12 Jahren",
-        "24 Stunden",
-        "30 Tage",
-        "100 Jahre"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
       ],
-      "correct": 0,
-      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Jahren."
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     },
     {
-      "question": "[SCHWER] Astro-Frage #200: Welcher Planet ist als 'der Planet mit den spektakulärsten Ringen' bekannt?",
+      "question": "Astrophysik #102: Was bezeichnet man als 'Lichtjahr'?",
       "options": [
-        "Saturn",
-        "Venus",
-        "Neptun",
-        "Jupiter"
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #103: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #104: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #105: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #106: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #107: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
       ],
       "correct": 0,
-      "explanation": "Saturn ist der Planet mit den spektakulärsten Ringen. Wusstest du schon? Seine ringe aus abermilliarden eis- und gesteinsbrocken bestehen!"
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #108: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #109: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #110: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #111: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #112: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #113: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #114: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #115: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #116: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #117: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #118: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #119: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #120: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #121: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #122: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #123: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #124: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #125: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #126: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #127: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #128: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #129: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #130: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #131: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #132: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #133: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #134: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #135: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #136: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #137: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #138: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #139: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #140: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #141: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #142: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #143: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #144: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #145: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #146: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #147: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #148: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #149: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #150: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #151: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #152: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #153: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #154: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #155: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #156: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #157: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #158: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #159: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #160: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #161: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #162: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #163: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #164: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #165: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #166: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #167: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #168: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #169: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #170: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #171: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #172: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #173: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #174: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #175: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #176: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #177: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #178: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #179: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #180: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #181: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #182: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #183: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #184: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #185: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #186: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #187: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #188: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #189: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #190: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #191: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt"
+      ],
+      "correct": 3,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #192: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #193: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen",
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #194: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #195: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Das Alter der Sonne",
+        "Die Dauer einer Erdrumrundung",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Ein Jahr mit 366 Tagen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #196: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Die Dauer einer Erdrumrundung",
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Das Alter der Sonne"
+      ],
+      "correct": 2,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
+    },
+    {
+      "question": "Astrophysik #197: Was bezeichnet man als 'Lichtjahr'?",
+      "options": [
+        "Ein Jahr mit 366 Tagen",
+        "Die Entfernung, die Licht in einem Jahr zurücklegt",
+        "Die Dauer einer Erdrumrundung",
+        "Das Alter der Sonne"
+      ],
+      "correct": 1,
+      "explanation": "Ein Lichtjahr ist keine Zeitangabe, sondern die Strecke, die das Licht in einem Jahr zurücklegt (ca. 9,5 Billionen km)."
     }
   ]
 };
