@@ -1,65 +1,120 @@
 window.quizData = {
   "leicht": [
     {
-      "question": "Wo agiert der 'Linksaußen' primär auf dem Handballfeld?",
+      "question": "Wo agiert der 'Linksaußen' primär auf dem Feld?",
       "options": [
-        "im Torraum als Torhüter",
+        "am 6m-Kreis",
         "auf der linken Flügelposition an der Außenlinie",
-        "zentral auf 9m als Spielmacher",
-        "direkt am 6m-Kreis im Rücken der Abwehr"
+        "im Tor als Keeper",
+        "zentral auf 9m"
       ],
       "correct": 1,
       "explanation": "Der Linksaußen spielt auf der linken Flügelposition an der Außenlinie."
     },
     {
-      "question": "Wo agiert der 'Rechtsaußen' primär auf dem Handballfeld?",
+      "question": "Welche Position beschreibt der Satz: 'auf der linken Flügelposition an der Außenlinie'?",
       "options": [
-        "auf der Auswechselbank",
-        "als Abwehrchef in der Mitte",
-        "auf der rechten Flügelposition an der Außenlinie",
-        "im gegnerischen Torraum"
+        "Linksaußen",
+        "Kreisläufer",
+        "Torwart",
+        "Rückraum Mitte"
       ],
-      "correct": 2,
+      "correct": 0,
+      "explanation": "Das ist die Position des Linksaußens."
+    },
+    {
+      "question": "Wo agiert der 'Rechtsaußen' primär auf dem Feld?",
+      "options": [
+        "auf der rechten Flügelposition an der Außenlinie",
+        "als Abwehrchef",
+        "im eigenen Torraum",
+        "auf der Wechselbank"
+      ],
+      "correct": 0,
       "explanation": "Der Rechtsaußen spielt auf der rechten Flügelposition an der Außenlinie."
     },
     {
-      "question": "Wo agiert der 'Kreisläufer' primär auf dem Handballfeld?",
+      "question": "Welche Position beschreibt der Satz: 'auf der rechten Flügelposition an der Außenlinie'?",
+      "options": [
+        "Rückraum Mitte",
+        "Linksaußen",
+        "Kreisläufer",
+        "Rechtsaußen"
+      ],
+      "correct": 3,
+      "explanation": "Das ist die Position des Rechtsaußens."
+    },
+    {
+      "question": "Wo agiert der 'Kreisläufer' primär auf dem Feld?",
       "options": [
         "am 6m-Kreis im ständigen Körperkontakt mit der Abwehr",
-        "nur für 7m-Würfe",
-        "an der Mittellinie für Tempogegenstöße",
-        "außerhalb der 9m-Linie"
+        "außerhalb von 9m",
+        "an der Mittellinie",
+        "nur für 7m-Würfe"
       ],
       "correct": 0,
       "explanation": "Der Kreisläufer spielt am 6m-Kreis im ständigen Körperkontakt mit der Abwehr."
     },
     {
-      "question": "Wo agiert der 'Rückraum Links' primär auf dem Handballfeld?",
+      "question": "Welche Position beschreibt der Satz: 'am 6m-Kreis im ständigen Körperkontakt mit der Abwehr'?",
       "options": [
-        "als zweiter Torwart im Kreis",
-        "nur in der Abwehr",
-        "im linken Rückraum für Fernwürfe und Durchbrüche",
-        "auf der rechten Außenposition"
+        "Rückraum Mitte",
+        "Torwart",
+        "Linksaußen",
+        "Kreisläufer"
       ],
-      "correct": 2,
+      "correct": 3,
+      "explanation": "Das ist die Position des Kreisläufers."
+    },
+    {
+      "question": "Wo agiert der 'Rückraum Links' primär auf dem Feld?",
+      "options": [
+        "als zweiter Torwart",
+        "nur in der Abwehr",
+        "auf Rechtsaußen",
+        "im linken Rückraum für Fernwürfe und Durchbrüche"
+      ],
+      "correct": 3,
       "explanation": "Der Rückraum Links spielt im linken Rückraum für Fernwürfe und Durchbrüche."
     },
     {
-      "question": "Wo agiert der 'Rückraum Rechts' primär auf dem Handballfeld?",
+      "question": "Welche Position beschreibt der Satz: 'im linken Rückraum für Fernwürfe und Durchbrüche'?",
       "options": [
-        "im rechten Rückraum (meist von Linkshändern besetzt)",
-        "am gegnerischen 6m-Kreis",
-        "als Schiedsrichter-Assistent",
-        "auf der linken Flügelposition"
+        "Rückraum Links",
+        "Kreisläufer",
+        "Linksaußen",
+        "Rückraum Mitte"
       ],
       "correct": 0,
+      "explanation": "Das ist die Position des Rückraum Linkss."
+    },
+    {
+      "question": "Wo agiert der 'Rückraum Rechts' primär auf dem Feld?",
+      "options": [
+        "als Schiedsrichter-Assistent",
+        "im Torraum",
+        "im rechten Rückraum (meist von Linkshändern besetzt)",
+        "auf Linksaußen"
+      ],
+      "correct": 2,
       "explanation": "Der Rückraum Rechts spielt im rechten Rückraum (meist von Linkshändern besetzt)."
     },
     {
-      "question": "Wo agiert der 'Rückraum Mitte' primär auf dem Handballfeld?",
+      "question": "Welche Position beschreibt der Satz: 'im rechten Rückraum (meist von Linkshändern besetzt)'?",
       "options": [
-        "ausschließlich als Kreisläufer",
+        "Rückraum Rechts",
+        "Rückraum Mitte",
+        "Linksaußen",
+        "Kreisläufer"
+      ],
+      "correct": 0,
+      "explanation": "Das ist die Position des Rückraum Rechtss."
+    },
+    {
+      "question": "Wo agiert der 'Rückraum Mitte' primär auf dem Feld?",
+      "options": [
         "an der Eckfahne",
+        "ausschließlich als Kreisläufer",
         "auf der Torlinie",
         "im zentralen Rückraum als Regisseur und Spielmacher"
       ],
@@ -67,1166 +122,1023 @@ window.quizData = {
       "explanation": "Der Rückraum Mitte spielt im zentralen Rückraum als Regisseur und Spielmacher."
     },
     {
-      "question": "Wo agiert der 'Torwart' primär auf dem Handballfeld?",
+      "question": "Welche Position beschreibt der Satz: 'im zentralen Rückraum als Regisseur und Spielmacher'?",
       "options": [
-        "an der 9m-Linie als Werfer",
-        "auf der Außenbahn für Tempogegenstöße",
-        "im Torraum zur Abwehr von Torschüssen",
-        "auf der Wechselbank"
+        "Rückraum Mitte",
+        "Torwart",
+        "Linksaußen",
+        "Kreisläufer"
       ],
-      "correct": 2,
+      "correct": 0,
+      "explanation": "Das ist die Position des Rückraum Mittes."
+    },
+    {
+      "question": "Wo agiert der 'Torwart' primär auf dem Feld?",
+      "options": [
+        "im Torraum zur Abwehr von Torschüssen",
+        "auf der Außenbahn",
+        "auf der Wechselbank",
+        "an der 9m-Linie"
+      ],
+      "correct": 0,
       "explanation": "Der Torwart spielt im Torraum zur Abwehr von Torschüssen."
+    },
+    {
+      "question": "Welche Position beschreibt der Satz: 'im Torraum zur Abwehr von Torschüssen'?",
+      "options": [
+        "Linksaußen",
+        "Kreisläufer",
+        "Rückraum Mitte",
+        "Torwart"
+      ],
+      "correct": 3,
+      "explanation": "Das ist die Position des Torwarts."
     },
     {
       "question": "In welcher Entfernung zum Tor befindet sich die Torraumlinie?",
       "options": [
-        "4 Meter",
-        "7 Meter",
         "9 Meter",
-        "6 Meter"
+        "6 Meter",
+        "4 Meter",
+        "7 Meter"
       ],
-      "correct": 3,
-      "explanation": "Der Torraumkreis ist genau 6 Meter vom Tor entfernt."
+      "correct": 1,
+      "explanation": "Der Torraumkreis ist 6m vom Tor entfernt."
     },
     {
-      "question": "Welche Markierung befindet sich in exakt 6 Meter Entfernung zum Tor?",
+      "question": "Welche Markierung liegt in exakt 6 Meter Entfernung zum Tor?",
       "options": [
+        "Freiwurflinie",
         "Torraumlinie",
-        "9 Meter",
-        "7 Meter",
-        "4 Meter"
+        "Strafwurflinie",
+        "Auswechselraum"
       ],
-      "correct": 0,
-      "explanation": "Der Torraumkreis ist genau 6 Meter vom Tor entfernt."
+      "correct": 1,
+      "explanation": "Der Torraumkreis ist 6m vom Tor entfernt."
     },
     {
       "question": "In welcher Entfernung zum Tor befindet sich die Freiwurflinie?",
       "options": [
-        "9 Meter",
-        "6 Meter",
-        "7 Meter",
-        "8 Meter"
-      ],
-      "correct": 0,
-      "explanation": "Die gestrichelte Freiwurflinie liegt 9 Meter vor dem Tor."
-    },
-    {
-      "question": "Welche Markierung befindet sich in exakt 9 Meter Entfernung zum Tor?",
-      "options": [
         "6 Meter",
         "8 Meter",
-        "7 Meter",
+        "9 Meter",
+        "7 Meter"
+      ],
+      "correct": 2,
+      "explanation": "Die gestrichelte Freiwurflinie liegt bei 9m."
+    },
+    {
+      "question": "Welche Markierung liegt in exakt 9 Meter Entfernung zum Tor?",
+      "options": [
+        "Torraumlinie",
+        "Strafwurflinie",
+        "Auswechselraum",
         "Freiwurflinie"
       ],
       "correct": 3,
-      "explanation": "Die gestrichelte Freiwurflinie liegt 9 Meter vor dem Tor."
+      "explanation": "Die gestrichelte Freiwurflinie liegt bei 9m."
     },
     {
       "question": "In welcher Entfernung zum Tor befindet sich die Strafwurflinie?",
       "options": [
-        "7 Meter",
-        "6 Meter",
-        "9 Meter",
-        "4 Meter"
-      ],
-      "correct": 0,
-      "explanation": "Der 7-Meter-Strafwurf wird von der 7m-Markierung ausgeführt."
-    },
-    {
-      "question": "Welche Markierung befindet sich in exakt 7 Meter Entfernung zum Tor?",
-      "options": [
         "4 Meter",
         "6 Meter",
-        "Strafwurflinie",
-        "9 Meter"
+        "9 Meter",
+        "7 Meter"
       ],
-      "correct": 2,
-      "explanation": "Der 7-Meter-Strafwurf wird von der 7m-Markierung ausgeführt."
+      "correct": 3,
+      "explanation": "Der Strafwurf wird von der 7m-Linie geworfen."
+    },
+    {
+      "question": "Welche Markierung liegt in exakt 7 Meter Entfernung zum Tor?",
+      "options": [
+        "Auswechselraum",
+        "Strafwurflinie",
+        "Torraumlinie",
+        "Freiwurflinie"
+      ],
+      "correct": 1,
+      "explanation": "Der Strafwurf wird von der 7m-Linie geworfen."
     },
     {
       "question": "In welcher Entfernung zum Tor befindet sich die Torwartgrenzlinie bei 7m?",
       "options": [
         "2 Meter",
-        "5 Meter",
+        "3 Meter",
         "4 Meter",
-        "3 Meter"
+        "5 Meter"
       ],
       "correct": 2,
-      "explanation": "Bei 7m-Würfen darf der Torwart bis zur 4m-Linie heraustreten."
+      "explanation": "Bei 7m darf der Keeper bis zur 4m-Linie vorgehen."
     },
     {
-      "question": "Welche Markierung befindet sich in exakt 4 Meter Entfernung zum Tor?",
+      "question": "Welche Markierung liegt in exakt 4 Meter Entfernung zum Tor?",
       "options": [
-        "Torwartgrenzlinie bei 7m",
-        "2 Meter",
-        "5 Meter",
-        "3 Meter"
+        "Torraumlinie",
+        "Freiwurflinie",
+        "Strafwurflinie",
+        "Torwartgrenzlinie bei 7m"
+      ],
+      "correct": 3,
+      "explanation": "Bei 7m darf der Keeper bis zur 4m-Linie vorgehen."
+    },
+    {
+      "question": "Grundregel (im Angriff): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden",
+        "Der Torwart pariert",
+        "Der Ball abgepasst wird",
+        "Der Ball geprellt wird"
       ],
       "correct": 0,
-      "explanation": "Bei 7m-Würfen darf der Torwart bis zur 4m-Linie heraustreten."
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (im Konter): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden",
+        "Der Ball abgepasst wird",
+        "Der Torwart pariert",
+        "Der Ball geprellt wird"
+      ],
+      "correct": 0,
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (beim Freiwurf): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Der Ball abgepasst wird",
+        "Der Torwart pariert",
+        "Der Ball geprellt wird",
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden"
+      ],
+      "correct": 3,
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (beim Anwurf): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Der Ball abgepasst wird",
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden",
+        "Der Torwart pariert",
+        "Der Ball geprellt wird"
+      ],
+      "correct": 1,
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (beim Einwurf): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Der Ball geprellt wird",
+        "Der Ball abgepasst wird",
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden",
+        "Der Torwart pariert"
+      ],
+      "correct": 2,
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (im Rückraum): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Der Torwart pariert",
+        "Der Ball abgepasst wird",
+        "Der Ball geprellt wird",
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden"
+      ],
+      "correct": 3,
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (am Kreis): Wann pfeift der Schiedsrichter 'Schrittfehler'?",
+      "options": [
+        "Der Ball geprellt wird",
+        "Wenn Mehr als 3 Schritte ohne Prellen gelaufen werden",
+        "Der Torwart pariert",
+        "Der Ball abgepasst wird"
+      ],
+      "correct": 1,
+      "explanation": "Schrittfehler führt zu Ballverlust."
+    },
+    {
+      "question": "Grundregel (im Angriff): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird",
+        "Der Ball 3 Sekunden gehalten wird",
+        "Ein Pass über 10 Meter erfolgt",
+        "Der Ball das Tor trifft"
+      ],
+      "correct": 0,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (im Konter): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird",
+        "Der Ball 3 Sekunden gehalten wird",
+        "Der Ball das Tor trifft",
+        "Ein Pass über 10 Meter erfolgt"
+      ],
+      "correct": 0,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (beim Freiwurf): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird",
+        "Ein Pass über 10 Meter erfolgt",
+        "Der Ball 3 Sekunden gehalten wird",
+        "Der Ball das Tor trifft"
+      ],
+      "correct": 0,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (beim Anwurf): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Ein Pass über 10 Meter erfolgt",
+        "Der Ball das Tor trifft",
+        "Der Ball 3 Sekunden gehalten wird",
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird"
+      ],
+      "correct": 3,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (beim Einwurf): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Der Ball das Tor trifft",
+        "Ein Pass über 10 Meter erfolgt",
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird",
+        "Der Ball 3 Sekunden gehalten wird"
+      ],
+      "correct": 2,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (im Rückraum): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Ein Pass über 10 Meter erfolgt",
+        "Der Ball 3 Sekunden gehalten wird",
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird",
+        "Der Ball das Tor trifft"
+      ],
+      "correct": 2,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (am Kreis): Wann pfeift der Schiedsrichter 'Doppelprellen'?",
+      "options": [
+        "Der Ball das Tor trifft",
+        "Der Ball 3 Sekunden gehalten wird",
+        "Wenn Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird",
+        "Ein Pass über 10 Meter erfolgt"
+      ],
+      "correct": 2,
+      "explanation": "Doppelprellen ist nicht erlaubt."
+    },
+    {
+      "question": "Grundregel (im Angriff): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Ein Sprungwurf ausgeführt wird",
+        "Der Ball an die Latte prallt",
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt",
+        "Der Torwart im Torraum pariert"
+      ],
+      "correct": 2,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (im Konter): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Der Torwart im Torraum pariert",
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt",
+        "Ein Sprungwurf ausgeführt wird",
+        "Der Ball an die Latte prallt"
+      ],
+      "correct": 1,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (beim Freiwurf): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Der Torwart im Torraum pariert",
+        "Der Ball an die Latte prallt",
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt",
+        "Ein Sprungwurf ausgeführt wird"
+      ],
+      "correct": 2,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (beim Anwurf): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt",
+        "Der Ball an die Latte prallt",
+        "Der Torwart im Torraum pariert",
+        "Ein Sprungwurf ausgeführt wird"
+      ],
+      "correct": 0,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (beim Einwurf): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Der Ball an die Latte prallt",
+        "Der Torwart im Torraum pariert",
+        "Ein Sprungwurf ausgeführt wird",
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt"
+      ],
+      "correct": 3,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (im Rückraum): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Der Torwart im Torraum pariert",
+        "Der Ball an die Latte prallt",
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt",
+        "Ein Sprungwurf ausgeführt wird"
+      ],
+      "correct": 2,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (am Kreis): Wann pfeift der Schiedsrichter 'Fußspiel'?",
+      "options": [
+        "Wenn Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt",
+        "Der Torwart im Torraum pariert",
+        "Ein Sprungwurf ausgeführt wird",
+        "Der Ball an die Latte prallt"
+      ],
+      "correct": 0,
+      "explanation": "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."
+    },
+    {
+      "question": "Grundregel (im Angriff): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Ein Angriff 2 Minuten dauert",
+        "Der Wechsel zu lange dauert",
+        "Der Ball ins Aus fliegt",
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird"
+      ],
+      "correct": 3,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
+    },
+    {
+      "question": "Grundregel (im Konter): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Der Ball ins Aus fliegt",
+        "Ein Angriff 2 Minuten dauert",
+        "Der Wechsel zu lange dauert",
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird"
+      ],
+      "correct": 3,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
+    },
+    {
+      "question": "Grundregel (beim Freiwurf): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird",
+        "Der Ball ins Aus fliegt",
+        "Ein Angriff 2 Minuten dauert",
+        "Der Wechsel zu lange dauert"
+      ],
+      "correct": 0,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
+    },
+    {
+      "question": "Grundregel (beim Anwurf): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Der Wechsel zu lange dauert",
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird",
+        "Der Ball ins Aus fliegt",
+        "Ein Angriff 2 Minuten dauert"
+      ],
+      "correct": 1,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
+    },
+    {
+      "question": "Grundregel (beim Einwurf): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird",
+        "Der Ball ins Aus fliegt",
+        "Ein Angriff 2 Minuten dauert",
+        "Der Wechsel zu lange dauert"
+      ],
+      "correct": 0,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
+    },
+    {
+      "question": "Grundregel (im Rückraum): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird",
+        "Der Ball ins Aus fliegt",
+        "Der Wechsel zu lange dauert",
+        "Ein Angriff 2 Minuten dauert"
+      ],
+      "correct": 0,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
+    },
+    {
+      "question": "Grundregel (am Kreis): Wann pfeift der Schiedsrichter 'Zeitfehler'?",
+      "options": [
+        "Der Ball ins Aus fliegt",
+        "Ein Angriff 2 Minuten dauert",
+        "Der Wechsel zu lange dauert",
+        "Wenn Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird"
+      ],
+      "correct": 3,
+      "explanation": "Die maximale Haltedauer beträgt 3 Sekunden."
     },
     {
       "question": "Welche offizielle Ballgröße gilt für Herren & männliche Jugend A/B?",
       "options": [
-        "Größe 3 (58-60 cm)",
-        "Größe 1 (50-52 cm)",
-        "Größe 2 (54-56 cm)",
-        "Größe 4 (62-64 cm)"
+        "Größe 1",
+        "Größe 4",
+        "Größe 2",
+        "Größe 3 (58-60 cm)"
       ],
-      "correct": 0,
+      "correct": 3,
       "explanation": "Für Herren & männliche Jugend A/B ist Größe 3 (58-60 cm) vorgeschrieben."
     },
     {
-      "question": "Welche offizielle Ballgröße gilt für Frauen, weibliche Jugend A/B & männliche Jugend C/B?",
+      "question": "Welche offizielle Ballgröße gilt für Frauen & weibliche Jugend A/B?",
       "options": [
-        "Größe 2 (54-56 cm)",
-        "Größe 1 (50-52 cm)",
-        "Größe 3 (58-60 cm)",
-        "Größe 0 (46-48 cm)"
-      ],
-      "correct": 0,
-      "explanation": "Für Frauen, weibliche Jugend A/B & männliche Jugend C/B ist Größe 2 (54-56 cm) vorgeschrieben."
-    },
-    {
-      "question": "Welche offizielle Ballgröße gilt für Männliche & weibliche Jugend D/C?",
-      "options": [
-        "Größe 2 (54-56 cm)",
-        "Größe 1 (50-52 cm)",
-        "Größe 3 (58-60 cm)",
-        "Größe 0 (46-48 cm)"
-      ],
-      "correct": 1,
-      "explanation": "Für Männliche & weibliche Jugend D/C ist Größe 1 (50-52 cm) vorgeschrieben."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "Abwurf",
-        "7-Meter",
-        "Einwurf für den Gegner",
-        "Freiwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "7-Meter-Strafwurf",
-        "Schiedsrichterball",
-        "Einwurf",
-        "Freiwurf"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "Einwurf",
-        "Abwurf",
-        "7-Meter",
-        "Freiwurf für Angriff"
+        "Größe 3",
+        "Größe 0",
+        "Größe 1",
+        "Größe 2 (54-56 cm)"
       ],
       "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
+      "explanation": "Für Frauen & weibliche Jugend A/B ist Größe 2 (54-56 cm) vorgeschrieben."
     },
     {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
+      "question": "Welche offizielle Ballgröße gilt für Jugend D/C?",
       "options": [
-        "Abwurf durch den Torwart",
-        "7-Meter",
-        "Freiwurf",
-        "Eckball"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Einwurf",
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "Tor zählt",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "Gelbe Karte",
-        "7-Meter",
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "2-Minuten-Strafe"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Einwurf",
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "7-Meter",
-        "Eckball"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Wurf aus dem Rückraum): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "Rote Karte",
-        "7-Meter",
-        "Freiwurf für Gegener (Fußspiel)",
-        "Abwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "Freiwurf",
-        "Abwurf",
-        "7-Meter",
-        "Einwurf für den Gegner"
+        "Größe 0",
+        "Größe 3",
+        "Größe 2",
+        "Größe 1 (50-52 cm)"
       ],
       "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Freiwurf",
-        "7-Meter-Strafwurf",
-        "Einwurf",
-        "Schiedsrichterball"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "Abwurf",
-        "Einwurf",
-        "Freiwurf für Angriff",
-        "7-Meter"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "7-Meter",
-        "Freiwurf",
-        "Abwurf durch den Torwart",
-        "Eckball"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Einwurf",
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "Tor zählt",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "2-Minuten-Strafe",
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "7-Meter",
-        "Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "7-Meter",
-        "Einwurf",
-        "Eckball",
-        "Freiwurf für Abwehr (Doppelprellen)"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Pass zum Kreisläufer): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "7-Meter",
-        "Rote Karte",
-        "Freiwurf für Gegener (Fußspiel)",
-        "Abwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "Abwurf",
-        "Freiwurf",
-        "7-Meter",
-        "Einwurf für den Gegner"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Freiwurf",
-        "Schiedsrichterball",
-        "7-Meter-Strafwurf",
-        "Einwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "7-Meter",
-        "Einwurf",
-        "Freiwurf für Angriff",
-        "Abwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "7-Meter",
-        "Abwurf durch den Torwart",
-        "Eckball",
-        "Freiwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "7-Meter",
-        "Tor zählt",
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "Einwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "Gelbe Karte",
-        "2-Minuten-Strafe",
-        "7-Meter",
-        "Freiwurf für Abwehr (Schrittfehler)"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "Einwurf",
-        "7-Meter",
-        "Eckball"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Sprungwurf von Außen): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "7-Meter",
-        "Abwurf",
-        "Freiwurf für Gegener (Fußspiel)",
-        "Rote Karte"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "Freiwurf",
-        "7-Meter",
-        "Einwurf für den Gegner",
-        "Abwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Einwurf",
-        "Freiwurf",
-        "Schiedsrichterball",
-        "7-Meter-Strafwurf"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "Abwurf",
-        "Einwurf",
-        "7-Meter",
-        "Freiwurf für Angriff"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "Eckball",
-        "Abwurf durch den Torwart",
-        "Freiwurf",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Tor zählt",
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "7-Meter",
-        "Einwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "7-Meter",
-        "Gelbe Karte",
-        "2-Minuten-Strafe"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "7-Meter",
-        "Eckball",
-        "Einwurf"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Tempogegenstoß): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "Rote Karte",
-        "Freiwurf für Gegener (Fußspiel)",
-        "Abwurf",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "Einwurf für den Gegner",
-        "7-Meter",
-        "Freiwurf",
-        "Abwurf"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Freiwurf",
-        "Schiedsrichterball",
-        "Einwurf",
-        "7-Meter-Strafwurf"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "Freiwurf für Angriff",
-        "Einwurf",
-        "Abwurf",
-        "7-Meter"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "Abwurf durch den Torwart",
-        "Freiwurf",
-        "7-Meter",
-        "Eckball"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "Einwurf",
-        "Tor zählt",
-        "7-Meter"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "Gelbe Karte",
-        "2-Minuten-Strafe",
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "7-Meter"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Eckball",
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "7-Meter",
-        "Einwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (7m-Strafwurf): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "Abwurf",
-        "Freiwurf für Gegener (Fußspiel)",
-        "7-Meter",
-        "Rote Karte"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "7-Meter",
-        "Abwurf",
-        "Einwurf für den Gegner",
-        "Freiwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Schiedsrichterball",
-        "7-Meter-Strafwurf",
-        "Einwurf",
-        "Freiwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "Freiwurf für Angriff",
-        "Einwurf",
-        "Abwurf",
-        "7-Meter"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "Eckball",
-        "Abwurf durch den Torwart",
-        "7-Meter",
-        "Freiwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Einwurf",
-        "Tor zählt",
-        "7-Meter",
-        "Freiwurf für Abwehr (Kreis abgelaufen)"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "2-Minuten-Strafe",
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "7-Meter",
-        "Gelbe Karte"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Eckball",
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "Einwurf",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Freiwurfausführung): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "Rote Karte",
-        "Freiwurf für Gegener (Fußspiel)",
-        "Abwurf",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "Abwurf",
-        "Einwurf für den Gegner",
-        "7-Meter",
-        "Freiwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Schiedsrichterball",
-        "Freiwurf",
-        "Einwurf",
-        "7-Meter-Strafwurf"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "7-Meter",
-        "Einwurf",
-        "Abwurf",
-        "Freiwurf für Angriff"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "7-Meter",
-        "Eckball",
-        "Abwurf durch den Torwart",
-        "Freiwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Einwurf",
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "Tor zählt",
-        "7-Meter"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "7-Meter",
-        "2-Minuten-Strafe",
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Eckball",
-        "7-Meter",
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "Einwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Anwurf nach Torerfolg): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "Rote Karte",
-        "Freiwurf für Gegener (Fußspiel)",
-        "7-Meter",
-        "Abwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn der Ball die Seitenlinie komplett überschreitet?",
-      "options": [
-        "7-Meter",
-        "Freiwurf",
-        "Einwurf für den Gegner",
-        "Abwurf"
-      ],
-      "correct": 2,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Einwurf für den Gegner."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Abwehrspieler den Angreifer beim Torschuss im Torraum foulte?",
-      "options": [
-        "Freiwurf",
-        "7-Meter-Strafwurf",
-        "Einwurf",
-        "Schiedsrichterball"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf 7-Meter-Strafwurf."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Abwehrfoul außerhalb des 9m-Kreises begangen wird?",
-      "options": [
-        "Abwurf",
-        "Freiwurf für Angriff",
-        "7-Meter",
-        "Einwurf"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Angriff."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn der Torwart den Ball im Torraum pariert und dieser im Torraum bleibt?",
-      "options": [
-        "Freiwurf",
-        "7-Meter",
-        "Eckball",
-        "Abwurf durch den Torwart"
-      ],
-      "correct": 3,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Abwurf durch den Torwart."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Angreifer mit dem Ball im Torraum landet, BEVOR er wirft?",
-      "options": [
-        "Einwurf",
-        "Freiwurf für Abwehr (Kreis abgelaufen)",
-        "7-Meter",
-        "Tor zählt"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Kreis abgelaufen)."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Angreifer ohne Prellen 5 Schritte läuft?",
-      "options": [
-        "Freiwurf für Abwehr (Schrittfehler)",
-        "7-Meter",
-        "2-Minuten-Strafe",
-        "Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Schrittfehler)."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball fängt, prellt, aufnimmt und nochmals prellt?",
-      "options": [
-        "Einwurf",
-        "Freiwurf für Abwehr (Doppelprellen)",
-        "7-Meter",
-        "Eckball"
-      ],
-      "correct": 1,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Abwehr (Doppelprellen)."
-    },
-    {
-      "question": "Regelwissen (Einwurf an der Seitenlinie): Was entscheidet der Schiedsrichter, wenn ein Spieler den Ball absichtlich mit dem Fuß berührt?",
-      "options": [
-        "Freiwurf für Gegener (Fußspiel)",
-        "Rote Karte",
-        "7-Meter",
-        "Abwurf"
-      ],
-      "correct": 0,
-      "explanation": "In dieser Situation entscheidet das Schiedsrichtergespann auf Freiwurf für Gegener (Fußspiel)."
+      "explanation": "Für Jugend D/C ist Größe 1 (50-52 cm) vorgeschrieben."
     }
   ],
   "mittel": [
     {
-      "question": "Was ist das Hauptmerkmal der '6:0-Abwehr'?",
+      "question": "Taktik (aus dem gebundenen Spiel): Was versteht man unter 'Kreuzen'?",
       "options": [
-        "4 Spieler im Kreis stehen",
-        "5 Spieler hinten stehen und 1 vorgezogen agiert",
-        "Manndeckung auf dem ganzen Feld gespielt wird",
-        "alle 6 Feldspieler auf der 6m-Linie verteidigen"
+        "Ein Foulspiel in der Luft",
+        "Ein Wechsel der Außenspieler",
+        "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung",
+        "Der Torwart verlässt das Feld"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kreuzen gilt: Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung."
+    },
+    {
+      "question": "Taktik (in Überzahl): Was versteht man unter 'Kreuzen'?",
+      "options": [
+        "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung",
+        "Der Torwart verlässt das Feld",
+        "Ein Wechsel der Außenspieler",
+        "Ein Foulspiel in der Luft"
+      ],
+      "correct": 0,
+      "explanation": "Beim Kreuzen gilt: Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung."
+    },
+    {
+      "question": "Taktik (in Unterzahl): Was versteht man unter 'Kreuzen'?",
+      "options": [
+        "Ein Wechsel der Außenspieler",
+        "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung",
+        "Ein Foulspiel in der Luft",
+        "Der Torwart verlässt das Feld"
+      ],
+      "correct": 1,
+      "explanation": "Beim Kreuzen gilt: Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung."
+    },
+    {
+      "question": "Taktik (gegen eine 6:0-Abwehr): Was versteht man unter 'Kreuzen'?",
+      "options": [
+        "Der Torwart verlässt das Feld",
+        "Ein Wechsel der Außenspieler",
+        "Ein Foulspiel in der Luft",
+        "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung"
       ],
       "correct": 3,
-      "explanation": "Bei der 6:0-Abwehr ist typisch, dass alle 6 Feldspieler auf der 6m-Linie verteidigen."
+      "explanation": "Beim Kreuzen gilt: Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung."
     },
     {
-      "question": "Was ist das Hauptmerkmal der '5:1-Abwehr'?",
+      "question": "Taktik (gegen eine 5:1-Abwehr): Was versteht man unter 'Kreuzen'?",
       "options": [
-        "1 Spieler auf 9m vorgezogen agiert und 5 hinten stehen",
-        "nur 5 Spieler verteidigen",
-        "3 Spieler vorne und 3 hinten stehen",
-        "alle 6 Spieler an der 6m-Linie stehen"
+        "Ein Foulspiel in der Luft",
+        "Ein Wechsel der Außenspieler",
+        "Der Torwart verlässt das Feld",
+        "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung"
+      ],
+      "correct": 3,
+      "explanation": "Beim Kreuzen gilt: Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung."
+    },
+    {
+      "question": "Taktik (in der zweiten Welle): Was versteht man unter 'Kreuzen'?",
+      "options": [
+        "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung",
+        "Ein Foulspiel in der Luft",
+        "Ein Wechsel der Außenspieler",
+        "Der Torwart verlässt das Feld"
       ],
       "correct": 0,
-      "explanation": "Bei der 5:1-Abwehr ist typisch, dass 1 Spieler auf 9m vorgezogen agiert und 5 hinten stehen."
+      "explanation": "Beim Kreuzen gilt: Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung."
     },
     {
-      "question": "Was ist das Hauptmerkmal der '3:2:1-Abwehr'?",
+      "question": "Taktik (aus dem gebundenen Spiel): Was versteht man unter 'Sperren und Absetzen'?",
       "options": [
-        "eine offensiv gestaffelte Raumdeckung aufgebaut wird",
-        "3 Torhüter im Tor stehen",
-        "6 Spieler auf der 6m-Linie stehen",
-        "nur gekreuzt wird"
+        "Ein Pass zum Torwart",
+        "Das Betreten des Torraums",
+        "Ein Konterlauf ohne Ball",
+        "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen"
+      ],
+      "correct": 3,
+      "explanation": "Beim Sperren und Absetzen gilt: Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen."
+    },
+    {
+      "question": "Taktik (in Überzahl): Was versteht man unter 'Sperren und Absetzen'?",
+      "options": [
+        "Ein Konterlauf ohne Ball",
+        "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen",
+        "Das Betreten des Torraums",
+        "Ein Pass zum Torwart"
+      ],
+      "correct": 1,
+      "explanation": "Beim Sperren und Absetzen gilt: Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen."
+    },
+    {
+      "question": "Taktik (in Unterzahl): Was versteht man unter 'Sperren und Absetzen'?",
+      "options": [
+        "Ein Konterlauf ohne Ball",
+        "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen",
+        "Ein Pass zum Torwart",
+        "Das Betreten des Torraums"
+      ],
+      "correct": 1,
+      "explanation": "Beim Sperren und Absetzen gilt: Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen."
+    },
+    {
+      "question": "Taktik (gegen eine 6:0-Abwehr): Was versteht man unter 'Sperren und Absetzen'?",
+      "options": [
+        "Das Betreten des Torraums",
+        "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen",
+        "Ein Pass zum Torwart",
+        "Ein Konterlauf ohne Ball"
+      ],
+      "correct": 1,
+      "explanation": "Beim Sperren und Absetzen gilt: Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen."
+    },
+    {
+      "question": "Taktik (gegen eine 5:1-Abwehr): Was versteht man unter 'Sperren und Absetzen'?",
+      "options": [
+        "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen",
+        "Ein Konterlauf ohne Ball",
+        "Das Betreten des Torraums",
+        "Ein Pass zum Torwart"
       ],
       "correct": 0,
-      "explanation": "Bei der 3:2:1-Abwehr ist typisch, dass eine offensiv gestaffelte Raumdeckung aufgebaut wird."
+      "explanation": "Beim Sperren und Absetzen gilt: Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen."
     },
     {
-      "question": "Was ist das Hauptmerkmal der '4:2-Abwehr'?",
+      "question": "Taktik (in der zweiten Welle): Was versteht man unter 'Sperren und Absetzen'?",
       "options": [
-        "nur bei Unterzahl gespielt wird",
-        "2 Spieler vorgezogen stören und 4 hinten absichern",
-        "alle Spieler Manndeckung spielen",
-        "4 Spieler im Angriff stehen"
+        "Ein Konterlauf ohne Ball",
+        "Ein Pass zum Torwart",
+        "Das Betreten des Torraums",
+        "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen"
       ],
-      "correct": 1,
-      "explanation": "Bei der 4:2-Abwehr ist typisch, dass 2 Spieler vorgezogen stören und 4 hinten absichern."
+      "correct": 3,
+      "explanation": "Beim Sperren und Absetzen gilt: Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen."
     },
     {
-      "question": "Wie viele Punkte bringt ein 'Spin-Shot (360-Grad-Drehung)' im Beachhandball?",
+      "question": "Taktik (aus dem gebundenen Spiel): Was versteht man unter 'Einlaufen'?",
       "options": [
-        "4 Punkte",
-        "2 Punkte",
-        "1 Punkt",
-        "3 Punkte"
+        "Ein Wechsel auf der Bank",
+        "Der Torwart läuft zum Anwurf",
+        "Ein Wurf aus 12 Metern",
+        "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer"
       ],
-      "correct": 1,
-      "explanation": "Ein Spin-Shot (360-Grad-Drehung) zählt im Beachhandball 2 Punkte."
+      "correct": 3,
+      "explanation": "Beim Einlaufen gilt: Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer."
     },
     {
-      "question": "Wie viele Punkte bringt ein 'Kempa-Trick im Flug' im Beachhandball?",
+      "question": "Taktik (in Überzahl): Was versteht man unter 'Einlaufen'?",
       "options": [
-        "4 Punkte",
-        "2 Punkte",
-        "3 Punkte",
-        "1 Punkt"
+        "Ein Wurf aus 12 Metern",
+        "Ein Wechsel auf der Bank",
+        "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer",
+        "Der Torwart läuft zum Anwurf"
       ],
-      "correct": 1,
-      "explanation": "Ein Kempa-Trick im Flug zählt im Beachhandball 2 Punkte."
+      "correct": 2,
+      "explanation": "Beim Einlaufen gilt: Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer."
     },
     {
-      "question": "Wie viele Punkte bringt ein 'Tor durch den Torwart / Specialist' im Beachhandball?",
+      "question": "Taktik (in Unterzahl): Was versteht man unter 'Einlaufen'?",
       "options": [
-        "2 Punkte",
-        "3 Punkte",
-        "1 Punkt",
-        "4 Punkte"
+        "Ein Wechsel auf der Bank",
+        "Der Torwart läuft zum Anwurf",
+        "Ein Wurf aus 12 Metern",
+        "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer"
+      ],
+      "correct": 3,
+      "explanation": "Beim Einlaufen gilt: Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer."
+    },
+    {
+      "question": "Taktik (gegen eine 6:0-Abwehr): Was versteht man unter 'Einlaufen'?",
+      "options": [
+        "Ein Wurf aus 12 Metern",
+        "Der Torwart läuft zum Anwurf",
+        "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer",
+        "Ein Wechsel auf der Bank"
+      ],
+      "correct": 2,
+      "explanation": "Beim Einlaufen gilt: Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer."
+    },
+    {
+      "question": "Taktik (gegen eine 5:1-Abwehr): Was versteht man unter 'Einlaufen'?",
+      "options": [
+        "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer",
+        "Ein Wurf aus 12 Metern",
+        "Der Torwart läuft zum Anwurf",
+        "Ein Wechsel auf der Bank"
       ],
       "correct": 0,
-      "explanation": "Ein Tor durch den Torwart / Specialist zählt im Beachhandball 2 Punkte."
+      "explanation": "Beim Einlaufen gilt: Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer."
     },
     {
-      "question": "Wie viele Punkte bringt ein 'Erfolgreicher 7m-Strafwurf' im Beachhandball?",
+      "question": "Taktik (in der zweiten Welle): Was versteht man unter 'Einlaufen'?",
+      "options": [
+        "Ein Wechsel auf der Bank",
+        "Ein Wurf aus 12 Metern",
+        "Der Torwart läuft zum Anwurf",
+        "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer"
+      ],
+      "correct": 3,
+      "explanation": "Beim Einlaufen gilt: Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer."
+    },
+    {
+      "question": "Taktik (aus dem gebundenen Spiel): Was versteht man unter 'Stoßen'?",
+      "options": [
+        "Ein Stoßen mit den Händen gegen die Brust",
+        "Ein Zeitschinden",
+        "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden",
+        "Der Pass zum Gegner"
+      ],
+      "correct": 2,
+      "explanation": "Beim Stoßen gilt: Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden."
+    },
+    {
+      "question": "Taktik (in Überzahl): Was versteht man unter 'Stoßen'?",
+      "options": [
+        "Ein Zeitschinden",
+        "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden",
+        "Der Pass zum Gegner",
+        "Ein Stoßen mit den Händen gegen die Brust"
+      ],
+      "correct": 1,
+      "explanation": "Beim Stoßen gilt: Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden."
+    },
+    {
+      "question": "Taktik (in Unterzahl): Was versteht man unter 'Stoßen'?",
+      "options": [
+        "Ein Stoßen mit den Händen gegen die Brust",
+        "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden",
+        "Der Pass zum Gegner",
+        "Ein Zeitschinden"
+      ],
+      "correct": 1,
+      "explanation": "Beim Stoßen gilt: Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden."
+    },
+    {
+      "question": "Taktik (gegen eine 6:0-Abwehr): Was versteht man unter 'Stoßen'?",
+      "options": [
+        "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden",
+        "Ein Stoßen mit den Händen gegen die Brust",
+        "Der Pass zum Gegner",
+        "Ein Zeitschinden"
+      ],
+      "correct": 0,
+      "explanation": "Beim Stoßen gilt: Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden."
+    },
+    {
+      "question": "Taktik (gegen eine 5:1-Abwehr): Was versteht man unter 'Stoßen'?",
+      "options": [
+        "Ein Zeitschinden",
+        "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden",
+        "Ein Stoßen mit den Händen gegen die Brust",
+        "Der Pass zum Gegner"
+      ],
+      "correct": 1,
+      "explanation": "Beim Stoßen gilt: Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden."
+    },
+    {
+      "question": "Taktik (in der zweiten Welle): Was versteht man unter 'Stoßen'?",
+      "options": [
+        "Ein Stoßen mit den Händen gegen die Brust",
+        "Ein Zeitschinden",
+        "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden",
+        "Der Pass zum Gegner"
+      ],
+      "correct": 2,
+      "explanation": "Beim Stoßen gilt: Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden."
+    },
+    {
+      "question": "Taktik (aus dem gebundenen Spiel): Was versteht man unter 'Schnelle Mitte'?",
+      "options": [
+        "Ein Kempa-Trick beim Anwurf",
+        "Ein Freiwurf von der 9m-Linie",
+        "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt",
+        "Ein Wechsel des Torwarts"
+      ],
+      "correct": 2,
+      "explanation": "Beim Schnelle Mitte gilt: Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt."
+    },
+    {
+      "question": "Taktik (in Überzahl): Was versteht man unter 'Schnelle Mitte'?",
+      "options": [
+        "Ein Freiwurf von der 9m-Linie",
+        "Ein Wechsel des Torwarts",
+        "Ein Kempa-Trick beim Anwurf",
+        "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt"
+      ],
+      "correct": 3,
+      "explanation": "Beim Schnelle Mitte gilt: Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt."
+    },
+    {
+      "question": "Taktik (in Unterzahl): Was versteht man unter 'Schnelle Mitte'?",
+      "options": [
+        "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt",
+        "Ein Kempa-Trick beim Anwurf",
+        "Ein Freiwurf von der 9m-Linie",
+        "Ein Wechsel des Torwarts"
+      ],
+      "correct": 0,
+      "explanation": "Beim Schnelle Mitte gilt: Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt."
+    },
+    {
+      "question": "Taktik (gegen eine 6:0-Abwehr): Was versteht man unter 'Schnelle Mitte'?",
+      "options": [
+        "Ein Freiwurf von der 9m-Linie",
+        "Ein Kempa-Trick beim Anwurf",
+        "Ein Wechsel des Torwarts",
+        "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt"
+      ],
+      "correct": 3,
+      "explanation": "Beim Schnelle Mitte gilt: Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt."
+    },
+    {
+      "question": "Taktik (gegen eine 5:1-Abwehr): Was versteht man unter 'Schnelle Mitte'?",
+      "options": [
+        "Ein Wechsel des Torwarts",
+        "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt",
+        "Ein Freiwurf von der 9m-Linie",
+        "Ein Kempa-Trick beim Anwurf"
+      ],
+      "correct": 1,
+      "explanation": "Beim Schnelle Mitte gilt: Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt."
+    },
+    {
+      "question": "Taktik (in der zweiten Welle): Was versteht man unter 'Schnelle Mitte'?",
+      "options": [
+        "Ein Wechsel des Torwarts",
+        "Ein Kempa-Trick beim Anwurf",
+        "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt",
+        "Ein Freiwurf von der 9m-Linie"
+      ],
+      "correct": 2,
+      "explanation": "Beim Schnelle Mitte gilt: Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt."
+    },
+    {
+      "question": "Taktik (aus dem gebundenen Spiel): Was versteht man unter 'Tempogegenstoß'?",
+      "options": [
+        "Ein Wurf von der Auswechselbank",
+        "Ein langsamer Aufbauspielzug",
+        "Ein 7m-Strafwurf",
+        "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr"
+      ],
+      "correct": 3,
+      "explanation": "Beim Tempogegenstoß gilt: Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr."
+    },
+    {
+      "question": "Taktik (in Überzahl): Was versteht man unter 'Tempogegenstoß'?",
+      "options": [
+        "Ein langsamer Aufbauspielzug",
+        "Ein Wurf von der Auswechselbank",
+        "Ein 7m-Strafwurf",
+        "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr"
+      ],
+      "correct": 3,
+      "explanation": "Beim Tempogegenstoß gilt: Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr."
+    },
+    {
+      "question": "Taktik (in Unterzahl): Was versteht man unter 'Tempogegenstoß'?",
+      "options": [
+        "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr",
+        "Ein 7m-Strafwurf",
+        "Ein langsamer Aufbauspielzug",
+        "Ein Wurf von der Auswechselbank"
+      ],
+      "correct": 0,
+      "explanation": "Beim Tempogegenstoß gilt: Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr."
+    },
+    {
+      "question": "Taktik (gegen eine 6:0-Abwehr): Was versteht man unter 'Tempogegenstoß'?",
+      "options": [
+        "Ein langsamer Aufbauspielzug",
+        "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr",
+        "Ein 7m-Strafwurf",
+        "Ein Wurf von der Auswechselbank"
+      ],
+      "correct": 1,
+      "explanation": "Beim Tempogegenstoß gilt: Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr."
+    },
+    {
+      "question": "Taktik (gegen eine 5:1-Abwehr): Was versteht man unter 'Tempogegenstoß'?",
+      "options": [
+        "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr",
+        "Ein Wurf von der Auswechselbank",
+        "Ein langsamer Aufbauspielzug",
+        "Ein 7m-Strafwurf"
+      ],
+      "correct": 0,
+      "explanation": "Beim Tempogegenstoß gilt: Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr."
+    },
+    {
+      "question": "Taktik (in der zweiten Welle): Was versteht man unter 'Tempogegenstoß'?",
+      "options": [
+        "Ein Wurf von der Auswechselbank",
+        "Ein langsamer Aufbauspielzug",
+        "Ein 7m-Strafwurf",
+        "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr"
+      ],
+      "correct": 3,
+      "explanation": "Beim Tempogegenstoß gilt: Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr."
+    },
+    {
+      "question": "Abwehr-Taktik: Was kennzeichnet eine '6:0-Abwehr'?",
+      "options": [
+        "Manndeckung übers ganze Feld",
+        "5 hinten, 1 vorgezogen",
+        "4 hinten, 2 vorne",
+        "Alle 6 Feldspieler stehen kompakt an der 6m-Torraumlinie"
+      ],
+      "correct": 3,
+      "explanation": "Charakteristisch für die 6:0-Abwehr: Alle 6 Feldspieler stehen kompakt an der 6m-Torraumlinie."
+    },
+    {
+      "question": "Abwehr-Taktik: Was kennzeichnet eine '5:1-Abwehr'?",
+      "options": [
+        "3 hinten, 3 vorne",
+        "Manndeckung",
+        "Alle 6 am Kreis",
+        "1 Spieler agiert vorgezogen auf 9m, 5 verteidigen auf 6m"
+      ],
+      "correct": 3,
+      "explanation": "Charakteristisch für die 5:1-Abwehr: 1 Spieler agiert vorgezogen auf 9m, 5 verteidigen auf 6m."
+    },
+    {
+      "question": "Abwehr-Taktik: Was kennzeichnet eine '3:2:1-Abwehr'?",
+      "options": [
+        "4 Spieler am Kreis",
+        "Reine Blockabwehr am Kreis",
+        "2 Torhüter im Feld",
+        "Offensive, gestaffelte Raumdeckung mit verschiedenen Abwehrebenen"
+      ],
+      "correct": 3,
+      "explanation": "Charakteristisch für die 3:2:1-Abwehr: Offensive, gestaffelte Raumdeckung mit verschiedenen Abwehrebenen."
+    },
+    {
+      "question": "Abwehr-Taktik: Was kennzeichnet eine 'Manndeckung'?",
+      "options": [
+        "Jeder Abwehrspieler deckt fest einen festen Gegenspieler",
+        "Niemand bewegt sich",
+        "Nur der Torwart verteidigt",
+        "Alle stehen am Kreis"
+      ],
+      "correct": 0,
+      "explanation": "Charakteristisch für die Manndeckung: Jeder Abwehrspieler deckt fest einen festen Gegenspieler."
+    },
+    {
+      "question": "Beachhandball-Wertung: Wie viele Punkte bringt ein 'Spin-Shot (360-Grad-Drehung im Flug)'?",
       "options": [
         "4 Punkte",
-        "1 Punkt",
         "3 Punkte",
+        "1 Punkt",
         "2 Punkte"
       ],
       "correct": 3,
-      "explanation": "Ein Erfolgreicher 7m-Strafwurf zählt im Beachhandball 2 Punkte."
+      "explanation": "Ein Spin-Shot (360-Grad-Drehung im Flug) bringt im Beachhandball 2 Punkte."
     },
     {
-      "question": "Wie viele Punkte bringt ein 'Normaler einfacher Schlagwurf' im Beachhandball?",
+      "question": "Beachhandball-Wertung: Wie viele Punkte bringt ein 'Kempa-Trick (In der Luft fangen und werfen)'?",
+      "options": [
+        "2 Punkte",
+        "3 Punkte",
+        "4 Punkte",
+        "1 Punkt"
+      ],
+      "correct": 0,
+      "explanation": "Ein Kempa-Trick (In der Luft fangen und werfen) bringt im Beachhandball 2 Punkte."
+    },
+    {
+      "question": "Beachhandball-Wertung: Wie viele Punkte bringt ein 'Tor durch den Specialist/Torwart'?",
       "options": [
         "1 Punkt",
+        "4 Punkte",
         "2 Punkte",
-        "0 Punkte",
+        "3 Punkte"
+      ],
+      "correct": 2,
+      "explanation": "Ein Tor durch den Specialist/Torwart bringt im Beachhandball 2 Punkte."
+    },
+    {
+      "question": "Beachhandball-Wertung: Wie viele Punkte bringt ein 'Erfolgreicher 7m-Strafwurf im Beachhandball'?",
+      "options": [
+        "2 Punkte",
+        "4 Punkte",
+        "1 Punkt",
         "3 Punkte"
       ],
       "correct": 0,
-      "explanation": "Ein Normaler einfacher Schlagwurf zählt im Beachhandball 1 Punkt."
+      "explanation": "Ein Erfolgreicher 7m-Strafwurf im Beachhandball bringt im Beachhandball 2 Punkte."
     },
     {
-      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
+      "question": "Beachhandball-Wertung: Wie viele Punkte bringt ein 'Einfacher Schlagwurf ohne Zusatzaktion'?",
       "options": [
-        "Rote Karte",
-        "Blaue Karte",
-        "Gelbe Karte",
-        "Grüne Karte"
-      ],
-      "correct": 2,
-      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
-      "options": [
-        "Gelbe Karte",
-        "Rote Karte",
-        "Blaue Karte",
-        "Grüne Karte"
-      ],
-      "correct": 0,
-      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
-      "options": [
-        "Blaue Karte",
-        "Grüne Karte",
-        "Gelbe Karte",
-        "Rote Karte"
-      ],
-      "correct": 2,
-      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Verwarnung für ein leichtes Foulspiel'?",
-      "options": [
-        "Blaue Karte",
-        "Gelbe Karte",
-        "Rote Karte",
-        "Grüne Karte"
-      ],
-      "correct": 1,
-      "explanation": "Die korrekte Entscheidung lautet Gelbe Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
-      "options": [
-        "Gelbe Karte",
-        "2-Minuten-Strafe",
-        "Blaue Karte",
-        "Disqualifikation"
-      ],
-      "correct": 1,
-      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
-      "options": [
-        "Gelbe Karte",
-        "2-Minuten-Strafe",
-        "Disqualifikation",
-        "Blaue Karte"
-      ],
-      "correct": 1,
-      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
-      "options": [
-        "Gelbe Karte",
-        "Blaue Karte",
-        "2-Minuten-Strafe",
-        "Disqualifikation"
-      ],
-      "correct": 2,
-      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Hinausstellung für 2 Minuten'?",
-      "options": [
-        "2-Minuten-Strafe",
-        "Blaue Karte",
-        "Disqualifikation",
-        "Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Die korrekte Entscheidung lautet 2-Minuten-Strafe."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
-      "options": [
-        "Grüne Karte",
-        "Rote Karte",
-        "Gelbe Karte",
-        "2-Minuten-Strafe"
-      ],
-      "correct": 1,
-      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
-      "options": [
-        "2-Minuten-Strafe",
-        "Gelbe Karte",
-        "Rote Karte",
-        "Grüne Karte"
-      ],
-      "correct": 2,
-      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
-      "options": [
-        "Gelbe Karte",
-        "Rote Karte",
-        "2-Minuten-Strafe",
-        "Grüne Karte"
-      ],
-      "correct": 1,
-      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Disqualifikation für ein gesundheitsgefährdendes Foul'?",
-      "options": [
-        "2-Minuten-Strafe",
-        "Grüne Karte",
-        "Rote Karte",
-        "Gelbe Karte"
-      ],
-      "correct": 2,
-      "explanation": "Die korrekte Entscheidung lautet Rote Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
-      "options": [
-        "2-Minuten-Strafe",
-        "Blaue Karte",
-        "Gelbe Karte",
-        "Grüne Karte"
-      ],
-      "correct": 1,
-      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
-      "options": [
-        "Blaue Karte",
-        "Grüne Karte",
-        "2-Minuten-Strafe",
-        "Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
-      "options": [
-        "Blaue Karte",
-        "Grüne Karte",
-        "2-Minuten-Strafe",
-        "Gelbe Karte"
-      ],
-      "correct": 0,
-      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Ankündigung eines schriftlichen Berichts nach Roter Karte'?",
-      "options": [
-        "Blaue Karte",
-        "2-Minuten-Strafe",
-        "Gelbe Karte",
-        "Grüne Karte"
-      ],
-      "correct": 0,
-      "explanation": "Die korrekte Entscheidung lautet Blaue Karte."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei der ersten Vergehenstufe): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
-      "options": [
-        "Blaue Karte heben",
-        "Gelbe Karte zeigen",
-        "Rote Karte werfen",
-        "Grüne Karte auf den Zeitnehmertisch legen"
+        "3 Punkte",
+        "2 Punkte",
+        "0 Punkte",
+        "1 Punkt"
       ],
       "correct": 3,
-      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (im Wiederholungsfall): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
-      "options": [
-        "Gelbe Karte zeigen",
-        "Rote Karte werfen",
-        "Blaue Karte heben",
-        "Grüne Karte auf den Zeitnehmertisch legen"
-      ],
-      "correct": 3,
-      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (bei grober Unsportlichkeit): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
-      "options": [
-        "Gelbe Karte zeigen",
-        "Rote Karte werfen",
-        "Blaue Karte heben",
-        "Grüne Karte auf den Zeitnehmertisch legen"
-      ],
-      "correct": 3,
-      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
-    },
-    {
-      "question": "Schiedsrichter-Zeichen (nach Schiedsrichterentscheid): Welche Strafe/Aktion entspricht 'Team-Time-Out durch den Trainer'?",
-      "options": [
-        "Rote Karte werfen",
-        "Gelbe Karte zeigen",
-        "Grüne Karte auf den Zeitnehmertisch legen",
-        "Blaue Karte heben"
-      ],
-      "correct": 2,
-      "explanation": "Die korrekte Entscheidung lautet Grüne Karte auf den Zeitnehmertisch legen."
+      "explanation": "Ein Einfacher Schlagwurf ohne Zusatzaktion bringt im Beachhandball 1 Punkt."
     }
   ],
   "schwer": [
     {
-      "question": "Endphase-Regelwerk: Verhindern der Wurfausführung in den letzten 30 Sekunden. Wie muss das Schiedsrichtergespann entscheiden?",
+      "question": "Schiedsrichter-Regelwerk (im WM-Finale): Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich – Wie ist zu entscheiden?",
+      "options": [
+        "Nur 2-Minuten-Strafe",
+        "Nur Freiwurf",
+        "Rote Karte und 7-Meter-Strafwurf",
+        "Gelbe Karte"
+      ],
+      "correct": 2,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte und 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (in der Bundesliga): Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich – Wie ist zu entscheiden?",
+      "options": [
+        "Nur 2-Minuten-Strafe",
+        "Gelbe Karte",
+        "Rote Karte und 7-Meter-Strafwurf",
+        "Nur Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte und 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im entscheidenden Angriff): Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich – Wie ist zu entscheiden?",
+      "options": [
+        "Rote Karte und 7-Meter-Strafwurf",
+        "Gelbe Karte",
+        "Nur Freiwurf",
+        "Nur 2-Minuten-Strafe"
+      ],
+      "correct": 0,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte und 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (bei Torgefahr): Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich – Wie ist zu entscheiden?",
+      "options": [
+        "Rote Karte und 7-Meter-Strafwurf",
+        "Nur 2-Minuten-Strafe",
+        "Gelbe Karte",
+        "Nur Freiwurf"
+      ],
+      "correct": 0,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte und 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (nach Videobeweis): Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich – Wie ist zu entscheiden?",
+      "options": [
+        "Gelbe Karte",
+        "Nur 2-Minuten-Strafe",
+        "Rote Karte und 7-Meter-Strafwurf",
+        "Nur Freiwurf"
+      ],
+      "correct": 2,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte und 7-Meter-Strafwurf."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (laut IHF-Regelwerk): Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich – Wie ist zu entscheiden?",
       "options": [
         "Rote Karte und 7-Meter-Strafwurf",
         "Nur Freiwurf",
@@ -1234,98 +1146,417 @@ window.quizData = {
         "Nur 2-Minuten-Strafe"
       ],
       "correct": 0,
-      "explanation": "Laut Reglement gilt: Rote Karte und 7-Meter-Strafwurf."
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte und 7-Meter-Strafwurf."
     },
     {
-      "question": "Endphase-Regelwerk: Grobes Foul in den letzten 30 Sekunden ohne Chance auf den Ball. Wie muss das Schiedsrichtergespann entscheiden?",
+      "question": "Schiedsrichter-Regelwerk (im WM-Finale): Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss? – Wie ist zu entscheiden?",
       "options": [
-        "Freiwurf für Abwehr",
-        "2-Minuten-Strafe ohne 7m",
-        "Rote Karte (evtl. Blau) und 7-Meter",
-        "Münzwurf"
+        "Maximal 6 Pässe",
+        "Unbegrenzt",
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe"
       ],
-      "correct": 2,
-      "explanation": "Laut Reglement gilt: Rote Karte (evtl. Blau) und 7-Meter."
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Maximal 4 Pässe."
     },
     {
-      "question": "Endphase-Regelwerk: Wechselfehler in den letzten 30 Sekunden. Wie muss das Schiedsrichtergespann entscheiden?",
+      "question": "Schiedsrichter-Regelwerk (in der Bundesliga): Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss? – Wie ist zu entscheiden?",
       "options": [
-        "Disqualifikation des Trainers",
-        "2-Minuten-Strafe für den Spieler",
-        "Automatisch 7-Meter",
-        "Spielabbruch"
+        "Maximal 6 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt",
+        "Maximal 4 Pässe"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Maximal 4 Pässe."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im entscheidenden Angriff): Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss? – Wie ist zu entscheiden?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 2 Pässe",
+        "Unbegrenzt"
       ],
       "correct": 1,
-      "explanation": "Laut Reglement gilt: 2-Minuten-Strafe für den Spieler."
+      "explanation": "Entscheidung laut IHF-Regeln: Maximal 4 Pässe."
     },
     {
-      "question": "Passivspiel-Detail: Nach dem Anzeigen des Vorwarnzeichens (Passivspiel) – Was schreibt das Regelwerk vor?",
+      "question": "Schiedsrichter-Regelwerk (bei Torgefahr): Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss? – Wie ist zu entscheiden?",
+      "options": [
+        "Maximal 6 Pässe",
+        "Maximal 4 Pässe",
+        "Unbegrenzt",
+        "Maximal 2 Pässe"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Maximal 4 Pässe."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (nach Videobeweis): Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss? – Wie ist zu entscheiden?",
       "options": [
         "Maximal 4 Pässe",
-        "Unbegrenzt viele Pässe",
+        "Maximal 6 Pässe",
         "Maximal 2 Pässe",
-        "Maximal 6 Pässe"
+        "Unbegrenzt"
       ],
       "correct": 0,
-      "explanation": "Die Regel legt fest: Maximal 4 Pässe."
+      "explanation": "Entscheidung laut IHF-Regeln: Maximal 4 Pässe."
     },
     {
-      "question": "Passivspiel-Detail: Wenn bei genanntem Vorwarnzeichen ein Freiwurf abgefälscht wird – Was schreibt das Regelwerk vor?",
+      "question": "Schiedsrichter-Regelwerk (laut IHF-Regelwerk): Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss? – Wie ist zu entscheiden?",
       "options": [
-        "Wird der Passzähler auf 0 gesetzt",
-        "Gibt es sofort 7m",
-        "Zählt der Freiwurf als Pass dazu",
-        "Erhält das Team 4 neue Pässe"
+        "Maximal 2 Pässe",
+        "Maximal 4 Pässe",
+        "Maximal 6 Pässe",
+        "Unbegrenzt"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Maximal 4 Pässe."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im WM-Finale): Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte? – Wie ist zu entscheiden?",
+      "options": [
+        "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt",
+        "Sperre für 5 Minuten",
+        "Sofortiges Ende des Spiels",
+        "2-Minuten-Strafe für das Team"
+      ],
+      "correct": 0,
+      "explanation": "Entscheidung laut IHF-Regeln: Ein schriftlicher Bericht für ein Disziplinarverfahren folgt."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (in der Bundesliga): Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte? – Wie ist zu entscheiden?",
+      "options": [
+        "2-Minuten-Strafe für das Team",
+        "Sperre für 5 Minuten",
+        "Sofortiges Ende des Spiels",
+        "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Ein schriftlicher Bericht für ein Disziplinarverfahren folgt."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im entscheidenden Angriff): Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte? – Wie ist zu entscheiden?",
+      "options": [
+        "2-Minuten-Strafe für das Team",
+        "Sofortiges Ende des Spiels",
+        "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt",
+        "Sperre für 5 Minuten"
       ],
       "correct": 2,
-      "explanation": "Die Regel legt fest: Zählt der Freiwurf als Pass dazu."
+      "explanation": "Entscheidung laut IHF-Regeln: Ein schriftlicher Bericht für ein Disziplinarverfahren folgt."
     },
     {
-      "question": "Profi-Handball Historie: Wer gewann das Turnier WM 2007 ('Wintermärchen')?",
+      "question": "Schiedsrichter-Regelwerk (bei Torgefahr): Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte? – Wie ist zu entscheiden?",
       "options": [
+        "Sperre für 5 Minuten",
+        "2-Minuten-Strafe für das Team",
+        "Sofortiges Ende des Spiels",
+        "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Ein schriftlicher Bericht für ein Disziplinarverfahren folgt."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (nach Videobeweis): Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte? – Wie ist zu entscheiden?",
+      "options": [
+        "Sofortiges Ende des Spiels",
+        "Sperre für 5 Minuten",
+        "2-Minuten-Strafe für das Team",
+        "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Ein schriftlicher Bericht für ein Disziplinarverfahren folgt."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (laut IHF-Regelwerk): Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte? – Wie ist zu entscheiden?",
+      "options": [
+        "2-Minuten-Strafe für das Team",
+        "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt",
+        "Sofortiges Ende des Spiels",
+        "Sperre für 5 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Ein schriftlicher Bericht für ein Disziplinarverfahren folgt."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im WM-Finale): Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers? – Wie ist zu entscheiden?",
+      "options": [
+        "Verwarnung",
+        "Ausschluss für 10 Minuten",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte"
+      ],
+      "correct": 2,
+      "explanation": "Entscheidung laut IHF-Regeln: Disqualifikation (Rote Karte)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (in der Bundesliga): Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers? – Wie ist zu entscheiden?",
+      "options": [
+        "Verwarnung",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für 10 Minuten",
+        "Blaue Karte"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Disqualifikation (Rote Karte)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im entscheidenden Angriff): Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers? – Wie ist zu entscheiden?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Verwarnung",
+        "Ausschluss für 10 Minuten",
+        "Blaue Karte"
+      ],
+      "correct": 0,
+      "explanation": "Entscheidung laut IHF-Regeln: Disqualifikation (Rote Karte)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (bei Torgefahr): Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers? – Wie ist zu entscheiden?",
+      "options": [
+        "Blaue Karte",
+        "Verwarnung",
+        "Disqualifikation (Rote Karte)",
+        "Ausschluss für 10 Minuten"
+      ],
+      "correct": 2,
+      "explanation": "Entscheidung laut IHF-Regeln: Disqualifikation (Rote Karte)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (nach Videobeweis): Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers? – Wie ist zu entscheiden?",
+      "options": [
+        "Verwarnung",
+        "Ausschluss für 10 Minuten",
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte"
+      ],
+      "correct": 2,
+      "explanation": "Entscheidung laut IHF-Regeln: Disqualifikation (Rote Karte)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (laut IHF-Regelwerk): Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers? – Wie ist zu entscheiden?",
+      "options": [
+        "Disqualifikation (Rote Karte)",
+        "Blaue Karte",
+        "Verwarnung",
+        "Ausschluss für 10 Minuten"
+      ],
+      "correct": 0,
+      "explanation": "Entscheidung laut IHF-Regeln: Disqualifikation (Rote Karte)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im WM-Finale): Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft – Wie ist zu entscheiden?",
+      "options": [
+        "2-Minuten-Strafe ohne Karte",
+        "Nur Freiwurf",
+        "Gelbe Karte",
+        "Rote Karte (Gesundheitsgefährdung)"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte (Gesundheitsgefährdung)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (in der Bundesliga): Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft – Wie ist zu entscheiden?",
+      "options": [
+        "Gelbe Karte",
+        "Nur Freiwurf",
+        "2-Minuten-Strafe ohne Karte",
+        "Rote Karte (Gesundheitsgefährdung)"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte (Gesundheitsgefährdung)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (im entscheidenden Angriff): Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft – Wie ist zu entscheiden?",
+      "options": [
+        "Nur Freiwurf",
+        "2-Minuten-Strafe ohne Karte",
+        "Gelbe Karte",
+        "Rote Karte (Gesundheitsgefährdung)"
+      ],
+      "correct": 3,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte (Gesundheitsgefährdung)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (bei Torgefahr): Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft – Wie ist zu entscheiden?",
+      "options": [
+        "Gelbe Karte",
+        "Rote Karte (Gesundheitsgefährdung)",
+        "Nur Freiwurf",
+        "2-Minuten-Strafe ohne Karte"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte (Gesundheitsgefährdung)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (nach Videobeweis): Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft – Wie ist zu entscheiden?",
+      "options": [
+        "Gelbe Karte",
+        "Rote Karte (Gesundheitsgefährdung)",
+        "Nur Freiwurf",
+        "2-Minuten-Strafe ohne Karte"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte (Gesundheitsgefährdung)."
+    },
+    {
+      "question": "Schiedsrichter-Regelwerk (laut IHF-Regelwerk): Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft – Wie ist zu entscheiden?",
+      "options": [
+        "2-Minuten-Strafe ohne Karte",
+        "Rote Karte (Gesundheitsgefährdung)",
+        "Gelbe Karte",
+        "Nur Freiwurf"
+      ],
+      "correct": 1,
+      "explanation": "Entscheidung laut IHF-Regeln: Rote Karte (Gesundheitsgefährdung)."
+    },
+    {
+      "question": "Profi-Wissen (bei den Herren): Wer wurde 2007 im eigenen Land 'Wintermärchen'-Weltmeister?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Dänemark",
+        "Kroatien",
+        "Frankreich"
+      ],
+      "correct": 0,
+      "explanation": "Antwort: Deutschland (Trainer: Heiner Brand)."
+    },
+    {
+      "question": "Profi-Wissen (im internationalen Profisport): Wer wurde 2007 im eigenen Land 'Wintermärchen'-Weltmeister?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
+        "Kroatien",
+        "Frankreich",
+        "Dänemark"
+      ],
+      "correct": 0,
+      "explanation": "Antwort: Deutschland (Trainer: Heiner Brand)."
+    },
+    {
+      "question": "Profi-Wissen (in der Handball-Geschichte): Wer wurde 2007 im eigenen Land 'Wintermärchen'-Weltmeister?",
+      "options": [
+        "Deutschland (Trainer: Heiner Brand)",
         "Frankreich",
         "Dänemark",
-        "Deutschland",
         "Kroatien"
       ],
-      "correct": 2,
-      "explanation": "Deutschland gewann die Heim-WM 2007 unter Heiner Brand."
-    },
-    {
-      "question": "Welcher Titel ging im Handball an Deutschland beim Turnier WM 2007 ('Wintermärchen')?",
-      "options": [
-        "Sieger der WM 2007 ('Wintermärchen')",
-        "Halbfinal-Aus",
-        "Vorrunden-Aus",
-        "2. Platz"
-      ],
       "correct": 0,
-      "explanation": "Deutschland gewann die Heim-WM 2007 unter Heiner Brand."
+      "explanation": "Antwort: Deutschland (Trainer: Heiner Brand)."
     },
     {
-      "question": "Profi-Handball Historie: Wer gewann das Turnier EM 2016 in Polen ('Bad Boys')?",
+      "question": "Profi-Wissen (laut Statistik): Wer wurde 2007 im eigenen Land 'Wintermärchen'-Weltmeister?",
+      "options": [
+        "Kroatien",
+        "Dänemark",
+        "Deutschland (Trainer: Heiner Brand)",
+        "Frankreich"
+      ],
+      "correct": 2,
+      "explanation": "Antwort: Deutschland (Trainer: Heiner Brand)."
+    },
+    {
+      "question": "Profi-Wissen (bei den Herren): Wer gewann die Handball-Europameisterschaft 2016 ('Bad Boys')?",
       "options": [
         "Frankreich",
         "Spanien",
-        "Deutschland",
+        "Deutschland (Trainer: Dagur Sigurdsson)",
         "Norwegen"
       ],
       "correct": 2,
-      "explanation": "Deutschland schlug Spanien im Finale überraschend souverän."
+      "explanation": "Antwort: Deutschland (Trainer: Dagur Sigurdsson)."
     },
     {
-      "question": "Welcher Titel ging im Handball an Deutschland beim Turnier EM 2016 in Polen ('Bad Boys')?",
+      "question": "Profi-Wissen (im internationalen Profisport): Wer gewann die Handball-Europameisterschaft 2016 ('Bad Boys')?",
       "options": [
-        "2. Platz",
-        "Halbfinal-Aus",
-        "Sieger der EM 2016 in Polen ('Bad Boys')",
-        "Vorrunden-Aus"
+        "Norwegen",
+        "Frankreich",
+        "Deutschland (Trainer: Dagur Sigurdsson)",
+        "Spanien"
       ],
       "correct": 2,
-      "explanation": "Deutschland schlug Spanien im Finale überraschend souverän."
+      "explanation": "Antwort: Deutschland (Trainer: Dagur Sigurdsson)."
     },
     {
-      "question": "Profi-Handball Historie: Wer gewann das Turnier Olympia 2020 in Tokio (Herren)?",
+      "question": "Profi-Wissen (in der Handball-Geschichte): Wer gewann die Handball-Europameisterschaft 2016 ('Bad Boys')?",
+      "options": [
+        "Norwegen",
+        "Deutschland (Trainer: Dagur Sigurdsson)",
+        "Frankreich",
+        "Spanien"
+      ],
+      "correct": 1,
+      "explanation": "Antwort: Deutschland (Trainer: Dagur Sigurdsson)."
+    },
+    {
+      "question": "Profi-Wissen (laut Statistik): Wer gewann die Handball-Europameisterschaft 2016 ('Bad Boys')?",
+      "options": [
+        "Spanien",
+        "Norwegen",
+        "Frankreich",
+        "Deutschland (Trainer: Dagur Sigurdsson)"
+      ],
+      "correct": 3,
+      "explanation": "Antwort: Deutschland (Trainer: Dagur Sigurdsson)."
+    },
+    {
+      "question": "Profi-Wissen (bei den Herren): Welcher deutsche Verein gewann 2023 die EHF Champions League?",
+      "options": [
+        "Füchse Berlin",
+        "SG Flensburg-Handewitt",
+        "THW Kiel",
+        "SC Magdeburg"
+      ],
+      "correct": 3,
+      "explanation": "Antwort: SC Magdeburg."
+    },
+    {
+      "question": "Profi-Wissen (im internationalen Profisport): Welcher deutsche Verein gewann 2023 die EHF Champions League?",
+      "options": [
+        "Füchse Berlin",
+        "SG Flensburg-Handewitt",
+        "SC Magdeburg",
+        "THW Kiel"
+      ],
+      "correct": 2,
+      "explanation": "Antwort: SC Magdeburg."
+    },
+    {
+      "question": "Profi-Wissen (in der Handball-Geschichte): Welcher deutsche Verein gewann 2023 die EHF Champions League?",
+      "options": [
+        "THW Kiel",
+        "SC Magdeburg",
+        "Füchse Berlin",
+        "SG Flensburg-Handewitt"
+      ],
+      "correct": 1,
+      "explanation": "Antwort: SC Magdeburg."
+    },
+    {
+      "question": "Profi-Wissen (laut Statistik): Welcher deutsche Verein gewann 2023 die EHF Champions League?",
+      "options": [
+        "THW Kiel",
+        "Füchse Berlin",
+        "SG Flensburg-Handewitt",
+        "SC Magdeburg"
+      ],
+      "correct": 3,
+      "explanation": "Antwort: SC Magdeburg."
+    },
+    {
+      "question": "Profi-Wissen (bei den Herren): Welche Nation gewann Gold im Herren-Handball bei Olympia 2020 in Tokio?",
+      "options": [
+        "Deutschland",
+        "Dänemark",
+        "Spanien",
+        "Frankreich"
+      ],
+      "correct": 3,
+      "explanation": "Antwort: Frankreich."
+    },
+    {
+      "question": "Profi-Wissen (im internationalen Profisport): Welche Nation gewann Gold im Herren-Handball bei Olympia 2020 in Tokio?",
       "options": [
         "Dänemark",
         "Deutschland",
@@ -1333,40 +1564,73 @@ window.quizData = {
         "Spanien"
       ],
       "correct": 2,
-      "explanation": "Frankreich sicherte sich Gold im Finale gegen Dänemark."
+      "explanation": "Antwort: Frankreich."
     },
     {
-      "question": "Welcher Titel ging im Handball an Frankreich beim Turnier Olympia 2020 in Tokio (Herren)?",
+      "question": "Profi-Wissen (in der Handball-Geschichte): Welche Nation gewann Gold im Herren-Handball bei Olympia 2020 in Tokio?",
       "options": [
-        "Sieger der Olympia 2020 in Tokio (Herren)",
-        "Halbfinal-Aus",
-        "2. Platz",
-        "Vorrunden-Aus"
-      ],
-      "correct": 0,
-      "explanation": "Frankreich sicherte sich Gold im Finale gegen Dänemark."
-    },
-    {
-      "question": "Profi-Handball Historie: Wer gewann das Turnier Champions League Sieger 2023?",
-      "options": [
-        "SC Magdeburg",
-        "Kiel",
-        "Barca",
-        "PSG"
-      ],
-      "correct": 0,
-      "explanation": "Der SC Magdeburg gewann das Champions League Final4 2023."
-    },
-    {
-      "question": "Welcher Titel ging im Handball an SC Magdeburg beim Turnier Champions League Sieger 2023?",
-      "options": [
-        "Halbfinal-Aus",
-        "2. Platz",
-        "Sieger der Champions League Sieger 2023",
-        "Vorrunden-Aus"
+        "Spanien",
+        "Deutschland",
+        "Frankreich",
+        "Dänemark"
       ],
       "correct": 2,
-      "explanation": "Der SC Magdeburg gewann das Champions League Final4 2023."
+      "explanation": "Antwort: Frankreich."
+    },
+    {
+      "question": "Profi-Wissen (laut Statistik): Welche Nation gewann Gold im Herren-Handball bei Olympia 2020 in Tokio?",
+      "options": [
+        "Dänemark",
+        "Frankreich",
+        "Deutschland",
+        "Spanien"
+      ],
+      "correct": 1,
+      "explanation": "Antwort: Frankreich."
+    },
+    {
+      "question": "Profi-Wissen (bei den Herren): Wer ist Rekordmeister der deutschen Männer-Handball-Bundesliga (HBL)?",
+      "options": [
+        "VfL Gummersbach",
+        "THW Kiel",
+        "SG Flensburg-Handewitt",
+        "SC Magdeburg"
+      ],
+      "correct": 1,
+      "explanation": "Antwort: THW Kiel."
+    },
+    {
+      "question": "Profi-Wissen (im internationalen Profisport): Wer ist Rekordmeister der deutschen Männer-Handball-Bundesliga (HBL)?",
+      "options": [
+        "SG Flensburg-Handewitt",
+        "VfL Gummersbach",
+        "THW Kiel",
+        "SC Magdeburg"
+      ],
+      "correct": 2,
+      "explanation": "Antwort: THW Kiel."
+    },
+    {
+      "question": "Profi-Wissen (in der Handball-Geschichte): Wer ist Rekordmeister der deutschen Männer-Handball-Bundesliga (HBL)?",
+      "options": [
+        "VfL Gummersbach",
+        "SC Magdeburg",
+        "THW Kiel",
+        "SG Flensburg-Handewitt"
+      ],
+      "correct": 2,
+      "explanation": "Antwort: THW Kiel."
+    },
+    {
+      "question": "Profi-Wissen (laut Statistik): Wer ist Rekordmeister der deutschen Männer-Handball-Bundesliga (HBL)?",
+      "options": [
+        "SC Magdeburg",
+        "VfL Gummersbach",
+        "SG Flensburg-Handewitt",
+        "THW Kiel"
+      ],
+      "correct": 3,
+      "explanation": "Antwort: THW Kiel."
     }
   ]
 };
