@@ -1,55 +1,8 @@
 import json
 import random
-import unicodedata
+from dedupe_helpers import add_question
 
 seen_questions = set()
-
-def _normalize(text: str) -> str:
-    if text is None:
-        return ""
-    return unicodedata.normalize("NFKC", str(text)).strip().casefold()
-
-def add_q(q_text, correct, wrong_list, exp, target_list):
-    """Add a question to target_list unless a normalized duplicate exists.
-    Ensures options are unique (by normalized text) and that the correct
-    answer is present. Keeps up to 4 options (1 correct + up to 3 wrongs).
-    """
-    key = _normalize(q_text)
-    if key in seen_questions:
-        return
-    seen_questions.add(key)
-
-    # Build option list, avoiding duplicates and avoiding wrongs equal to correct
-    opts = [correct]
-    for w in wrong_list:
-        if len(opts) >= 4:
-            break
-        if _normalize(w) == _normalize(correct):
-            continue
-        if any(_normalize(o) == _normalize(w) for o in opts):
-            continue
-        opts.append(w)
-
-    # If we don't have enough options, allow placeholders (rare) or duplicate safe picks
-    # But normally the provided wrong_list should contain enough distinct distractors.
-    # Shuffle options for variety
-    random.shuffle(opts)
-
-    # Find correct index robustly using normalized comparison
-    try:
-        correct_index = next(i for i,o in enumerate(opts) if _normalize(o) == _normalize(correct))
-    except StopIteration:
-        # As a fallback, ensure correct is first
-        opts.insert(0, correct)
-        opts = opts[:4]
-        correct_index = 0
-
-    target_list.append({
-        "question": q_text,
-        "options": opts,
-        "correct": correct_index,
-        "explanation": exp
-    })
 
 # ==========================================
 # 1. LEICHT (200 Einzigartige Grundlagenfragen)
@@ -68,9 +21,9 @@ def generate_handball_easy():
         ("Torwart", "im Torraum zur Abwehr von Torschüssen", ["auf der Außenbahn", "an der 9m-Linie", "auf der Wechselbank"])
     ]
     for pos, desc, wrongs in positions:
-        add_q(f"Wo agiert der '{pos}' primär auf dem Feld?", desc, wrongs, f"Der {pos} spielt {desc}.", q_list)
+        add_question(f"Wo agiert der '{pos}' primär auf dem Feld?", desc, wrongs, f"Der {pos} spielt {desc}.", q_list, seen_questions)
         # second variant: ask which position is described by the sentence
-        add_q(f"Welche Position beschreibt der Satz: '{desc}'?", pos, [p[0] for p in positions if p[0] != pos], f"Das ist die Position des {pos}.", q_list)
+        add_question(f"Welche Position beschreibt der Satz: '{desc}'?", pos, [p[0] for p in positions if p[0] != pos], f"Das ist die Position des {pos}.", q_list, seen_questions)
 
     # B. Spielfeld & Linien
     lines = [
@@ -80,8 +33,8 @@ def generate_handball_easy():
         ("Torwartgrenzlinie bei 7m", "4 Meter", ["3 Meter", "5 Meter", "2 Meter"], "Bei 7m darf der Keeper bis zur 4m-Linie vorgehen.")
     ]
     for line_name, dist, wrongs, exp in lines:
-        add_q(f"In welcher Entfernung zum Tor befindet sich die {line_name}?", dist, wrongs, exp, q_list)
-        add_q(f"Welche Markierung liegt in exakt {dist} Entfernung zum Tor?", line_name, [l[0] for l in lines if l[0] != line_name], exp, q_list)
+        add_question(f"In welcher Entfernung zum Tor befindet sich die {line_name}?", dist, wrongs, exp, q_list, seen_questions)
+        add_question(f"Welche Markierung liegt in exakt {dist} Entfernung zum Tor?", line_name, [l[0] for l in lines if l[0] != line_name], exp, q_list, seen_questions)
 
     # C. Grundregeln
     regeln = [
@@ -93,7 +46,7 @@ def generate_handball_easy():
     actions = ["im Angriff", "im Konter", "beim Freiwurf", "beim Anwurf", "beim Einwurf", "im Rückraum", "am Kreis"]
     for r_title, r_cond, r_wrongs, exp in regeln:
         for act in actions:
-            add_q(f"Grundregel ({act}): Wann pfeift der Schiedsrichter '{r_title}'?", f"Wenn {r_cond}", r_wrongs, exp, q_list)
+            add_question(f"Grundregel ({act}): Wann pfeift der Schiedsrichter '{r_title}'?", f"Wenn {r_cond}", r_wrongs, exp, q_list, seen_questions)
 
     # D. Ballgrößen
     ball_sizes = [
@@ -102,7 +55,7 @@ def generate_handball_easy():
         ("Jugend D/C", "Größe 1 (50-52 cm)", ["Größe 2", "Größe 3", "Größe 0"])
     ]
     for target, size, wrongs in ball_sizes:
-        add_q(f"Welche offizielle Ballgröße gilt für {target}?", size, wrongs, f"Für {target} ist {size} vorgeschrieben.", q_list)
+        add_question(f"Welche offizielle Ballgröße gilt für {target}?", size, wrongs, f"Für {target} ist {size} vorgeschrieben.", q_list, seen_questions)
 
     return q_list[:200]
 
@@ -123,7 +76,7 @@ def generate_handball_medium():
     situations = ["aus dem gebundenen Spiel", "in Überzahl", "in Unterzahl", "gegen eine 6:0-Abwehr", "gegen eine 5:1-Abwehr", "in der zweiten Welle"]
     for t_name, t_desc, t_wrongs in tactics:
         for sit in situations:
-            add_q(f"Taktik ({sit}): Was versteht man unter '{t_name}'?", t_desc, t_wrongs, f"Beim {t_name} gilt: {t_desc}.", q_list)
+            add_question(f"Taktik ({sit}): Was versteht man unter '{t_name}'?", t_desc, t_wrongs, f"Beim {t_name} gilt: {t_desc}.", q_list, seen_questions)
 
     formationen = [
         ("6:0-Abwehr", "Alle 6 Feldspieler stehen kompakt an der 6m-Torraumlinie", ["5 hinten, 1 vorgezogen", "Manndeckung übers ganze Feld", "4 hinten, 2 vorne"]),
@@ -132,7 +85,7 @@ def generate_handball_medium():
         ("Manndeckung", "Jeder Abwehrspieler deckt einen festen Gegenspieler", ["Alle stehen am Kreis", "Niemand bewegt sich", "Nur der Torwart verteidigt"]) 
     ]
     for form, f_desc, f_wrongs in formationen:
-        add_q(f"Abwehr-Taktik: Was kennzeichnet eine '{form}'?", f_desc, f_wrongs, f"Charakteristisch für die {form}: {f_desc}.", q_list)
+        add_question(f"Abwehr-Taktik: Was kennzeichnet eine '{form}'?", f_desc, f_wrongs, f"Charakteristisch für die {form}: {f_desc}.", q_list, seen_questions)
 
     beach = [
         ("Spin-Shot (360-Grad-Drehung im Flug)", "2 Punkte", ["1 Punkt", "3 Punkte", "4 Punkte"]),
@@ -142,7 +95,7 @@ def generate_handball_medium():
         ("Einfacher Schlagwurf ohne Zusatzaktion", "1 Punkt", ["2 Punkte", "3 Punkte", "0 Punkte"]) 
     ]
     for b_move, b_pts, b_wrongs in beach:
-        add_q(f"Beachhandball-Wertung: Wie viele Punkte bringt ein '{b_move}'?", b_pts, b_wrongs, f"Ein {b_move} bringt im Beachhandball {b_pts}.", q_list)
+        add_question(f"Beachhandball-Wertung: Wie viele Punkte bringt ein '{b_move}'?", b_pts, b_wrongs, f"Ein {b_move} bringt im Beachhandball {b_pts}.", q_list, seen_questions)
 
     return q_list[:200]
 
@@ -162,7 +115,7 @@ def generate_handball_hard():
     contexts = ["im WM-Finale", "in der Bundesliga", "im entscheidenden Angriff", "bei Torgefahr", "nach Videobeweis", "laut IHF-Regelwerk"]
     for q_head, c_ans, w_ans in referee_cases:
         for ctx in contexts:
-            add_q(f"Schiedsrichter-Regelwerk ({ctx}): {q_head} – Wie ist zu entscheiden?", c_ans, w_ans, f"Entscheidung laut IHF-Regeln: {c_ans}.", q_list)
+            add_question(f"Schiedsrichter-Regelwerk ({ctx}): {q_head} – Wie ist zu entscheiden?", c_ans, w_ans, f"Entscheidung laut IHF-Regeln: {c_ans}.", q_list, seen_questions)
 
     history = [
         ("Wer wurde 2007 im eigenen Land 'Wintermärchen'-Weltmeister?", "Deutschland (Trainer: Heiner Brand)", ["Frankreich", "Dänemark", "Kroatien"]),
@@ -174,7 +127,7 @@ def generate_handball_hard():
     hist_ctx = ["bei den Herren", "im internationalen Profisport", "in der Handball-Geschichte", "laut Statistik"]
     for h_q, h_c, h_w in history:
         for h_ctx in hist_ctx:
-            add_q(f"Profi-Wissen ({h_ctx}): {h_q}", h_c, h_w, f"Antwort: {h_c}.", q_list)
+            add_question(f"Profi-Wissen ({h_ctx}): {h_q}", h_c, h_w, f"Antwort: {h_c}.", q_list, seen_questions)
 
     return q_list[:200]
 

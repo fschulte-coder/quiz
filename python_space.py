@@ -1,50 +1,10 @@
 import json
 import random
-import unicodedata
+from dedupe_helpers import add_question
 
 seen_space = set()
 
-def _normalize(text: str) -> str:
-    if text is None:
-        return ""
-    return unicodedata.normalize("NFKC", str(text)).strip().casefold()
-
-def add_sq(q_text, correct, wrong_list, exp, target_list):
-    """Add a question to target_list unless a normalized duplicate exists.
-    Ensures options are unique (by normalized text) and that the correct
-    answer is present. Keeps up to 4 options (1 correct + up to 3 wrongs).
-    """
-    key = _normalize(q_text)
-    if key in seen_space:
-        return
-    seen_space.add(key)
-
-    opts = [correct]
-    for w in wrong_list:
-        if len(opts) >= 4:
-            break
-        if _normalize(w) == _normalize(correct):
-            continue
-        if any(_normalize(o) == _normalize(w) for o in opts):
-            continue
-        opts.append(w)
-
-    random.shuffle(opts)
-
-    try:
-        correct_index = next(i for i,o in enumerate(opts) if _normalize(o) == _normalize(correct))
-    except StopIteration:
-        opts.insert(0, correct)
-        opts = opts[:4]
-        correct_index = 0
-
-    target_list.append({
-        "question": q_text,
-        "options": opts,
-        "correct": correct_index,
-        "explanation": exp
-    })
-
+# Reuse the same structure but delegate dedupe + option building to dedupe_helpers
 
 def generate_space_easy():
     q_list = []
@@ -62,17 +22,13 @@ def generate_space_easy():
 
     planet_names = [p[0] for p in planets]
     for name, pos, nick, orbit, detail in planets:
-        # Which planet is Nth?
         wrongs = [n for n in planet_names if n != name][:3]
-        add_sq(f"Welcher Himmelskörper ist der {pos} von der Sonne aus gesehen?", name, wrongs, f"Der {name} ist der {pos}.", q_list)
-        # Nickname
+        add_question(f"Welcher Himmelskörper ist der {pos} von der Sonne aus gesehen?", name, wrongs, f"Der {name} ist der {pos}.", q_list, seen_space)
         wrongs = [n for n in planet_names if n != name][:3]
-        add_sq(f"Welcher Planet wird auch als der '{nick}' bezeichnet?", name, wrongs, f"Der {name} wird oft als {nick} bezeichnet.", q_list)
-        # Detail
+        add_question(f"Welcher Planet wird auch als der '{nick}' bezeichnet?", name, wrongs, f"Der {name} wird oft als {nick} bezeichnet.", q_list, seen_space)
         wrongs = [n for n in planet_names if n != name][:3]
-        add_sq(f"Welcher Planet ist der {detail} in unserem Sonnensystem?", name, wrongs, f"Der {name} ist {detail}.", q_list)
-        # Orbit period
-        add_sq(f"Wie lange braucht der Planet {name} für eine komplette Runde um die Sonne?", orbit, ["24 Stunden", "30 Tage", "1000 Jahre"], f"Die Umlaufzeit von {name} um die Sonne beträgt {orbit}.", q_list)
+        add_question(f"Welcher Planet ist der {detail} in unserem Sonnensystem?", name, wrongs, f"Der {name} ist {detail}.", q_list, seen_space)
+        add_question(f"Wie lange braucht der Planet {name} für eine komplette Runde um die Sonne?", orbit, ["24 Stunden", "30 Tage", "1000 Jahre"], f"Die Umlaufzeit von {name} um die Sonne beträgt {orbit}.", q_list, seen_space)
 
     sun_facts = [
         ("Aus was besteht die Sonne hauptsächlich?", "Aus Wasserstoff und Helium", ["Aus flüssigem Gestein", "Aus reinem Sauerstoff", "Aus festem Eisen"]),
@@ -80,7 +36,7 @@ def generate_space_easy():
         ("Wie lange braucht das Licht der Sonne bis zur Erde?", "Ca. 8 Minuten", ["1 Sekunde", "24 Stunden", "1 Jahr"]) 
     ]
     for q, c, w in sun_facts:
-        add_sq(q, c, w, f"Fakt zur Sonne: {c}.", q_list)
+        add_question(q, c, w, f"Fakt zur Sonne: {c}.", q_list, seen_space)
 
     return q_list[:200]
 
@@ -102,8 +58,8 @@ def generate_space_medium():
     planet_names = ["Merkur","Venus","Erde","Mars","Jupiter","Saturn","Uranus","Neptun"]
     for m_name, parent, desc in moons:
         wrongs = [p for p in planet_names if p != parent][:3]
-        add_sq(f"Um welchen Planeten kreist der Mond '{m_name}'?", parent, wrongs, f"{m_name} umkreist {parent}.", q_list)
-        add_sq(f"Welche Eigenschaft trifft auf den Mond '{m_name}' zu?", desc, ["Er besteht komplett aus Gold", "Er hat ein eigenes Ringsystem", "Er ist der sonnennächste Planet"], f"Richtig: {desc}.", q_list)
+        add_question(f"Um welchen Planeten kreist der Mond '{m_name}'?", parent, wrongs, f"{m_name} umkreist {parent}.", q_list, seen_space)
+        add_question(f"Welche Eigenschaft trifft auf den Mond '{m_name}' zu?", desc, ["Er besteht komplett aus Gold", "Er hat ein eigenes Ringsystem", "Er ist der sonnennächste Planet"], f"Richtig: {desc}.", q_list, seen_space)
 
     missions = [
         ("Apollo 11 (1969)", "Neil Armstrong betrat als erster Mensch den Mond", ["Erstes Teleskop im All", "Marslandung", "Flug zum Jupiter"]),
@@ -112,8 +68,8 @@ def generate_space_medium():
         ("James-Webb-Teleskop", "Ein Weltraumteleskop für gestochen scharfe Infrarot-Bilder", ["Eine bemannte Mars-Kapsel", "Ein Sonnensegel", "Ein Mond-Auto"]) 
     ]
     for name, desc, wrong in missions:
-        add_sq(f"Was ist das Besondere an '{name}'?", desc, wrong, f"{name} ist bekannt dafür: {desc}.", q_list)
-        add_sq(f"Welche Raumfahrt-Mission/Gerät wird beschrieben durch: '{desc}'?", name, ["Sputnik 1", "Voyager 2", "Hubble"], f"Das beschreibt {name}.", q_list)
+        add_question(f"Was ist das Besondere an '{name}'?", desc, wrong, f"{name} ist bekannt dafür: {desc}.", q_list, seen_space)
+        add_question(f"Welche Raumfahrt-Mission/Gerät wird beschrieben durch: '{desc}'?", name, ["Sputnik 1", "Voyager 2", "Hubble"], f"Das beschreibt {name}.", q_list, seen_space)
 
     return q_list[:200]
 
@@ -130,14 +86,14 @@ def generate_space_hard():
         ("Was sind 'Exoplaneten'?", "Planeten, die andere Sterne außerhalb unseres Sonnensystems umkreisen", ["Ausgestorbene Planeten", "Zwergplaneten wie Pluto", "Monde von Gasriesen"]) 
     ]
     for q, c, w in astrophysik:
-        add_sq(q, c, w, f"Astrophysik-Fakt: {c}.", q_list)
-        add_sq(f"Welches Phänomen antwortet auf die Frage: {q}?", c, w, f"Die korrekte Antwort lautet {c}.", q_list)
+        add_question(q, c, w, f"Astrophysik-Fakt: {c}.", q_list, seen_space)
+        add_question(f"Welches Phänomen antwortet auf die Frage: {q}?", c, w, f"Die korrekte Antwort lautet {c}.", q_list, seen_space)
 
     constellations = ["Großer Bär (Großer Wagen)", "Orion", "Kassiopeia", "Skorpion", "Löwe"]
     stars = ["Sirius", "Beteigeuze", "Polarstern (Nordstern)", "Proxima Centauri"]
     for s in stars:
         for c in constellations:
-            add_sq(f"Orientierung am Nachthimmel: Welcher Stern/Sternbild wird zur Navigation auf der Nordhalbkugel genutzt?", "Polarstern (Nordstern)", [s for s in stars if s != "Polarstern (Nordstern)"][:3], f"Der Polarstern wird häufig zur Navigation genutzt.", q_list)
+            add_question(f"Orientierung am Nachthimmel: Welcher Stern/Sternbild wird zur Navigation auf der Nordhalbkugel genutzt?", "Polarstern (Nordstern)", [s for s in stars if s != "Polarstern (Nordstern)"][:3], f"Der Polarstern wird häufig zur Navigation genutzt.", q_list, seen_space)
 
     return q_list[:200]
 
