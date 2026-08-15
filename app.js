@@ -29,11 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextBtn = document.getElementById("next-btn");
   const restartBtn = document.getElementById("restart-btn");
 
+  // Thema wählen
   topicBtns.forEach(btn => {
     btn.addEventListener("click", (e) => {
       topicBtns.forEach(b => b.classList.remove("active"));
-      e.target.classList.add("active");
-      selectedTopic = e.target.dataset.value;
+      const target = e.currentTarget;
+      target.classList.add("active");
+      selectedTopic = target.dataset.value;
       
       if (selectedTopic === "weltraum") {
         document.body.className = "theme-weltraum";
@@ -45,26 +47,36 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Spieleranzahl wählen
   playerBtns.forEach(btn => {
     btn.addEventListener("click", (e) => {
       playerBtns.forEach(b => b.classList.remove("active"));
-      e.target.classList.add("active");
-      playerCount = parseInt(e.target.dataset.value);
+      const target = e.currentTarget;
+      target.classList.add("active");
+      playerCount = parseInt(target.dataset.value);
       updateSidebar();
     });
   });
 
+  // Schwierigkeit wählen
   diffBtns.forEach(btn => {
     btn.addEventListener("click", (e) => {
       diffBtns.forEach(b => b.classList.remove("active"));
-      e.target.classList.add("active");
-      difficulty = e.target.dataset.value;
+      const target = e.currentTarget;
+      target.classList.add("active");
+      difficulty = target.dataset.value;
     });
   });
 
-  startBtn.addEventListener("click", startGame);
-  nextBtn.addEventListener("click", nextQuestion);
-  restartBtn.addEventListener("click", () => location.reload());
+  if (startBtn) {
+    startBtn.addEventListener("click", startGame);
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener("click", nextQuestion);
+  }
+  if (restartBtn) {
+    restartBtn.addEventListener("click", () => location.reload());
+  }
 
   function updateSidebar() {
     playersContainer.innerHTML = "";
@@ -108,11 +120,23 @@ document.addEventListener("DOMContentLoaded", () => {
     currentQuestionIndex = 0;
     currentPlayerIndex = 0;
 
-    const dataPool = (selectedTopic === "weltraum") ? (window.spaceQuizData || window.quizData) : window.quizData;
-    const pool = dataPool[difficulty] || [];
+    // Datenquellen laden & Fallback prüfen
+    let dataPool;
+    if (selectedTopic === "weltraum") {
+      dataPool = window.spaceQuizData || window.quizData;
+    } else {
+      dataPool = window.quizData || window.spaceQuizData;
+    }
+
+    if (!dataPool) {
+      alert("Fehler: Keine Fragen geladen! Hast du 'questions.js' bzw. 'space_questions.js' generiert?");
+      return;
+    }
+
+    const pool = dataPool[difficulty] || dataPool["leicht"] || [];
 
     if (pool.length === 0) {
-      alert("Keine Fragen vorhanden!");
+      alert("Fehler: Für diesen Schwierigkeitsgrad sind keine Fragen vorhanden.");
       return;
     }
 
@@ -139,6 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const labels = ["A", "B", "C", "D"];
     q.options.forEach((opt, idx) => {
       const btn = document.createElement("button");
+      btn.type = "button";
       btn.className = "answer-btn";
       btn.innerHTML = `<span class="answer-badge">${labels[idx]}</span> <span>${opt}</span>`;
       btn.addEventListener("click", () => handleAnswer(idx));
@@ -159,7 +184,9 @@ document.addEventListener("DOMContentLoaded", () => {
       scores[currentPlayerIndex]++;
     } else {
       buttons[selectedIndex].classList.add("wrong");
-      buttons[q.correct].classList.add("correct");
+      if (buttons[q.correct]) {
+        buttons[q.correct].classList.add("correct");
+      }
       resultStatus.textContent = (selectedTopic === "weltraum") ? "FALSCH! DANEBEN" : "VERWORFEN! FALSCH";
       resultStatus.className = "result-status wrong";
     }

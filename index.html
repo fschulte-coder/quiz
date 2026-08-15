@@ -4,18 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arena Quiz</title>
-  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body class="theme-handball">
 
   <div class="quiz-wrapper">
-    <!-- Live Match Stats Sidebar -->
     <aside class="sidebar">
       <h3>Match Stats</h3>
       <div id="players-container"></div>
     </aside>
 
-    <!-- Hauptbereich des Quizzes -->
     <main class="main-content">
       <header>
         <h1 id="main-title">🤾 Handball Arena Quiz</h1>
@@ -23,35 +21,34 @@
 
       <!-- 1. SETUP SCREEN -->
       <section id="setup-screen" class="screen active">
-        <!-- Themen-Auswahl -->
         <div class="form-group">
           <label>Thema Wählen</label>
           <div class="btn-group" id="topic-btns">
-            <button class="btn btn-option active" data-value="handball">🤾 Handball</button>
-            <button class="btn btn-option" data-value="weltraum">🚀 Weltraum</button>
+            <button type="button" class="btn btn-option active" data-value="handball">🤾 Handball</button>
+            <button type="button" class="btn btn-option" data-value="weltraum">🚀 Weltraum</button>
           </div>
         </div>
 
         <div class="form-group">
           <label>Anzahl der Mitspieler</label>
           <div class="btn-group" id="player-count-btns">
-            <button class="btn btn-option active" data-value="1">1 Spieler</button>
-            <button class="btn btn-option" data-value="2">2 Spieler</button>
-            <button class="btn btn-option" data-value="3">3 Spieler</button>
-            <button class="btn btn-option" data-value="4">4 Spieler</button>
+            <button type="button" class="btn btn-option active" data-value="1">1 Spieler</button>
+            <button type="button" class="btn btn-option" data-value="2">2 Spieler</button>
+            <button type="button" class="btn btn-option" data-value="3">3 Spieler</button>
+            <button type="button" class="btn btn-option" data-value="4">4 Spieler</button>
           </div>
         </div>
 
         <div class="form-group">
           <label>Schwierigkeitsgrad</label>
           <div class="btn-group" id="difficulty-btns">
-            <button class="btn btn-option active" data-value="leicht">Leicht</button>
-            <button class="btn btn-option" data-value="mittel">Mittel</button>
-            <button class="btn btn-option" data-value="schwer">Schwer</button>
+            <button type="button" class="btn btn-option active" data-value="leicht">Leicht</button>
+            <button type="button" class="btn btn-option" data-value="mittel">Mittel</button>
+            <button type="button" class="btn btn-option" data-value="schwer">Schwer</button>
           </div>
         </div>
 
-        <button id="start-btn" class="btn btn-primary">Quiz Starten ➔</button>
+        <button type="button" id="start-btn" class="btn btn-primary">Quiz Starten ➔</button>
       </section>
 
       <!-- 2. GAMEPLAY SCREEN -->
@@ -72,7 +69,7 @@
         <div id="explanation-box" class="explanation-box hidden">
           <div id="result-status" class="result-status">Richtig!</div>
           <p id="explanation-text"></p>
-          <button id="next-btn" class="btn btn-primary">Nächste Frage ➔</button>
+          <button type="button" id="next-btn" class="btn btn-primary">Nächste Frage ➔</button>
         </div>
       </section>
 
@@ -80,13 +77,13 @@
       <section id="result-screen" class="screen">
         <h2 style="font-family: 'Teko', sans-serif; font-size: 2.8rem; text-align: center; margin-bottom: 20px; text-transform: uppercase;">ERGEBNISSE</h2>
         <div id="final-scoreboard"></div>
-        <button id="restart-btn" class="btn btn-primary" style="margin-top: 25px;">Neues Spiel Starten</button>
+        <button type="button" id="restart-btn" class="btn btn-primary" style="margin-top: 25px;">Neues Spiel Starten</button>
       </section>
     </main>
   </div>
 
-  <script src="questions.js?v=6"></script>
-  <script src="space_questions.js?v=6"></script>
-  <script src="app.js?v=6"></script>
+  <script src="questions.js?v=7"></script>
+  <script src="space_questions.js?v=7"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>
