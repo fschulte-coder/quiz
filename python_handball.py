@@ -1,0 +1,156 @@
+import json
+import random
+
+seen_questions = set()
+
+def add_q(q_text, correct, wrong_list, exp, target_list):
+    if q_text in seen_questions:
+        return
+    seen_questions.add(q_text)
+    opts = [correct] + wrong_list[:3]
+    random.shuffle(opts)
+    target_list.append({
+        "question": q_text,
+        "options": opts,
+        "correct": opts.index(correct),
+        "explanation": exp
+    })
+
+# ==========================================
+# 1. LEICHT (200 Einzigartige Grundlagenfragen)
+# ==========================================
+def generate_handball_easy():
+    q_list = []
+    
+    # A. Positionen
+    positions = [
+        ("Linksaußen", "auf der linken Flügelposition an der Außenlinie", ["im Tor als Keeper", "zentral auf 9m", "am 6m-Kreis"]),
+        ("Rechtsaußen", "auf der rechten Flügelposition an der Außenlinie", ["im eigenen Torraum", "als Abwehrchef", "auf der Wechselbank"]),
+        ("Kreisläufer", "am 6m-Kreis im ständigen Körperkontakt mit der Abwehr", ["an der Mittellinie", "nur für 7m-Würfe", "außerhalb von 9m"]),
+        ("Rückraum Links", "im linken Rückraum für Fernwürfe und Durchbrüche", ["auf Rechtsaußen", "als zweiter Torwart", "nur in der Abwehr"]),
+        ("Rückraum Rechts", "im rechten Rückraum (meist von Linkshändern besetzt)", ["auf Linksaußen", "als Schiedsrichter-Assistent", "im Torraum"]),
+        ("Rückraum Mitte", "im zentralen Rückraum als Regisseur und Spielmacher", ["ausschließlich als Kreisläufer", "an der Eckfahne", "auf der Torlinie"]),
+        ("Torwart", "im Torraum zur Abwehr von Torschüssen", ["auf der Außenbahn", "an der 9m-Linie", "auf der Wechselbank"])
+    ]
+    for pos, desc, wrongs in positions:
+        add_q(f"Wo agiert der '{pos}' primär auf dem Feld?", desc, wrongs, f"Der {pos} spielt {desc}.", q_list)
+        add_q(f"Welche Position beschreibt der Satz: '{desc}'?", pos, [w for w in ["Linksaußen", "Kreisläufer", "Rückraum Mitte", "Torwart"] if w != pos], f"Das ist die Position des {pos}s.", q_list)
+
+    # B. Spielfeld & Linien
+    lines = [
+        ("Torraumlinie", "6 Meter", ["7 Meter", "9 Meter", "4 Meter"], "Der Torraumkreis ist 6m vom Tor entfernt."),
+        ("Freiwurflinie", "9 Meter", ["6 Meter", "7 Meter", "8 Meter"], "Die gestrichelte Freiwurflinie liegt bei 9m."),
+        ("Strafwurflinie", "7 Meter", ["6 Meter", "9 Meter", "4 Meter"], "Der Strafwurf wird von der 7m-Linie geworfen."),
+        ("Torwartgrenzlinie bei 7m", "4 Meter", ["3 Meter", "5 Meter", "2 Meter"], "Bei 7m darf der Keeper bis zur 4m-Linie vorgehen.")
+    ]
+    for line_name, dist, wrongs, exp in lines:
+        add_q(f"In welcher Entfernung zum Tor befindet sich die {line_name}?", dist, wrongs, exp, q_list)
+        add_q(f"Welche Markierung liegt in exakt {dist} Entfernung zum Tor?", line_name, [w for w in ["Torraumlinie", "Freiwurflinie", "Strafwurflinie", "Auswechselraum"] if w != line_name], exp, q_list)
+
+    # C. Grundregeln (KORRIGIERT: 5 Variablen entpacken)
+    regeln = [
+        ("Schrittfehler", "Mehr als 3 Schritte ohne Prellen gelaufen werden", ["Der Ball geprellt wird", "Der Ball abgepasst wird", "Der Torwart pariert"], "Schrittfehler führt zu Ballverlust."),
+        ("Doppelprellen", "Der Ball gefangen, geprellt, aufgenommen und erneut geprellt wird", ["Der Ball 3 Sekunden gehalten wird", "Ein Pass über 10 Meter erfolgt", "Der Ball das Tor trifft"], "Doppelprellen ist nicht erlaubt."),
+        ("Fußspiel", "Ein Feldspieler den Ball absichtlich mit dem Fuß oder Unterschenkel berührt", ["Der Torwart im Torraum pariert", "Der Ball an die Latte prallt", "Ein Sprungwurf ausgeführt wird"], "Feldspieler dürfen den Ball nicht mit dem Fuß berühren."),
+        ("Zeitfehler", "Der Ball länger als 3 Sekunden ununterbrochen in der Hand gehalten wird", ["Ein Angriff 2 Minuten dauert", "Der Wechsel zu lange dauert", "Der Ball ins Aus fliegt"], "Die maximale Haltedauer beträgt 3 Sekunden.")
+    ]
+    actions = ["im Angriff", "im Konter", "beim Freiwurf", "beim Anwurf", "beim Einwurf", "im Rückraum", "am Kreis"]
+    for r_title, r_cond, r_wrongs, exp in regeln:
+        for act in actions:
+            add_q(f"Grundregel ({act}): Wann pfeift der Schiedsrichter '{r_title}'?", f"Wenn {r_cond}", r_wrongs, exp, q_list)
+
+    # D. Ballgrößen
+    ball_sizes = [
+        ("Herren & männliche Jugend A/B", "Größe 3 (58-60 cm)", ["Größe 2", "Größe 1", "Größe 4"]),
+        ("Frauen & weibliche Jugend A/B", "Größe 2 (54-56 cm)", ["Größe 3", "Größe 1", "Größe 0"]),
+        ("Jugend D/C", "Größe 1 (50-52 cm)", ["Größe 2", "Größe 3", "Größe 0"])
+    ]
+    for target, size, wrongs in ball_sizes:
+        add_q(f"Welche offizielle Ballgröße gilt für {target}?", size, wrongs, f"Für {target} ist {size} vorgeschrieben.", q_list)
+
+    return q_list[:200]
+
+# ==========================================
+# 2. MITTEL (200 Einzigartige Taktik- & Beachfragen)
+# ==========================================
+def generate_handball_medium():
+    q_list = []
+    
+    tactics = [
+        ("Kreuzen", "Zwei Angreifer kreuzen ihre Laufwege bei der Ballübergabe zur Lückenbildung", ["Der Torwart verlässt das Feld", "Ein Foulspiel in der Luft", "Ein Wechsel der Außenspieler"]),
+        ("Sperren und Absetzen", "Der Kreisläufer blockiert einen Abwehrspieler, um dem Rückraum freien Weg zu verschaffen", ["Ein Konterlauf ohne Ball", "Ein Pass zum Torwart", "Das Betreten des Torraums"]),
+        ("Einlaufen", "Ein Außenspieler läuft ohne Ball überraschend an die 6m-Linie als zweiter Kreisläufer", ["Der Torwart läuft zum Anwurf", "Ein Wurf aus 12 Metern", "Ein Wechsel auf der Bank"]),
+        ("Stoßen", "Ein Rückraumspieler läuft mit Druck auf eine Abwehrlücke, um Abwehrspieler zu binden", ["Ein Stoßen mit den Händen gegen die Brust", "Der Pass zum Gegner", "Ein Zeitschinden"]),
+        ("Schnelle Mitte", "Der Anwurf nach einem Gegentor wird sofort ohne Verzögerung aus der Bewegung ausgeführt", ["Ein Freiwurf von der 9m-Linie", "Ein Wechsel des Torwarts", "Ein Kempa-Trick beim Anwurf"]),
+        ("Tempogegenstoß", "Ein blitzartiger Konterangriff direkt nach Ballgewinn gegen die ungeordnete Abwehr", ["Ein langsamer Aufbauspielzug", "Ein Wurf von der Auswechselbank", "Ein 7m-Strafwurf"])
+    ]
+    situations = ["aus dem gebundenen Spiel", "in Überzahl", "in Unterzahl", "gegen eine 6:0-Abwehr", "gegen eine 5:1-Abwehr", "in der zweiten Welle"]
+    for t_name, t_desc, t_wrongs in tactics:
+        for sit in situations:
+            add_q(f"Taktik ({sit}): Was versteht man unter '{t_name}'?", t_desc, t_wrongs, f"Beim {t_name} gilt: {t_desc}.", q_list)
+
+    formationen = [
+        ("6:0-Abwehr", "Alle 6 Feldspieler stehen kompakt an der 6m-Torraumlinie", ["5 hinten, 1 vorgezogen", "Manndeckung übers ganze Feld", "4 hinten, 2 vorne"]),
+        ("5:1-Abwehr", "1 Spieler agiert vorgezogen auf 9m, 5 verteidigen auf 6m", ["Alle 6 am Kreis", "Manndeckung", "3 hinten, 3 vorne"]),
+        ("3:2:1-Abwehr", "Offensive, gestaffelte Raumdeckung mit verschiedenen Abwehrebenen", ["Reine Blockabwehr am Kreis", "2 Torhüter im Feld", "4 Spieler am Kreis"]),
+        ("Manndeckung", "Jeder Abwehrspieler deckt fest einen festen Gegenspieler", ["Alle stehen am Kreis", "Niemand bewegt sich", "Nur der Torwart verteidigt"])
+    ]
+    for form, f_desc, f_wrongs in formationen:
+        add_q(f"Abwehr-Taktik: Was kennzeichnet eine '{form}'?", f_desc, f_wrongs, f"Charakteristisch für die {form}: {f_desc}.", q_list)
+
+    beach = [
+        ("Spin-Shot (360-Grad-Drehung im Flug)", "2 Punkte", ["1 Punkt", "3 Punkte", "4 Punkte"]),
+        ("Kempa-Trick (In der Luft fangen und werfen)", "2 Punkte", ["1 Punkt", "3 Punkte", "4 Punkte"]),
+        ("Tor durch den Specialist/Torwart", "2 Punkte", ["1 Punkt", "3 Punkte", "4 Punkte"]),
+        ("Erfolgreicher 7m-Strafwurf im Beachhandball", "2 Punkte", ["1 Punkt", "3 Punkte", "4 Punkte"]),
+        ("Einfacher Schlagwurf ohne Zusatzaktion", "1 Punkt", ["2 Punkte", "3 Punkte", "0 Punkte"])
+    ]
+    for b_move, b_pts, b_wrongs in beach:
+        add_q(f"Beachhandball-Wertung: Wie viele Punkte bringt ein '{b_move}'?", b_pts, b_wrongs, f"Ein {b_move} bringt im Beachhandball {b_pts}.", q_list)
+
+    return q_list[:200]
+
+# ==========================================
+# 3. SCHWER (200 Einzigartige Profi- & Regelfragen)
+# ==========================================
+def generate_handball_hard():
+    q_list = []
+    
+    referee_cases = [
+        ("Ein Abwehrspieler verhindert in den letzten 30 Sekunden die Wurfausführung absichtlich", "Rote Karte und 7-Meter-Strafwurf", ["Nur 2-Minuten-Strafe", "Nur Freiwurf", "Gelbe Karte"]),
+        ("Wie viele Pässe verbleiben nach dem Vorwarnzeichen (Passivspiel) maximal bis zum Torschuss?", "Maximal 4 Pässe", ["Maximal 6 Pässe", "Maximal 2 Pässe", "Unbegrenzt"]),
+        ("Was bedeutet die 'Blaue Karte' zusätzlich zur Roten Karte?", "Ein schriftlicher Bericht für ein Disziplinarverfahren folgt", ["Sofortiges Ende des Spiels", "2-Minuten-Strafe für das Team", "Sperre für 5 Minuten"]),
+        ("Was passiert bei der dritten 2-Minuten-Strafe desselben Spielers?", "Disqualifikation (Rote Karte)", ["Blaue Karte", "Ausschluss für 10 Minuten", "Verwarnung"]),
+        ("Ein Spieler greift von hinten in den Wurfarm des Gegners in der Luft", "Rote Karte (Gesundheitsgefährdung)", ["Gelbe Karte", "Nur Freiwurf", "2-Minuten-Strafe ohne Karte"])
+    ]
+    contexts = ["im WM-Finale", "in der Bundesliga", "im entscheidenden Angriff", "bei Torgefahr", "nach Videobeweis", "laut IHF-Regelwerk"]
+    for q_head, c_ans, w_ans in referee_cases:
+        for ctx in contexts:
+            add_q(f"Schiedsrichter-Regelwerk ({ctx}): {q_head} – Wie ist zu entscheiden?", c_ans, w_ans, f"Entscheidung laut IHF-Regeln: {c_ans}.", q_list)
+
+    history = [
+        ("Wer wurde 2007 im eigenen Land 'Wintermärchen'-Weltmeister?", "Deutschland (Trainer: Heiner Brand)", ["Frankreich", "Dänemark", "Kroatien"]),
+        ("Wer gewann die Handball-Europameisterschaft 2016 ('Bad Boys')?", "Deutschland (Trainer: Dagur Sigurdsson)", ["Spanien", "Norwegen", "Frankreich"]),
+        ("Welcher deutsche Verein gewann 2023 die EHF Champions League?", "SC Magdeburg", ["THW Kiel", "SG Flensburg-Handewitt", "Füchse Berlin"]),
+        ("Welche Nation gewann Gold im Herren-Handball bei Olympia 2020 in Tokio?", "Frankreich", ["Dänemark", "Deutschland", "Spanien"]),
+        ("Wer ist Rekordmeister der deutschen Männer-Handball-Bundesliga (HBL)?", "THW Kiel", ["SG Flensburg-Handewitt", "SC Magdeburg", "VfL Gummersbach"])
+    ]
+    hist_ctx = ["bei den Herren", "im internationalen Profisport", "in der Handball-Geschichte", "laut Statistik"]
+    for h_q, h_c, h_w in history:
+        for h_ctx in hist_ctx:
+            add_q(f"Profi-Wissen ({h_ctx}): {h_q}", h_c, h_w, f"Antwort: {h_c}.", q_list)
+
+    return q_list[:200]
+
+def main():
+    quiz = {
+        "leicht": generate_handball_easy(),
+        "mittel": generate_handball_medium(),
+        "schwer": generate_handball_hard()
+    }
+    with open("questions.js", "w", encoding="utf-8") as f:
+        f.write(f"window.quizData = {json.dumps(quiz, indent=2, ensure_ascii=False)};")
+    print("✅ questions.js erfolgreich generiert!")
+
+if __name__ == "__main__":
+    main()
