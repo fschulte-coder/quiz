@@ -1,5 +1,5 @@
 // Handball Arena Quiz - 600 gemischte Fragen (Regelwerk, Taktik, Profi-HBL, Beach)
-const quizData = {
+window.quizData = {
   "leicht": [
     {
       "question": "Wie viele Schritte darf ein Spieler mit dem Ball laufen, ohne zu prellen?",
