@@ -3,29 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Handball Arena Quiz</title>
-  <!-- Einbindung der Custom Styles (inkl. Versionierungs-Tag gegen Browser-Cache) -->
-  <link rel="stylesheet" href="styles.css?v=4">
+  <title>Arena Quiz</title>
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
-<body>
+<body class="theme-handball">
 
   <div class="quiz-wrapper">
     <!-- Live Match Stats Sidebar -->
     <aside class="sidebar">
       <h3>Match Stats</h3>
-      <div id="players-container">
-        <!-- Spieler-Karten werden per app.js dynamisch gerendert -->
-      </div>
+      <div id="players-container"></div>
     </aside>
 
     <!-- Hauptbereich des Quizzes -->
     <main class="main-content">
       <header>
-        <h1>🤾 Handball Arena Quiz</h1>
+        <h1 id="main-title">🤾 Handball Arena Quiz</h1>
       </header>
 
-      <!-- 1. SETUP SCREEN (Spieler & Schwierigkeit wählen) -->
+      <!-- 1. SETUP SCREEN -->
       <section id="setup-screen" class="screen active">
+        <!-- Themen-Auswahl -->
+        <div class="form-group">
+          <label>Thema Wählen</label>
+          <div class="btn-group" id="topic-btns">
+            <button class="btn btn-option active" data-value="handball">🤾 Handball</button>
+            <button class="btn btn-option" data-value="weltraum">🚀 Weltraum</button>
+          </div>
+        </div>
+
         <div class="form-group">
           <label>Anzahl der Mitspieler</label>
           <div class="btn-group" id="player-count-btns">
@@ -45,28 +51,24 @@
           </div>
         </div>
 
-        <button id="start-btn" class="btn btn-primary">Anpfiff Starten ➔</button>
+        <button id="start-btn" class="btn btn-primary">Quiz Starten ➔</button>
       </section>
 
-      <!-- 2. GAMEPLAY SCREEN (Fragen & Antworten) -->
+      <!-- 2. GAMEPLAY SCREEN -->
       <section id="game-screen" class="screen">
         <div class="game-header">
           <div style="text-align: center; color: var(--text-muted); font-size: 0.9rem; font-weight: 700; letter-spacing: 1px;">
             FRAGE <span id="current-q-num" style="color: #fff;">1</span> VON 20
           </div>
-          <!-- Hexagon Waben-Fortschrittsleiste -->
           <div id="progress-dots" class="hexagon-tracker"></div>
         </div>
 
-        <!-- Fragekarte (Helle Fläche für maximale Lesbarkeit) -->
         <div class="question-card">
           <h3 id="question-text">Frage wird geladen...</h3>
         </div>
 
-        <!-- 4 Antworten-Raster -->
         <div id="options-container" class="options-grid"></div>
 
-        <!-- Erklärungs-Box (Erscheint nach Klick) -->
         <div id="explanation-box" class="explanation-box hidden">
           <div id="result-status" class="result-status">Richtig!</div>
           <p id="explanation-text"></p>
@@ -74,17 +76,17 @@
         </div>
       </section>
 
-      <!-- 3. RESULT SCREEN (Auswertung am Ende) -->
+      <!-- 3. RESULT SCREEN -->
       <section id="result-screen" class="screen">
-        <h2 style="font-family: 'Teko', sans-serif; font-size: 2.8rem; text-align: center; margin-bottom: 20px; text-transform: uppercase;">SCHLUSSPFIFF - ERGEBNISSE</h2>
+        <h2 style="font-family: 'Teko', sans-serif; font-size: 2.8rem; text-align: center; margin-bottom: 20px; text-transform: uppercase;">ERGEBNISSE</h2>
         <div id="final-scoreboard"></div>
         <button id="restart-btn" class="btn btn-primary" style="margin-top: 25px;">Neues Spiel Starten</button>
       </section>
     </main>
   </div>
 
-  <!-- Einbindung der Modul-Skripte -->
-  <script src="questions.js?v=4"></script>
-  <script src="app.js?v=4"></script>
+  <script src="questions.js?v=6"></script>
+  <script src="space_questions.js?v=6"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

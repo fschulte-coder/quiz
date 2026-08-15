@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  let selectedTopic = "handball";
   let playerCount = 1;
   let difficulty = "leicht";
   let questions = [];
@@ -11,10 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameScreen = document.getElementById("game-screen");
   const resultScreen = document.getElementById("result-screen");
 
+  const topicBtns = document.querySelectorAll("#topic-btns .btn");
   const playerBtns = document.querySelectorAll("#player-count-btns .btn");
   const diffBtns = document.querySelectorAll("#difficulty-btns .btn");
   const startBtn = document.getElementById("start-btn");
 
+  const mainTitle = document.getElementById("main-title");
   const progressDots = document.getElementById("progress-dots");
   const questionText = document.getElementById("question-text");
   const optionsContainer = document.getElementById("options-container");
@@ -25,6 +28,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const explanationText = document.getElementById("explanation-text");
   const nextBtn = document.getElementById("next-btn");
   const restartBtn = document.getElementById("restart-btn");
+
+  topicBtns.forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      topicBtns.forEach(b => b.classList.remove("active"));
+      e.target.classList.add("active");
+      selectedTopic = e.target.dataset.value;
+      
+      if (selectedTopic === "weltraum") {
+        document.body.className = "theme-weltraum";
+        mainTitle.textContent = "🚀 Weltraum Arena Quiz";
+      } else {
+        document.body.className = "theme-handball";
+        mainTitle.textContent = "🤾 Handball Arena Quiz";
+      }
+    });
+  });
 
   playerBtns.forEach(btn => {
     btn.addEventListener("click", (e) => {
@@ -89,7 +108,9 @@ document.addEventListener("DOMContentLoaded", () => {
     currentQuestionIndex = 0;
     currentPlayerIndex = 0;
 
-    const pool = quizData[difficulty] || [];
+    const dataPool = (selectedTopic === "weltraum") ? (window.spaceQuizData || window.quizData) : window.quizData;
+    const pool = dataPool[difficulty] || [];
+
     if (pool.length === 0) {
       alert("Keine Fragen vorhanden!");
       return;
@@ -133,13 +154,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (selectedIndex === q.correct) {
       buttons[selectedIndex].classList.add("correct");
-      resultStatus.textContent = "TOR! RICHTIG ANTWORTET";
+      resultStatus.textContent = (selectedTopic === "weltraum") ? "RICHTIG! EXZELLENT" : "TOR! RICHTIG ANTWORTET";
       resultStatus.className = "result-status correct";
       scores[currentPlayerIndex]++;
     } else {
       buttons[selectedIndex].classList.add("wrong");
       buttons[q.correct].classList.add("correct");
-      resultStatus.textContent = "VERWORFEN! FALSCH";
+      resultStatus.textContent = (selectedTopic === "weltraum") ? "FALSCH! DANEBEN" : "VERWORFEN! FALSCH";
       resultStatus.className = "result-status wrong";
     }
 
@@ -175,12 +196,11 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="player-avatar">S${idx + 1}</div>
           <div><strong>Spieler ${idx + 1}</strong></div>
         </div>
-        <div class="player-score">${score} / ${questions.length} Toren</div>
+        <div class="player-score">${score} / ${questions.length} Punkten</div>
       `;
       finalBoard.appendChild(row);
     });
   }
 
-  // Bereits beim ersten Seitenaufruf die Spieler in der Sidebar rendern
   updateSidebar();
 });

@@ -21,7 +21,6 @@
 }
 
 body {
-  /* Dynamischer Handball-Hallen-Hintergrund mit Flutlicht-, Parkett- & Glow-Effekten */
   background-color: #0b1120;
   background-image: 
     radial-gradient(ellipse at 50% 0%, rgba(0, 242, 254, 0.25) 0%, transparent 70%),
@@ -36,9 +35,9 @@ body {
   align-items: center;
   color: var(--text-main);
   padding: 20px;
+  transition: all 0.5s ease;
 }
 
-/* Haupt-Layout Container */
 .quiz-wrapper {
   display: flex;
   width: 100%;
@@ -47,7 +46,6 @@ body {
   align-items: stretch;
 }
 
-/* Live Match Stats Sidebar */
 .sidebar {
   width: 250px;
   background: var(--card-bg);
@@ -114,7 +112,6 @@ body {
   color: #fff;
 }
 
-/* Haupt-Content Arena Karte */
 .main-content {
   flex: 1;
   background: var(--card-bg);
@@ -142,7 +139,6 @@ header h1 {
 .screen { display: none; }
 .screen.active { display: block; }
 
-/* Hexagon / Waben Fortschrittsleiste */
 .hexagon-tracker {
   display: flex;
   justify-content: center;
@@ -174,7 +170,6 @@ header h1 {
   opacity: 0.35;
 }
 
-/* Frage-Box (Hell für perfekten Kontrast) */
 .question-card {
   background: rgba(248, 250, 252, 0.95);
   color: #0f172a;
@@ -192,7 +187,6 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
-/* Antwort-Buttons (Grid) */
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -248,7 +242,6 @@ header h1 {
   box-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
 }
 
-/* Formular & Buttons */
 .form-group {
   margin-bottom: 25px;
 }
@@ -307,7 +300,6 @@ header h1 {
   box-shadow: 0 15px 35px var(--primary-glow);
 }
 
-/* Auflösungs-Box */
 .explanation-box {
   margin-top: 20px;
   padding: 20px;
@@ -327,7 +319,77 @@ header h1 {
 .result-status.correct { color: var(--correct); }
 .result-status.wrong { color: var(--wrong); }
 
-/* Responsive Ansicht auf Mobilgeräten */
+/* ==========================================
+   WELTRAUM THEME OVERRIDES
+   ========================================== */
+body.theme-weltraum {
+  background-color: #030014;
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(147, 51, 234, 0.35) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(59, 130, 246, 0.35) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.15) 0%, transparent 60%),
+    radial-gradient(circle at center, #07071a 0%, #020208 100%);
+}
+
+body.theme-weltraum .sidebar h3 {
+  color: #c084fc;
+}
+
+body.theme-weltraum header h1 {
+  text-shadow: 0 0 20px rgba(192, 132, 252, 0.6);
+}
+
+body.theme-weltraum .player-card.active {
+  background: rgba(168, 85, 247, 0.2);
+  border-color: #c084fc;
+  box-shadow: 0 0 20px rgba(192, 132, 252, 0.4);
+}
+
+body.theme-weltraum .player-avatar {
+  background: linear-gradient(135deg, #a855f7, #6366f1);
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+}
+
+body.theme-weltraum .btn-option.active {
+  background: #a855f7;
+  border-color: #a855f7;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+body.theme-weltraum .btn-primary {
+  background: linear-gradient(135deg, #9333ea 0%, #4f46e5 100%);
+  box-shadow: 0 10px 25px rgba(147, 51, 234, 0.5);
+}
+
+body.theme-weltraum .btn-primary:hover {
+  box-shadow: 0 15px 35px rgba(147, 51, 234, 0.7);
+}
+
+body.theme-weltraum .answer-btn:hover:not([disabled]) {
+  border-color: #c084fc;
+  background: rgba(192, 132, 252, 0.15);
+  box-shadow: 0 8px 20px rgba(192, 132, 252, 0.3);
+}
+
+body.theme-weltraum .answer-badge {
+  border-color: #c084fc;
+  color: #c084fc;
+}
+
+body.theme-weltraum .hex.active:nth-child(-n+10) {
+  background: #c084fc;
+  box-shadow: 0 0 12px #c084fc;
+}
+
+body.theme-weltraum .hex.active:nth-child(n+11) {
+  background: #6366f1;
+  box-shadow: 0 0 12px #6366f1;
+}
+
+body.theme-weltraum .explanation-box {
+  border-left-color: #c084fc;
+}
+
 @media (max-width: 768px) {
   .quiz-wrapper { flex-direction: column; }
   .sidebar { width: 100%; }
