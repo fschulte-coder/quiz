@@ -1,6609 +1,6609 @@
-// Weltraum Quiz - 600 Fragen fürs Sonnensystem (für Kinder ab 10 Jahren)
+// Weltraum Quiz - 600 abwechslungsreiche Fragen (Sonnensystem, Monde, Sterne & Astronauten)
 const quizData = {
   "leicht": [
     {
-      "question": "Welcher Planet unseres Sonnensystems ist der Sonne am nächsten?",
+      "question": "Wie heisst das berühmte Weltraumteleskop, das seit 2022 fantastische Bilder aus dem tiefen All schickt?",
       "options": [
-        "Merkur",
+        "Kepler-Satellit",
+        "Hubble-Teleskop",
+        "James-Webb-Teleskop",
+        "Galileo-Fernrohr"
+      ],
+      "correct": 2,
+      "explanation": "Das James-Webb-Teleskop sieht im Infrarotlicht und kann selbst die ältesten Galaxien des Universums fotografieren."
+    },
+    {
+      "question": "Wie nennt man das Phänomen, wenn der Mond sich genau vor die Sonne schiebt und es tagsüber dunkel wird?",
+      "options": [
+        "Sonnenfinsternis",
+        "Polarlichter",
+        "Meteorstrom",
+        "Mondfinsternis"
+      ],
+      "correct": 1,
+      "explanation": "Bei einer totalen Sonnenfinsternis verdeckt der Mond die Sonne für einige Minuten komplett."
+    },
+    {
+      "question": "Welche bunte Leuchterscheinung kann man im Winter nahe am Nordpol am Himmel beobachten?",
+      "options": [
+        "Sonneneruptiv",
+        "Kometenschweif",
+        "Polarlichter (Aurora)",
+        "Sternschnuppen"
+      ],
+      "correct": 3,
+      "explanation": "Polarlichter entstehen, wenn geladene Teilchen von der Sonne auf die Erdatmosphäre treffen."
+    },
+    {
+      "question": "Welches Tier flog im Jahr 1957 als eines der ersten Lebewesen im Raumschiff Sputnik 2 ins All?",
+      "options": [
+        "Der Schimpanse Ham",
+        "Die Hündin Laika",
+        "Maus Pieps",
+        "Kater Felix"
+      ],
+      "correct": 3,
+      "explanation": "Die Hündin Laika war das erste Lebewesen, das die Erde im Weltall umkreiste."
+    },
+    {
+      "question": "Wie heisst die internationale Raumstation, auf der Astronauten im All wohnen und forschen?",
+      "options": [
+        "Apollo 11",
+        "Enterprise",
+        "Starlink",
+        "ISS"
+      ],
+      "correct": 1,
+      "explanation": "Die ISS umkreist die Erde in ca. 400 km Höhe mit einer Geschwindigkeit von 28.000 km/h."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der sonnennächste Planet'?",
+      "options": [
         "Venus",
-        "Erde",
-        "Mars"
+        "Neptun",
+        "Saturn",
+        "Merkur"
       ],
-      "correct": 0,
-      "explanation": "Merkur ist der innerste Planet. Weil er so nah an der Sonne ist, wird es tagsüber extrem heiß!"
+      "correct": 3,
+      "explanation": "Merkur gilt als der sonnennächste Planet. Besonderheit: Er hat keine Atmosphäre und extreme Temperaturschwankungen."
     },
     {
-      "question": "Welcher ist der größte Planet in unserem Sonnensystem?",
+      "question": "Wie lange braucht der Planet Merkur ungefähr für eine Runde um die Sonne?",
       "options": [
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptun"
+        "88 Erdtagen",
+        "24 Stunden",
+        "10 Tage",
+        "500 Jahre"
       ],
       "correct": 0,
-      "explanation": "Jupiter ist ein riesiger Gasplanet. Er ist so groß, dass alle anderen Planeten zusammen hineinpassen würden!"
+      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Erdtagen."
     },
     {
-      "question": "Welcher Planet ist für seine wunderschönen, riesigen Ringe bekannt?",
+      "question": "Welche Farbe hat der Planet Merkur, wenn man ihn durch ein Weltraumteleskop betrachtet?",
       "options": [
+        "Kupfer-Lila",
+        "Neongrün",
+        "Pechschwarz",
+        "grau und voller Krater"
+      ],
+      "correct": 3,
+      "explanation": "Merkur erscheint am Himmel hauptsächlich grau und voller Krater."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der heißeste Planet'?",
+      "options": [
+        "Venus",
         "Saturn",
-        "Jupiter",
-        "Mars",
+        "Neptun",
         "Merkur"
       ],
       "correct": 0,
-      "explanation": "Saturns Ringe bestehen aus Milliarden kleinen Eis- und Gesteinsbrocken."
+      "explanation": "Venus gilt als der heißeste Planet. Besonderheit: Er ist von dicken Giftwolken umgeben, die die Hitze stauen."
     },
     {
-      "question": "Wie nennt man den roten Planeten, auf dem aktuell Roboter (Rover) herumdüsen?",
+      "question": "Wie lange braucht der Planet Venus ungefähr für eine Runde um die Sonne?",
       "options": [
-        "Mars",
-        "Venus",
-        "Jupiter",
-        "Pluto"
+        "500 Jahre",
+        "24 Stunden",
+        "10 Tage",
+        "225 Erdtagen"
       ],
-      "correct": 0,
-      "explanation": "Der Mars sieht rot aus, weil im Staub auf seiner Oberfläche ganz viel Eisenoxid (Rost) steckt."
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Venus beträgt 225 Erdtagen."
     },
     {
-      "question": "Welcher Stern steht im Zentrum unseres Sonnensystems und spendet uns Licht und Wärme?",
+      "question": "Welche Farbe hat der Planet Venus, wenn man ihn durch ein Weltraumteleskop betrachtet?",
       "options": [
-        "Die Sonne",
-        "Der Mond",
-        "Der Polarstern",
-        "Sirius"
+        "Pechschwarz",
+        "Neongrün",
+        "Kupfer-Lila",
+        "gelb-weißlich"
       ],
-      "correct": 0,
-      "explanation": "Die Sonne ist ein riesiger Ball aus brennendem Gas und der Stern, um den sich alles bei uns dreht."
+      "correct": 3,
+      "explanation": "Venus erscheint am Himmel hauptsächlich gelb-weißlich."
     },
     {
-      "question": "Wie lange braucht die Erde, um sich einmal komplett um die eigene Achse zu drehen?",
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'unser Heimatplanet'?",
       "options": [
-        "24 Stunden (1 Tag)",
-        "365 Tage",
-        "12 Stunden",
-        "1 Monat"
-      ],
-      "correct": 0,
-      "explanation": "Weil sich die Erde in 24 Stunden einmal dreht, erleben wir den Wechsel von Tag und Nacht."
-    },
-    {
-      "question": "Wie lange braucht die Erde für eine komplette Runde um die Sonne?",
-      "options": [
-        "1 Jahr (365 Tage)",
-        "1 Monat",
-        "1 Tag",
-        "10 Jahre"
-      ],
-      "correct": 0,
-      "explanation": "Ein Jahr auf der Erde ist genau die Zeit, die unser Planet für eine Runde um die Sonne braucht."
-    },
-    {
-      "question": "Wie heißt der natürliche Begleiter der Erde, den wir nachts am Himmel sehen?",
-      "options": [
-        "Der Mond",
-        "Die Sonne",
-        "Phobos",
-        "Titan"
-      ],
-      "correct": 0,
-      "explanation": "Der Mond kreist um die Erde und ist unser einziger natürlicher Satellit."
-    },
-    {
-      "question": "Welcher Planet ist unser Heimatplanet und der einzige, auf dem wir Leben kennen?",
-      "options": [
+        "Saturn",
         "Erde",
+        "Merkur",
+        "Neptun"
+      ],
+      "correct": 1,
+      "explanation": "Erde gilt als unser Heimatplanet. Besonderheit: Er ist der einzige bekannte Ort mit flüssigem Wasser und Leben."
+    },
+    {
+      "question": "Wie lange braucht der Planet Erde ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "24 Stunden",
+        "500 Jahre",
+        "365 Tagen",
+        "10 Tage"
+      ],
+      "correct": 2,
+      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Erde, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "blau und weiß",
+        "Neongrün",
+        "Pechschwarz",
+        "Kupfer-Lila"
+      ],
+      "correct": 0,
+      "explanation": "Erde erscheint am Himmel hauptsächlich blau und weiß."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der Rote Planet'?",
+      "options": [
+        "Merkur",
+        "Saturn",
         "Mars",
-        "Venus",
+        "Neptun"
+      ],
+      "correct": 2,
+      "explanation": "Mars gilt als der Rote Planet. Besonderheit: Er besitzt den höchsten Vulkan unseres Sonnensystems (Olympus Mons)."
+    },
+    {
+      "question": "Wie lange braucht der Planet Mars ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "500 Jahre",
+        "24 Stunden",
+        "10 Tage",
+        "687 Erdtagen"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Mars beträgt 687 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Mars, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "rostrot",
+        "Neongrün",
+        "Kupfer-Lila",
+        "Pechschwarz"
+      ],
+      "correct": 0,
+      "explanation": "Mars erscheint am Himmel hauptsächlich rostrot."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der größte Gasriese'?",
+      "options": [
+        "Jupiter",
+        "Neptun",
+        "Saturn",
+        "Merkur"
+      ],
+      "correct": 0,
+      "explanation": "Jupiter gilt als der größte Gasriese. Besonderheit: Er hat einen riesigen Wirbelsturm namens 'Großer Roter Fleck'."
+    },
+    {
+      "question": "Wie lange braucht der Planet Jupiter ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "500 Jahre",
+        "10 Tage",
+        "24 Stunden",
+        "12 Erdjahren"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Jupiter, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Kupfer-Lila",
+        "braun-weiß gestreift",
+        "Neongrün",
+        "Pechschwarz"
+      ],
+      "correct": 1,
+      "explanation": "Jupiter erscheint am Himmel hauptsächlich braun-weiß gestreift."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der Ringplanet'?",
+      "options": [
+        "Saturn",
+        "Merkur",
+        "Jupiter",
         "Neptun"
       ],
       "correct": 0,
-      "explanation": "Die Erde hat flüssiges Wasser, Sauerstoff und mildes Klima – perfekt für Pflanzen, Tiere und uns!"
+      "explanation": "Saturn gilt als der Ringplanet. Besonderheit: Er besitzt das spektakulärste Ringsystem aus Eis und Brocken."
     },
     {
-      "question": "Warum leuchtet der Mond nachts am Himmel?",
+      "question": "Wie lange braucht der Planet Saturn ungefähr für eine Runde um die Sonne?",
       "options": [
-        "Er wird von der Sonne angestrahlt",
-        "Er brennt wie ein Stern",
-        "Er hat Batterien",
-        "Er besteht aus Plasma"
+        "500 Jahre",
+        "24 Stunden",
+        "10 Tage",
+        "29 Erdjahren"
       ],
-      "correct": 0,
-      "explanation": "Der Mond leuchtet nicht selbst, sondern reflektiert wie ein Spiegel das Licht der Sonne."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 11: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 12: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 13: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 14: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 15: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 16: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 17: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 18: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 19: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 20: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 21: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 22: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Erdjahren."
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 23: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "Welche Farbe hat der Planet Saturn, wenn man ihn durch ein Weltraumteleskop betrachtet?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Pechschwarz",
+        "gelblich mit bunten Ringen",
+        "Neongrün",
+        "Kupfer-Lila"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Saturn erscheint am Himmel hauptsächlich gelblich mit bunten Ringen."
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 24: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der eiskalte Kipp-Planet'?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Saturn",
+        "Merkur",
+        "Uranus",
+        "Neptun"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Uranus gilt als der eiskalte Kipp-Planet. Besonderheit: Er rollt sozusagen seitlich auf seiner Umlaufbahn um die Sonne."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 25: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Wie lange braucht der Planet Uranus ungefähr für eine Runde um die Sonne?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "24 Stunden",
+        "10 Tage",
+        "500 Jahre",
+        "84 Erdjahren"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Erdjahren."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 26: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Welche Farbe hat der Planet Uranus, wenn man ihn durch ein Weltraumteleskop betrachtet?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Kupfer-Lila",
+        "Neongrün",
+        "Pechschwarz",
+        "hellblau"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Uranus erscheint am Himmel hauptsächlich hellblau."
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 27: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der windigste Planet'?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Neptun",
+        "Merkur",
+        "Mars",
+        "Saturn"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Neptun gilt als der windigste Planet. Besonderheit: Er hat die stärksten Winde im Sonnensystem mit über 2000 km/h."
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 28: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "Wie lange braucht der Planet Neptun ungefähr für eine Runde um die Sonne?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "500 Jahre",
+        "24 Stunden",
+        "165 Erdjahren",
+        "10 Tage"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Erdjahren."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 29: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Welche Farbe hat der Planet Neptun, wenn man ihn durch ein Weltraumteleskop betrachtet?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Neongrün",
+        "tiefblau",
+        "Pechschwarz",
+        "Kupfer-Lila"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Neptun erscheint am Himmel hauptsächlich tiefblau."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 30: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'der Erdmond'?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Erde",
+        "Sonne",
+        "Uranus",
+        "Merkur"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "der Erdmond umkreist den Himmelskörper Erde. Fakt: Er ist der einzige fremde Himmelskörper, den Menschen je betreten haben."
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 31: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Io'?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Merkur",
+        "Uranus",
+        "Sonne",
+        "Jupiter"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Io umkreist den Himmelskörper Jupiter. Fakt: Er ist ein Mond voller aktiver Vulkane, die Lava ins All spucken."
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 32: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Europa'?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Uranus",
+        "Jupiter",
+        "Merkur",
+        "Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Europa umkreist den Himmelskörper Jupiter. Fakt: Er ist besitzt einen riesigen Ozean aus flüssigem Wasser unter einer dicken Eisschicht."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 33: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Ganymed'?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Uranus",
+        "Sonne",
+        "Jupiter",
+        "Merkur"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Ganymed umkreist den Himmelskörper Jupiter. Fakt: Er ist der größte Mond in unserem gesamten Sonnensystem."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 34: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Titan'?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Saturn",
+        "Merkur",
+        "Sonne",
+        "Uranus"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Titan umkreist den Himmelskörper Saturn. Fakt: Er ist hat eine dicke Atmosphäre und Seen aus flüssigem Methan."
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 35: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Enceladus'?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Uranus",
+        "Merkur",
+        "Sonne",
+        "Saturn"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Enceladus umkreist den Himmelskörper Saturn. Fakt: Er ist spuckt riesige Geysire aus Eiswasser direkt ins Weltall."
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 36: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Phobos'?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Uranus",
+        "Mars",
+        "Merkur",
+        "Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Phobos umkreist den Himmelskörper Mars. Fakt: Er ist einer der zwei kartoffelförmigen Monde des Roten Planeten."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 37: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Pluto'?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Sonne",
+        "Uranus",
+        "Merkur",
+        "Zwergplanet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Pluto umkreist den Himmelskörper Zwergplanet. Fakt: Er ist war früher der 9. Planet, gilt seit 2006 aber als Zwergplanet."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 38: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #38] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 39: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #39] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 40: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #40] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 41: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #41] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 42: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #42] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 43: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #43] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 44: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #44] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 45: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #45] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 46: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #46] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 47: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #47] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 48: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #48] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 49: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #49] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Todeszone",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 50: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #50] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 51: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #51] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 52: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #52] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 53: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #53] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 54: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #54] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 55: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #55] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 56: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #56] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 57: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #57] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 58: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #58] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 59: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #59] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 60: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #60] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 61: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #61] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 62: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #62] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 63: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #63] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 64: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #64] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 65: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #65] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Gravitation",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 66: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #66] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 67: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #67] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 68: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #68] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 69: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #69] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 70: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #70] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schattenrand",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 71: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #71] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 72: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #72] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 73: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #73] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 74: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #74] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 75: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #75] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 76: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #76] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 77: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #77] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 78: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #78] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 79: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #79] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 80: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #80] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 81: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #81] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 82: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #82] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 83: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #83] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 84: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #84] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schattenrand",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 85: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #85] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 86: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #86] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Der Erdmond",
+        "Die Ozon-Wolke"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 87: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #87] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 88: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #88] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 89: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #89] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 90: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #90] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 91: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #91] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ereignishorizont",
+        "Todeszone",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 92: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #92] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 93: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #93] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 94: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #94] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 95: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #95] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 96: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #96] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 97: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #97] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 98: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #98] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 99: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #99] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 100: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #100] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 101: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #101] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 102: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #102] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 103: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #103] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 104: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #104] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 105: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #105] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 106: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #106] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 107: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #107] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 108: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #108] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 109: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #109] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 110: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #110] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 111: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #111] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 112: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #112] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 113: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #113] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 114: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #114] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 115: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #115] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 116: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #116] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 117: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #117] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 118: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #118] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 119: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #119] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 120: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #120] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 121: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #121] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 122: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #122] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 123: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #123] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 124: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #124] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 125: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #125] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 126: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #126] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Schattenrand",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 127: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #127] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 128: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #128] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 129: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #129] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 130: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #130] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 131: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #131] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 132: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #132] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 133: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #133] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 134: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #134] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 135: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #135] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 136: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #136] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 137: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #137] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 138: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #138] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 139: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #139] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 140: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #140] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 141: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #141] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 142: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #142] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Gravitation",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 143: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #143] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 144: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #144] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 145: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #145] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 146: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #146] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 147: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #147] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 148: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #148] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 149: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #149] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Der Erdmond",
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 150: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #150] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 151: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #151] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 152: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #152] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 153: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #153] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 154: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #154] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Todeszone",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 155: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #155] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 156: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #156] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 157: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #157] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 158: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #158] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 159: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #159] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 160: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #160] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 161: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #161] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Todeszone"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 162: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #162] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 163: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #163] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 164: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #164] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 165: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #165] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 166: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #166] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 167: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #167] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 168: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #168] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 169: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #169] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 170: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #170] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 171: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #171] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 172: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #172] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 173: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #173] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 174: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #174] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 175: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #175] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 176: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #176] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 177: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #177] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 178: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #178] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 179: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #179] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 180: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #180] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 181: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #181] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 182: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #182] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Todeszone",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 183: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #183] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 184: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #184] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 185: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #185] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 186: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #186] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 187: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #187] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 188: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #188] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 189: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #189] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 190: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #190] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 191: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #191] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 192: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #192] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 193: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #193] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 194: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #194] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 195: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #195] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 196: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #196] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 197: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[LEICHT-WISSEN #197] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 198: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[LEICHT-WISSEN #198] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Die Gravitation",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 199: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[LEICHT-WISSEN #199] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 200: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[LEICHT-WISSEN #200] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     }
   ],
   "mittel": [
     {
-      "question": "Gilt Pluto heute noch als voller Planet unseres Sonnensystems?",
+      "question": "Wie heisst das berühmte Weltraumteleskop, das seit 2022 fantastische Bilder aus dem tiefen All schickt?",
       "options": [
-        "Nein, er ist ein Zwergplanet",
-        "Ja, der 9. Planet",
-        "Nein, er ist ein Stern",
-        "Ja, aber ein Gasplanet"
+        "Kepler-Satellit",
+        "Hubble-Teleskop",
+        "James-Webb-Teleskop",
+        "Galileo-Fernrohr"
       ],
       "correct": 0,
-      "explanation": "2006 haben Forscher beschlossen, dass Pluto zu klein ist. Seitdem gilt er als Zwergplanet."
+      "explanation": "Das James-Webb-Teleskop sieht im Infrarotlicht und kann selbst die ältesten Galaxien des Universums fotografieren."
     },
     {
-      "question": "Welcher Planet ist der heißeste in unserem Sonnensystem, obwohl er nicht am nächsten zur Sonne steht?",
+      "question": "Wie nennt man das Phänomen, wenn der Mond sich genau vor die Sonne schiebt und es tagsüber dunkel wird?",
+      "options": [
+        "Sonnenfinsternis",
+        "Polarlichter",
+        "Meteorstrom",
+        "Mondfinsternis"
+      ],
+      "correct": 2,
+      "explanation": "Bei einer totalen Sonnenfinsternis verdeckt der Mond die Sonne für einige Minuten komplett."
+    },
+    {
+      "question": "Welche bunte Leuchterscheinung kann man im Winter nahe am Nordpol am Himmel beobachten?",
+      "options": [
+        "Sonneneruptiv",
+        "Kometenschweif",
+        "Polarlichter (Aurora)",
+        "Sternschnuppen"
+      ],
+      "correct": 0,
+      "explanation": "Polarlichter entstehen, wenn geladene Teilchen von der Sonne auf die Erdatmosphäre treffen."
+    },
+    {
+      "question": "Welches Tier flog im Jahr 1957 als eines der ersten Lebewesen im Raumschiff Sputnik 2 ins All?",
+      "options": [
+        "Der Schimpanse Ham",
+        "Die Hündin Laika",
+        "Maus Pieps",
+        "Kater Felix"
+      ],
+      "correct": 1,
+      "explanation": "Die Hündin Laika war das erste Lebewesen, das die Erde im Weltall umkreiste."
+    },
+    {
+      "question": "Wie heisst die internationale Raumstation, auf der Astronauten im All wohnen und forschen?",
+      "options": [
+        "Apollo 11",
+        "Enterprise",
+        "Starlink",
+        "ISS"
+      ],
+      "correct": 1,
+      "explanation": "Die ISS umkreist die Erde in ca. 400 km Höhe mit einer Geschwindigkeit von 28.000 km/h."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der sonnennächste Planet'?",
       "options": [
         "Venus",
+        "Neptun",
+        "Saturn",
+        "Merkur"
+      ],
+      "correct": 3,
+      "explanation": "Merkur gilt als der sonnennächste Planet. Besonderheit: Er hat keine Atmosphäre und extreme Temperaturschwankungen."
+    },
+    {
+      "question": "Wie lange braucht der Planet Merkur ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "88 Erdtagen",
+        "10 Tage",
+        "500 Jahre",
+        "24 Stunden"
+      ],
+      "correct": 0,
+      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Merkur, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "grau und voller Krater",
+        "Kupfer-Lila",
+        "Neongrün",
+        "Pechschwarz"
+      ],
+      "correct": 0,
+      "explanation": "Merkur erscheint am Himmel hauptsächlich grau und voller Krater."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der heißeste Planet'?",
+      "options": [
+        "Saturn",
+        "Neptun",
+        "Venus",
+        "Merkur"
+      ],
+      "correct": 2,
+      "explanation": "Venus gilt als der heißeste Planet. Besonderheit: Er ist von dicken Giftwolken umgeben, die die Hitze stauen."
+    },
+    {
+      "question": "Wie lange braucht der Planet Venus ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "500 Jahre",
+        "225 Erdtagen",
+        "10 Tage",
+        "24 Stunden"
+      ],
+      "correct": 1,
+      "explanation": "Die Umlaufzeit von Venus beträgt 225 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Venus, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "gelb-weißlich",
+        "Pechschwarz",
+        "Neongrün",
+        "Kupfer-Lila"
+      ],
+      "correct": 0,
+      "explanation": "Venus erscheint am Himmel hauptsächlich gelb-weißlich."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'unser Heimatplanet'?",
+      "options": [
+        "Saturn",
         "Merkur",
+        "Neptun",
+        "Erde"
+      ],
+      "correct": 3,
+      "explanation": "Erde gilt als unser Heimatplanet. Besonderheit: Er ist der einzige bekannte Ort mit flüssigem Wasser und Leben."
+    },
+    {
+      "question": "Wie lange braucht der Planet Erde ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "10 Tage",
+        "365 Tagen",
+        "24 Stunden",
+        "500 Jahre"
+      ],
+      "correct": 1,
+      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Erde, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "blau und weiß",
+        "Pechschwarz",
+        "Neongrün",
+        "Kupfer-Lila"
+      ],
+      "correct": 0,
+      "explanation": "Erde erscheint am Himmel hauptsächlich blau und weiß."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der Rote Planet'?",
+      "options": [
+        "Neptun",
+        "Saturn",
+        "Merkur",
+        "Mars"
+      ],
+      "correct": 3,
+      "explanation": "Mars gilt als der Rote Planet. Besonderheit: Er besitzt den höchsten Vulkan unseres Sonnensystems (Olympus Mons)."
+    },
+    {
+      "question": "Wie lange braucht der Planet Mars ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "687 Erdtagen",
+        "500 Jahre",
+        "24 Stunden",
+        "10 Tage"
+      ],
+      "correct": 0,
+      "explanation": "Die Umlaufzeit von Mars beträgt 687 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Mars, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Kupfer-Lila",
+        "Pechschwarz",
+        "rostrot",
+        "Neongrün"
+      ],
+      "correct": 2,
+      "explanation": "Mars erscheint am Himmel hauptsächlich rostrot."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der größte Gasriese'?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Merkur",
+        "Neptun"
+      ],
+      "correct": 0,
+      "explanation": "Jupiter gilt als der größte Gasriese. Besonderheit: Er hat einen riesigen Wirbelsturm namens 'Großer Roter Fleck'."
+    },
+    {
+      "question": "Wie lange braucht der Planet Jupiter ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "500 Jahre",
+        "10 Tage",
+        "24 Stunden",
+        "12 Erdjahren"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Jupiter, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Kupfer-Lila",
+        "braun-weiß gestreift",
+        "Neongrün",
+        "Pechschwarz"
+      ],
+      "correct": 1,
+      "explanation": "Jupiter erscheint am Himmel hauptsächlich braun-weiß gestreift."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der Ringplanet'?",
+      "options": [
+        "Merkur",
+        "Jupiter",
+        "Neptun",
+        "Saturn"
+      ],
+      "correct": 3,
+      "explanation": "Saturn gilt als der Ringplanet. Besonderheit: Er besitzt das spektakulärste Ringsystem aus Eis und Brocken."
+    },
+    {
+      "question": "Wie lange braucht der Planet Saturn ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "10 Tage",
+        "29 Erdjahren",
+        "24 Stunden",
+        "500 Jahre"
+      ],
+      "correct": 1,
+      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Saturn, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Pechschwarz",
+        "Kupfer-Lila",
+        "Neongrün",
+        "gelblich mit bunten Ringen"
+      ],
+      "correct": 3,
+      "explanation": "Saturn erscheint am Himmel hauptsächlich gelblich mit bunten Ringen."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der eiskalte Kipp-Planet'?",
+      "options": [
+        "Merkur",
+        "Uranus",
+        "Saturn",
+        "Neptun"
+      ],
+      "correct": 1,
+      "explanation": "Uranus gilt als der eiskalte Kipp-Planet. Besonderheit: Er rollt sozusagen seitlich auf seiner Umlaufbahn um die Sonne."
+    },
+    {
+      "question": "Wie lange braucht der Planet Uranus ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "500 Jahre",
+        "24 Stunden",
+        "10 Tage",
+        "84 Erdjahren"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Uranus, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Pechschwarz",
+        "Kupfer-Lila",
+        "hellblau",
+        "Neongrün"
+      ],
+      "correct": 2,
+      "explanation": "Uranus erscheint am Himmel hauptsächlich hellblau."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der windigste Planet'?",
+      "options": [
+        "Saturn",
         "Mars",
+        "Neptun",
+        "Merkur"
+      ],
+      "correct": 2,
+      "explanation": "Neptun gilt als der windigste Planet. Besonderheit: Er hat die stärksten Winde im Sonnensystem mit über 2000 km/h."
+    },
+    {
+      "question": "Wie lange braucht der Planet Neptun ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "10 Tage",
+        "24 Stunden",
+        "500 Jahre",
+        "165 Erdjahren"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Neptun, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Pechschwarz",
+        "Kupfer-Lila",
+        "Neongrün",
+        "tiefblau"
+      ],
+      "correct": 3,
+      "explanation": "Neptun erscheint am Himmel hauptsächlich tiefblau."
+    },
+    {
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'der Erdmond'?",
+      "options": [
+        "Merkur",
+        "Uranus",
+        "Erde",
+        "Sonne"
+      ],
+      "correct": 2,
+      "explanation": "der Erdmond umkreist den Himmelskörper Erde. Fakt: Er ist der einzige fremde Himmelskörper, den Menschen je betreten haben."
+    },
+    {
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Io'?",
+      "options": [
+        "Uranus",
+        "Sonne",
+        "Jupiter",
+        "Merkur"
+      ],
+      "correct": 2,
+      "explanation": "Io umkreist den Himmelskörper Jupiter. Fakt: Er ist ein Mond voller aktiver Vulkane, die Lava ins All spucken."
+    },
+    {
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Europa'?",
+      "options": [
+        "Sonne",
+        "Uranus",
+        "Merkur",
         "Jupiter"
       ],
-      "correct": 0,
-      "explanation": "Die Venus hat eine dicke Atmosphäre, die die Wärme wie ein Glashaus einfängt (Tibhauseffekt)."
-    },
-    {
-      "question": "Wie nennt man Gesteinsbrocken aus dem Weltall, die in der Erdatmosphäre verglühen und als leuchtender Streifen zu sehen sind?",
-      "options": [
-        "Sternschnuppen (Meteore)",
-        "Kometen",
-        "Schwarze Löcher",
-        "Satelliten"
-      ],
-      "correct": 0,
-      "explanation": "Sternschnuppen sind kleine Staub- oder Gesteinskörnchen, die beim Eintritt in die Luft glühen."
-    },
-    {
-      "question": "Welcher Mensch betrat im Jahr 1969 als allererster den Mond?",
-      "options": [
-        "Neil Armstrong",
-        "Buzz Aldrin",
-        "Yuri Gagarin",
-        "Alexander Gerst"
-      ],
-      "correct": 0,
-      "explanation": "Neil Armstrong sagte dabei den berühmten Satz: 'Ein kleiner Schritt für einen Menschen, aber ein riesiger Sprung für die Menschheit.'"
-    },
-    {
-      "question": "Was befindet sich im sogenannten 'Asteroidengürtel' zwischen Mars und Jupiter?",
-      "options": [
-        "Millionen kleine und große Gesteinsbrocken",
-        "Ein riesiger Ozean",
-        "Nur Weltraumschrott",
-        "Eine Wand aus Eis"
-      ],
-      "correct": 0,
-      "explanation": "Der Asteroidengürtel trennt die inneren Steinplaneten von den äußeren Gasplaneten."
-    },
-    {
-      "question": "Wie nennt man die Schutzkleidung, die Astronauten bei Weltraumeinsätzen tragen müssen?",
-      "options": [
-        "Raumanzug",
-        "Taucheranzug",
-        "Fliegeroverall",
-        "Kevlaranzug"
-      ],
-      "correct": 0,
-      "explanation": "Im Weltall gibt es keine Luft zum Atmen und es ist eiskalt – der Raumanzug schützt und versorgt die Astronauten."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 7: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 8: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 9: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 10: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 11: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 12: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 13: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 14: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 15: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 16: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 17: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 18: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 19: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 20: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 21: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 22: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 23: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 24: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 25: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 26: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 27: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 28: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 29: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 30: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 31: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 32: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Europa umkreist den Himmelskörper Jupiter. Fakt: Er ist besitzt einen riesigen Ozean aus flüssigem Wasser unter einer dicken Eisschicht."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 33: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Ganymed'?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Uranus",
+        "Merkur",
+        "Sonne",
+        "Jupiter"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Ganymed umkreist den Himmelskörper Jupiter. Fakt: Er ist der größte Mond in unserem gesamten Sonnensystem."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 34: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Titan'?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Saturn",
+        "Sonne",
+        "Uranus",
+        "Merkur"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Titan umkreist den Himmelskörper Saturn. Fakt: Er ist hat eine dicke Atmosphäre und Seen aus flüssigem Methan."
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 35: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Enceladus'?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Saturn",
+        "Uranus",
+        "Sonne",
+        "Merkur"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Enceladus umkreist den Himmelskörper Saturn. Fakt: Er ist spuckt riesige Geysire aus Eiswasser direkt ins Weltall."
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 36: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Phobos'?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Uranus",
+        "Sonne",
+        "Merkur",
+        "Mars"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Phobos umkreist den Himmelskörper Mars. Fakt: Er ist einer der zwei kartoffelförmigen Monde des Roten Planeten."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 37: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Pluto'?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Merkur",
+        "Zwergplanet",
+        "Uranus",
+        "Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Pluto umkreist den Himmelskörper Zwergplanet. Fakt: Er ist war früher der 9. Planet, gilt seit 2006 aber als Zwergplanet."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 38: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #38] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 39: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #39] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 40: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #40] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 41: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #41] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 42: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #42] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 43: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #43] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 44: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #44] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 45: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #45] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 46: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #46] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 47: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #47] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 48: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #48] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 49: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #49] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ereignishorizont",
+        "Schattenrand",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 50: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #50] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 51: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #51] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 52: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #52] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 53: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #53] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 54: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #54] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 55: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #55] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 56: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #56] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 57: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #57] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 58: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #58] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 59: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #59] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 60: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #60] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 61: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #61] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 62: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #62] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 63: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #63] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 64: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #64] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 65: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #65] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 66: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #66] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 67: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #67] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 68: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #68] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 69: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #69] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 70: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #70] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Todeszone"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 71: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #71] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 72: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #72] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Gravitation",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 73: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #73] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 74: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #74] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 75: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #75] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 76: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #76] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 77: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #77] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 78: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #78] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 79: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #79] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 80: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #80] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 81: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #81] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 82: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #82] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 83: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #83] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 84: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #84] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schattenrand",
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 85: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #85] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 86: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #86] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 87: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #87] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 88: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #88] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 89: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #89] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 90: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #90] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 91: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #91] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Todeszone",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 92: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #92] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 93: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #93] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 94: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #94] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 95: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #95] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 96: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #96] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 97: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #97] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 98: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #98] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schattenrand",
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 99: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #99] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 100: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #100] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 101: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #101] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 102: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #102] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 103: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #103] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 104: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #104] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 105: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #105] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schwerkraftlinie",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 106: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #106] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 107: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #107] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 108: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #108] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 109: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #109] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 110: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #110] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 111: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #111] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 112: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #112] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 113: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #113] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 114: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #114] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 115: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #115] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 116: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #116] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 117: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #117] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 118: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #118] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 119: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #119] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 120: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #120] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 121: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #121] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Gravitation",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 122: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #122] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 123: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #123] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 124: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #124] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 125: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #125] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 126: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #126] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Todeszone",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 127: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #127] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 128: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #128] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 129: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #129] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 130: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #130] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 131: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #131] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 132: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #132] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 133: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #133] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 134: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #134] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 135: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #135] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 136: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #136] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 137: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #137] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 138: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #138] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 139: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #139] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 140: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #140] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 141: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #141] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 142: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #142] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 143: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #143] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 144: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #144] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 145: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #145] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 146: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #146] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 147: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #147] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Todeszone",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 148: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #148] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 149: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #149] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 150: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #150] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 151: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #151] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 152: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #152] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 153: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #153] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 154: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #154] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 155: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #155] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 156: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #156] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 157: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #157] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 158: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #158] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 159: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #159] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 160: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #160] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 161: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #161] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schattenrand",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 162: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #162] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 163: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #163] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 164: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #164] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 165: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #165] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 166: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #166] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 167: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #167] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 168: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #168] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 169: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #169] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 170: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #170] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 171: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #171] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 172: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #172] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 173: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #173] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 174: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #174] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 175: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #175] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 176: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #176] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 177: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #177] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 178: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #178] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 179: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #179] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 180: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #180] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 181: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #181] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 182: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #182] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Schattenrand",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 183: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #183] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 184: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #184] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 185: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #185] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 186: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #186] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 187: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #187] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 188: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #188] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 189: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #189] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 190: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #190] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 191: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #191] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 192: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #192] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 193: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #193] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 194: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #194] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 195: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #195] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 196: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #196] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 197: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[MITTEL-WISSEN #197] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 198: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[MITTEL-WISSEN #198] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 199: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[MITTEL-WISSEN #199] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 200: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[MITTEL-WISSEN #200] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     }
   ],
   "schwer": [
     {
-      "question": "Wie heißt die riesige Galaxie (Sternensystem), in der sich unser Sonnensystem befindet?",
+      "question": "Wie heisst das berühmte Weltraumteleskop, das seit 2022 fantastische Bilder aus dem tiefen All schickt?",
       "options": [
-        "Milchstraße",
-        "Andromeda",
-        "Sombrero-Galaxie",
-        "Orion-Nebel"
+        "Kepler-Satellit",
+        "Hubble-Teleskop",
+        "James-Webb-Teleskop",
+        "Galileo-Fernrohr"
       ],
-      "correct": 0,
-      "explanation": "Unsere Milchstraße ist eine riesige Spirale aus über 100 Milliarden Sternen!"
+      "correct": 1,
+      "explanation": "Das James-Webb-Teleskop sieht im Infrarotlicht und kann selbst die ältesten Galaxien des Universums fotografieren."
     },
     {
-      "question": "Wie nennt man den riesigen roten Sturm auf dem Planet Jupiter, der schon seit Jahrhunderten tobt?",
+      "question": "Wie nennt man das Phänomen, wenn der Mond sich genau vor die Sonne schiebt und es tagsüber dunkel wird?",
       "options": [
-        "Der Große Rote Fleck",
-        "Das Rote Auge",
-        "Der Jupiter-Hurrikan",
-        "Der Große Krater"
+        "Sonnenfinsternis",
+        "Polarlichter",
+        "Meteorstrom",
+        "Mondfinsternis"
       ],
       "correct": 0,
-      "explanation": "Der 'Große Rote Fleck' ist ein gigantischer Wirbelsturm, der größer ist als die ganze Erde!"
+      "explanation": "Bei einer totalen Sonnenfinsternis verdeckt der Mond die Sonne für einige Minuten komplett."
     },
     {
-      "question": "Welcher Planet hat die meisten bekannten Monde in unserem Sonnensystem?",
+      "question": "Welche bunte Leuchterscheinung kann man im Winter nahe am Nordpol am Himmel beobachten?",
+      "options": [
+        "Sonneneruptiv",
+        "Kometenschweif",
+        "Polarlichter (Aurora)",
+        "Sternschnuppen"
+      ],
+      "correct": 0,
+      "explanation": "Polarlichter entstehen, wenn geladene Teilchen von der Sonne auf die Erdatmosphäre treffen."
+    },
+    {
+      "question": "Welches Tier flog im Jahr 1957 als eines der ersten Lebewesen im Raumschiff Sputnik 2 ins All?",
+      "options": [
+        "Der Schimpanse Ham",
+        "Die Hündin Laika",
+        "Maus Pieps",
+        "Kater Felix"
+      ],
+      "correct": 1,
+      "explanation": "Die Hündin Laika war das erste Lebewesen, das die Erde im Weltall umkreiste."
+    },
+    {
+      "question": "Wie heisst die internationale Raumstation, auf der Astronauten im All wohnen und forschen?",
+      "options": [
+        "Apollo 11",
+        "Enterprise",
+        "Starlink",
+        "ISS"
+      ],
+      "correct": 2,
+      "explanation": "Die ISS umkreist die Erde in ca. 400 km Höhe mit einer Geschwindigkeit von 28.000 km/h."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der sonnennächste Planet'?",
+      "options": [
+        "Venus",
+        "Saturn",
+        "Neptun",
+        "Merkur"
+      ],
+      "correct": 3,
+      "explanation": "Merkur gilt als der sonnennächste Planet. Besonderheit: Er hat keine Atmosphäre und extreme Temperaturschwankungen."
+    },
+    {
+      "question": "Wie lange braucht der Planet Merkur ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "10 Tage",
+        "500 Jahre",
+        "88 Erdtagen",
+        "24 Stunden"
+      ],
+      "correct": 2,
+      "explanation": "Die Umlaufzeit von Merkur beträgt 88 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Merkur, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "grau und voller Krater",
+        "Neongrün",
+        "Pechschwarz",
+        "Kupfer-Lila"
+      ],
+      "correct": 0,
+      "explanation": "Merkur erscheint am Himmel hauptsächlich grau und voller Krater."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der heißeste Planet'?",
       "options": [
         "Saturn",
-        "Erde",
-        "Merkur",
-        "Venus"
-      ],
-      "correct": 0,
-      "explanation": "Saturn führt das Rennen an und hat über 100 entdeckte Monde, gefolgt von Jupiter."
-    },
-    {
-      "question": "Wie schnell ist das Licht der Sonne unterwegs, um die Erde zu erreichen?",
-      "options": [
-        "Ca. 8 Minuten",
-        "Sofort (0 Sekunden)",
-        "Ca. 8 Stunden",
-        "Ca. 3 Tage"
-      ],
-      "correct": 0,
-      "explanation": "Das Licht legt 300.000 Kilometer pro Sekunde zurück und braucht knapp 8 Minuten bis zu uns."
-    },
-    {
-      "question": "Welche Kraft sorgt dafür, dass die Planeten um die Sonne kreisen und wir nicht von der Erde abheben?",
-      "options": [
-        "Schwerkraft (Gravitation)",
-        "Magnetismus",
-        "Reibung",
-        "Fliehkraft"
-      ],
-      "correct": 0,
-      "explanation": "Die Schwerkraft zieht Massen an. Die riesige Masse der Sonne hält alle Planeten auf ihrer Bahn."
-    },
-    {
-      "question": "Auf welchem Planeten steht der 'Olympus Mons', der größte Vulkan unseres Sonnensystems?",
-      "options": [
-        "Mars",
         "Venus",
+        "Neptun",
+        "Merkur"
+      ],
+      "correct": 1,
+      "explanation": "Venus gilt als der heißeste Planet. Besonderheit: Er ist von dicken Giftwolken umgeben, die die Hitze stauen."
+    },
+    {
+      "question": "Wie lange braucht der Planet Venus ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "225 Erdtagen",
+        "10 Tage",
+        "24 Stunden",
+        "500 Jahre"
+      ],
+      "correct": 0,
+      "explanation": "Die Umlaufzeit von Venus beträgt 225 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Venus, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Neongrün",
+        "Pechschwarz",
+        "gelb-weißlich",
+        "Kupfer-Lila"
+      ],
+      "correct": 2,
+      "explanation": "Venus erscheint am Himmel hauptsächlich gelb-weißlich."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'unser Heimatplanet'?",
+      "options": [
         "Erde",
+        "Saturn",
+        "Neptun",
+        "Merkur"
+      ],
+      "correct": 0,
+      "explanation": "Erde gilt als unser Heimatplanet. Besonderheit: Er ist der einzige bekannte Ort mit flüssigem Wasser und Leben."
+    },
+    {
+      "question": "Wie lange braucht der Planet Erde ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "24 Stunden",
+        "500 Jahre",
+        "10 Tage",
+        "365 Tagen"
+      ],
+      "correct": 3,
+      "explanation": "Die Umlaufzeit von Erde beträgt 365 Tagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Erde, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "blau und weiß",
+        "Pechschwarz",
+        "Neongrün",
+        "Kupfer-Lila"
+      ],
+      "correct": 0,
+      "explanation": "Erde erscheint am Himmel hauptsächlich blau und weiß."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der Rote Planet'?",
+      "options": [
+        "Merkur",
+        "Neptun",
+        "Saturn",
+        "Mars"
+      ],
+      "correct": 3,
+      "explanation": "Mars gilt als der Rote Planet. Besonderheit: Er besitzt den höchsten Vulkan unseres Sonnensystems (Olympus Mons)."
+    },
+    {
+      "question": "Wie lange braucht der Planet Mars ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "24 Stunden",
+        "687 Erdtagen",
+        "10 Tage",
+        "500 Jahre"
+      ],
+      "correct": 1,
+      "explanation": "Die Umlaufzeit von Mars beträgt 687 Erdtagen."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Mars, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Kupfer-Lila",
+        "rostrot",
+        "Pechschwarz",
+        "Neongrün"
+      ],
+      "correct": 1,
+      "explanation": "Mars erscheint am Himmel hauptsächlich rostrot."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der größte Gasriese'?",
+      "options": [
+        "Merkur",
+        "Jupiter",
+        "Neptun",
+        "Saturn"
+      ],
+      "correct": 1,
+      "explanation": "Jupiter gilt als der größte Gasriese. Besonderheit: Er hat einen riesigen Wirbelsturm namens 'Großer Roter Fleck'."
+    },
+    {
+      "question": "Wie lange braucht der Planet Jupiter ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "12 Erdjahren",
+        "24 Stunden",
+        "10 Tage",
+        "500 Jahre"
+      ],
+      "correct": 0,
+      "explanation": "Die Umlaufzeit von Jupiter beträgt 12 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Jupiter, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Pechschwarz",
+        "Kupfer-Lila",
+        "braun-weiß gestreift",
+        "Neongrün"
+      ],
+      "correct": 2,
+      "explanation": "Jupiter erscheint am Himmel hauptsächlich braun-weiß gestreift."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der Ringplanet'?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Merkur",
+        "Neptun"
+      ],
+      "correct": 1,
+      "explanation": "Saturn gilt als der Ringplanet. Besonderheit: Er besitzt das spektakulärste Ringsystem aus Eis und Brocken."
+    },
+    {
+      "question": "Wie lange braucht der Planet Saturn ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "10 Tage",
+        "24 Stunden",
+        "29 Erdjahren",
+        "500 Jahre"
+      ],
+      "correct": 2,
+      "explanation": "Die Umlaufzeit von Saturn beträgt 29 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Saturn, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Neongrün",
+        "Pechschwarz",
+        "gelblich mit bunten Ringen",
+        "Kupfer-Lila"
+      ],
+      "correct": 2,
+      "explanation": "Saturn erscheint am Himmel hauptsächlich gelblich mit bunten Ringen."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der eiskalte Kipp-Planet'?",
+      "options": [
+        "Uranus",
+        "Saturn",
+        "Neptun",
+        "Merkur"
+      ],
+      "correct": 0,
+      "explanation": "Uranus gilt als der eiskalte Kipp-Planet. Besonderheit: Er rollt sozusagen seitlich auf seiner Umlaufbahn um die Sonne."
+    },
+    {
+      "question": "Wie lange braucht der Planet Uranus ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "500 Jahre",
+        "24 Stunden",
+        "84 Erdjahren",
+        "10 Tage"
+      ],
+      "correct": 2,
+      "explanation": "Die Umlaufzeit von Uranus beträgt 84 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Uranus, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "hellblau",
+        "Kupfer-Lila",
+        "Pechschwarz",
+        "Neongrün"
+      ],
+      "correct": 0,
+      "explanation": "Uranus erscheint am Himmel hauptsächlich hellblau."
+    },
+    {
+      "question": "Welcher Planet im Sonnensystem ist bekannt als 'der windigste Planet'?",
+      "options": [
+        "Merkur",
+        "Neptun",
+        "Saturn",
+        "Mars"
+      ],
+      "correct": 1,
+      "explanation": "Neptun gilt als der windigste Planet. Besonderheit: Er hat die stärksten Winde im Sonnensystem mit über 2000 km/h."
+    },
+    {
+      "question": "Wie lange braucht der Planet Neptun ungefähr für eine Runde um die Sonne?",
+      "options": [
+        "10 Tage",
+        "500 Jahre",
+        "165 Erdjahren",
+        "24 Stunden"
+      ],
+      "correct": 2,
+      "explanation": "Die Umlaufzeit von Neptun beträgt 165 Erdjahren."
+    },
+    {
+      "question": "Welche Farbe hat der Planet Neptun, wenn man ihn durch ein Weltraumteleskop betrachtet?",
+      "options": [
+        "Neongrün",
+        "tiefblau",
+        "Kupfer-Lila",
+        "Pechschwarz"
+      ],
+      "correct": 1,
+      "explanation": "Neptun erscheint am Himmel hauptsächlich tiefblau."
+    },
+    {
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'der Erdmond'?",
+      "options": [
+        "Uranus",
+        "Erde",
+        "Sonne",
+        "Merkur"
+      ],
+      "correct": 1,
+      "explanation": "der Erdmond umkreist den Himmelskörper Erde. Fakt: Er ist der einzige fremde Himmelskörper, den Menschen je betreten haben."
+    },
+    {
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Io'?",
+      "options": [
+        "Uranus",
+        "Sonne",
+        "Merkur",
         "Jupiter"
       ],
-      "correct": 0,
-      "explanation": "Der Olympus Mons auf dem Mars ist fast dreimal so hoch wie der Mount Everest auf der Erde!"
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 7: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 8: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 9: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 10: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 11: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 12: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 13: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 14: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 15: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 16: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 17: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 18: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 19: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 20: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 21: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
-    },
-    {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 22: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
-      "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 23: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 24: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 25: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Io umkreist den Himmelskörper Jupiter. Fakt: Er ist ein Mond voller aktiver Vulkane, die Lava ins All spucken."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 26: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Europa'?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Merkur",
+        "Uranus",
+        "Sonne",
+        "Jupiter"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 27: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 28: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 29: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Europa umkreist den Himmelskörper Jupiter. Fakt: Er ist besitzt einen riesigen Ozean aus flüssigem Wasser unter einer dicken Eisschicht."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 30: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Ganymed'?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Sonne",
+        "Merkur",
+        "Uranus",
+        "Jupiter"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
-    },
-    {
-      "question": "[Mond & Erde] Weltraum-Rätsel 31: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
-      "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
-    },
-    {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 32: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
-      "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
-    },
-    {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 33: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
-      "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
-      ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Ganymed umkreist den Himmelskörper Jupiter. Fakt: Er ist der größte Mond in unserem gesamten Sonnensystem."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 34: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Titan'?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Uranus",
+        "Sonne",
+        "Saturn",
+        "Merkur"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Titan umkreist den Himmelskörper Saturn. Fakt: Er ist hat eine dicke Atmosphäre und Seen aus flüssigem Methan."
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 35: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Enceladus'?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Uranus",
+        "Sonne",
+        "Merkur",
+        "Saturn"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Enceladus umkreist den Himmelskörper Saturn. Fakt: Er ist spuckt riesige Geysire aus Eiswasser direkt ins Weltall."
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 36: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Phobos'?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Sonne",
+        "Uranus",
+        "Merkur",
+        "Mars"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Phobos umkreist den Himmelskörper Mars. Fakt: Er ist einer der zwei kartoffelförmigen Monde des Roten Planeten."
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 37: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "Zu welchem Himmelskörper gehört der bekannte Mond 'Pluto'?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Merkur",
+        "Sonne",
+        "Zwergplanet",
+        "Uranus"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Pluto umkreist den Himmelskörper Zwergplanet. Fakt: Er ist war früher der 9. Planet, gilt seit 2006 aber als Zwergplanet."
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 38: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #38] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 39: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #39] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 40: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #40] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 41: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #41] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 42: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #42] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schwerkraftlinie",
+        "Ereignishorizont",
+        "Todeszone",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 43: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #43] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 44: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #44] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Gravitation",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 45: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #45] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 46: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #46] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 47: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #47] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 48: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #48] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 49: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #49] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 50: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #50] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 51: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #51] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 52: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #52] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 53: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #53] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 54: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #54] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 55: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #55] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 56: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #56] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 57: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #57] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 58: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #58] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 59: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #59] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 60: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #60] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 61: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #61] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 62: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #62] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 63: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #63] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schattenrand",
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 64: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #64] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 65: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #65] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 66: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #66] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 67: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #67] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 68: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #68] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 69: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #69] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 70: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #70] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 71: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #71] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 72: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #72] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 73: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #73] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 74: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #74] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 75: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #75] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 76: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #76] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 77: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #77] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 78: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #78] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 79: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #79] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 80: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #80] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 81: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #81] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 82: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #82] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 83: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #83] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 84: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #84] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 85: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #85] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 86: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #86] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 87: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #87] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 88: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #88] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 89: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #89] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 90: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #90] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 91: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #91] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 92: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #92] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 93: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #93] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 94: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #94] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 95: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #95] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 96: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #96] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 97: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #97] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 98: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #98] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Todeszone",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 99: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #99] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 100: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #100] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 101: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #101] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 102: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #102] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 103: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #103] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 104: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #104] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 105: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #105] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 106: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #106] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 107: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #107] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Die Gravitation"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 108: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #108] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 109: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #109] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 110: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #110] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 111: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #111] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 112: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #112] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 113: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #113] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 114: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #114] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 115: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #115] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 116: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #116] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 117: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #117] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 118: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #118] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 119: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #119] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ereignishorizont",
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 120: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #120] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 121: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #121] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 122: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #122] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 123: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #123] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 124: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #124] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 125: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #125] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 126: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #126] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 127: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #127] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 128: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #128] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 129: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #129] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 130: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #130] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 131: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #131] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 132: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #132] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 133: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #133] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Ereignishorizont",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 134: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #134] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 135: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #135] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Das Magnetfeld der Erde",
+        "Die Gravitation",
+        "Der Erdmond",
+        "Die Ozon-Wolke"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 136: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #136] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 137: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #137] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 138: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #138] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 139: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #139] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 140: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #140] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Todeszone",
+        "Schwerkraftlinie",
+        "Schattenrand",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 141: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #141] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 142: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #142] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Die Gravitation",
+        "Der Erdmond"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 143: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #143] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 144: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #144] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 145: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #145] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 146: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #146] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 147: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #147] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schattenrand",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 148: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #148] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil es dort zu viel Wasser gibt"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 149: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #149] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Gravitation",
+        "Die Ozon-Wolke"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 150: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #150] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil es keine Luft gibt"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 151: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #151] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 152: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #152] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 153: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #153] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 154: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #154] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Schattenrand"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 155: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #155] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 156: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #156] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Der Erdmond",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 157: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #157] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil Ventilatoren sie hochblasen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 158: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #158] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 159: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #159] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 160: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #160] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 161: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #161] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Todeszone",
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 162: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #162] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Wind zu stark bläst",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 163: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #163] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Gravitation",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond",
+        "Die Ozon-Wolke"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 164: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #164] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil sie Helium trinken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 165: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #165] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 166: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #166] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus flüssigem Eisen",
+        "Aus brennendem Holz",
+        "Aus Wolken und Nebel",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 167: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #167] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Eine riesige Glühbirne",
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 168: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #168] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schwerkraftlinie",
+        "Todeszone",
+        "Ereignishorizont",
+        "Schattenrand"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 169: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #169] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 170: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #170] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 171: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #171] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 172: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #172] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein kaputter Satellit"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 173: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #173] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Aus Wolken und Nebel",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus brennendem Holz"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 174: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #174] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein neuer Planet",
+        "Nichts, dort ist es leer",
+        "Eine riesige Glühbirne",
+        "Ein riesiges Supermassives Schwarzes Loch"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 3,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 175: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #175] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Schwerkraftlinie",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 176: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #176] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil der Wind zu stark bläst"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 177: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #177] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Die Gravitation",
+        "Die Ozon-Wolke",
+        "Das Magnetfeld der Erde",
+        "Der Erdmond"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 178: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #178] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil sie Helium trinken",
+        "Weil es keine Luft gibt",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 179: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #179] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Ein kaputter Satellit",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 180: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #180] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen",
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 181: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #181] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer",
+        "Ein neuer Planet",
+        "Eine riesige Glühbirne"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 182: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #182] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 183: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #183] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil die Luft zu kalt ist",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 184: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #184] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Die Gravitation",
+        "Das Magnetfeld der Erde"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 185: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #185] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil es keine Luft gibt",
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 2,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 186: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #186] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein Stück der Sonne"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "correct": 2,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 187: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #187] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz",
+        "Aus flüssigem Eisen"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 188: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #188] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Nichts, dort ist es leer"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 2,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 189: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #189] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Schattenrand",
+        "Ereignishorizont",
+        "Todeszone",
+        "Schwerkraftlinie"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 190: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #190] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Weil der Mond keine Luft (Atmosphäre) hat",
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 191: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #191] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Das Magnetfeld der Erde",
+        "Die Gravitation"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 2,
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 192: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #192] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen",
+        "Weil sie Helium trinken"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 193: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #193] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Ein Stück der Sonne",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein kaputter Satellit"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 1,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 194: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #194] Aus was besteht ein Komet hauptsächlich?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Aus Eis, Staub und Gestein (schmutziger Schneeball)",
+        "Aus flüssigem Eisen",
+        "Aus Wolken und Nebel",
+        "Aus brennendem Holz"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Aus Eis, Staub und Gestein (schmutziger Schneeball). Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 195: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #195] Was befindet sich im Zentrum unserer Milchstraße?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Nichts, dort ist es leer",
+        "Ein riesiges Supermassives Schwarzes Loch",
+        "Eine riesige Glühbirne",
+        "Ein neuer Planet"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Ein riesiges Supermassives Schwarzes Loch. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 196: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #196] Wie nennt man die Grenze, ab der die Anziehungskraft eines Schwarzen Loches alles verschlingt?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Schwerkraftlinie",
+        "Ereignishorizont",
+        "Schattenrand",
+        "Todeszone"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 1,
+      "explanation": "Erklärung: Ereignishorizont. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Weltraumfahrt] Weltraum-Rätsel 197: Was nutzen Astronauten auf der Internationalen Raumstation (ISS), um fit zu bleiben?",
+      "question": "[SCHWER-WISSEN #197] Warum können wir auf dem Mond nicht ohne Raumanzug atmen?",
       "options": [
-        "Spezielle Sportgeräte wie Laufbänder mit Gurten",
-        "Magische Fitness-Pillen",
-        "Sie schweben einfach nur",
-        "Sie machen Liegestütze an der Decke"
+        "Weil die Luft zu kalt ist",
+        "Weil es dort zu viel Wasser gibt",
+        "Weil der Wind zu stark bläst",
+        "Weil der Mond keine Luft (Atmosphäre) hat"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Weil es im All keine Schwerkraft gibt, müssen Astronauten täglich Sport machen, damit ihre Muskeln nicht abbauen."
+      "correct": 3,
+      "explanation": "Erklärung: Weil der Mond keine Luft (Atmosphäre) hat. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Planeten-Wissen] Weltraum-Rätsel 198: Aus was bestehen die äußeren Planeten Jupiter, Saturn, Uranus und Neptun hauptsächlich?",
+      "question": "[SCHWER-WISSEN #198] Welche Schutzkurve schützt die Erde vor gefährlicher Strahlung aus dem All?",
       "options": [
-        "Aus Gasen und Flüssigkeiten",
-        "Aus festem Holz",
-        "Aus purem Gold",
-        "Aus flüssigem Feuer"
+        "Das Magnetfeld der Erde",
+        "Die Ozon-Wolke",
+        "Der Erdmond",
+        "Die Gravitation"
       ],
       "correct": 0,
-      "explanation": "Weltraum-Fakt: Man nennt sie Gasriesen, weil sie im Gegensatz zur Erde keine feste Gesteinsoberfläche haben."
+      "explanation": "Erklärung: Das Magnetfeld der Erde. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Mond & Erde] Weltraum-Rätsel 199: Was verursacht die Gezeiten (Ebbe und Flut) in den Ozeanen auf der Erde?",
+      "question": "[SCHWER-WISSEN #199] Warum schweben Astronauten in der Raumstation ISS?",
       "options": [
-        "Die Anziehungskraft des Mondes",
-        "Der Wind auf dem Meer",
-        "Die Fische im Ozean",
-        "Das Drehen des Erdkerns"
+        "Weil sie Helium trinken",
+        "Weil dort Schwerelosigkeit herrscht",
+        "Weil es keine Luft gibt",
+        "Weil Ventilatoren sie hochblasen"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Die Schwerkraft des Mondes zieht das Meerwasser auf der Erde leicht zu sich heran."
+      "correct": 1,
+      "explanation": "Erklärung: Weil dort Schwerelosigkeit herrscht. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     },
     {
-      "question": "[Sonne & Sterne] Weltraum-Rätsel 200: Wie entsteht das Leuchten der Sterne am Nacht-Himmel?",
+      "question": "[SCHWER-WISSEN #200] Was ist eine Sternschnuppe in Wirklichkeit?",
       "options": [
-        "Sie sind riesige, brennende Gasbälle wie unsere Sonne",
-        "Sie reflektieren Straßenlaternen",
-        "Es sind kleine Spiegel im Weltall",
-        "Sie leuchten wie Glühwürmchen"
+        "Ein kaputter Satellit",
+        "Ein Stück der Sonne",
+        "Ein echter Stern, der vom Himmel fällt",
+        "Ein winziger verglühender Weltraum-Gesteinsbrocken"
       ],
-      "correct": 0,
-      "explanation": "Weltraum-Fakt: Jeder Stern am Nachthimmel ist eine eigene, weit entfernte Sonne."
+      "correct": 3,
+      "explanation": "Erklärung: Ein winziger verglühender Weltraum-Gesteinsbrocken. Das ist ein wichtiges Grundgesetz der Weltraumforschung!"
     }
   ]
 };
